@@ -1,0 +1,168 @@
+# Introduction {#intro}
+
+
+
+## Welcome {#sec:welcome}
+
+
+We human beings find it very difficult to completely clear our minds. That means you have been thinking of something nearly every waking moment since you began to think. If we assume eight hours of sleep every night, then that comes to just over 7,000,000 minutes of thinking in 20 years. Surely, after that much time spent doing something, you ought to have become pretty good at it. So, why should you consider reading a book or taking a course that claims to teach you how to do something you've been doing for years?
+
+Well, as the old saying goes, I have some good news and some bad news. The bad news is that we're just not very good at thinking carefully. Some things are easy enough for us -- you probably don't have a problem when it comes to deciding whether you should step out in front of a truck. On the other hand, when it comes to difficult, tricky subjects, we're often more likely to come up with wrong answers as right ones.
+
+For example, consider this problem:
+
+> *A ball and bat together cost \$1.10, and the bat costs \$1.00 more than the ball does. How much does the ball cost?*
+
+I'll give you some time to think about your answer, although you shouldn't need much time. So, whenever you're ready....
+
+Was your answer ten cents? That's the most common answer, but it's also clearly wrong. If the ball costs ten cents, and the bat costs a dollar more than the ball, then the bat costs \$1.10 and the total would be \$1.20. The right answer has to be five cents: \$1.05 + \$.05 = \$1.10. Even though it's not a difficult problem, most people get it wrong.
+
+On the other hand, maybe we get it wrong *because* it's not a difficult
+problem. It looks so simple that we answer it without thinking about it.
+When we don't reason carefully about a problem, our minds provide us
+with an automatic answer. In some situations, the automatic answer
+provided by the mind is very likely to be true. In others, it is very
+likely to be false.
+
+At this point, you might be asking yourself, "So what?" What's the worst
+that could happen, maybe getting a nickel extra in change when you buy
+the ball? This still doesn't justify taking a whole course to learn how
+to think better, does it?
+
+Consider one more example:
+
+> 1% of women at age forty who participate in routine screening have
+> breast cancer. 80% of women with breast cancer will get positive
+> mammographies. 9.6% of women without breast cancer will also get
+> positive mammographies. A woman in this age group had a positive
+> mammography in a routine screening. What is the probability that she
+> actually has breast cancer?
+
+Unlike the ball and the bat, being wrong in this case could have drastic
+consequences---if the doctor guessed too low, then the patient likely
+did not receive the treatment she needed. If the doctor guessed too
+high, then the patient may received radical treatments that she didn't
+need, unnecessary radiation, chemotherapy, or even a radical mastectomy.
+
+Doctors have to make these diagnoses all the time, so surely they would
+be good at correctly estimating the patient's likelihood of having the
+disease. Most doctors estimated that, in this problem, the patient's
+chances of having breast cancer are somewhere between 70 and 80%. Only
+15% of doctors surveyed were correct, however. Surprisingly, the right
+answer is 7.8%, a mere one-tenth of the estimates by the medical
+professionals.[^1]
+
+So, how does one avoid making such mistakes? The best way is to become a
+better critical thinker. You've taken the right initial steps by reading
+this book and taking this class.
+
+What is Critical Thinking? {#sec:what-crit-think}
+--------------------------
+
+There are probably as many definitions of critical thinking as there
+books and articles on the subject. Here is a quick working definition
+that suit our purposes:
+
+Critical Thinking
+
+:   Thinking clearly and carefully about what to believe or do in a way
+    that is likely to produce a true belief or right action, if there is
+    one.
+
+There are a few things to note about this definition. First, critical
+thinking is practical. It is designed to produce a particular outcome,
+either a belief or an action. The goal is to gain true beliefs while
+avoiding false beliefs, or to do right actions and avoid doing wrong
+ones. At this point, we don't need to rehash old disputes about the
+nature of truth or morality, our ordinary understanding of the two
+concepts will be fine.
+
+Second, there is nothing that we can do that guarantees a true
+belief---at best, we only get likelihood. Nevertheless, when we use the
+tools of critical thinking, we will be more likely to get to the truth
+than had we not used those tools.
+
+Third, it is important to note that not every question has an answer
+that we can know just by thinking carefully about the problem. There are
+some questions that have right answers, but just cannot be known by us.
+How many life-supporting planets are there in the universe? We know
+there is at least one, but we don't yet have the ability to if there are
+any others. There are other questions for which there is no right
+answer, at least not in the objective sense. What kind of ice cream is
+best? You may have your preference, and I might have a different view.
+Is either of us wrong? Don't hold up the line in the ice cream shop
+telling yourself, "I know I like chocolate better than vanilla, but
+which one is *really* the best?" There is no best in this case, so order
+whatever you want.
+
+This is a classic case of what philosophers call purely subjective. A
+subjective truth is one that is dependent on what a person prefers,
+thinks, believes, etc. Objective truths are true independently of what
+anyone thinks, believes, perceives, etc. Critical thinking won't help us
+answer the subjective questions, but we don't really have problems with
+those. In those cases, it's good enough just to report how we feel,
+since that is what makes those subjective beliefs true. Critical
+thinking, however, will help us decide if a question is objective or
+subjective, and if objective, if it can be answered.
+
+## The Tools of Critical Thinking {#sec:tools-crit-think}
+
+
+It's not enough to tell someone to think clearly and carefully---we have
+to know what clear and careful thinking, and clear and careful thinkers,
+look like. Critical thinking is a skill, and like many other skills, it
+involves the skilled use of tools. One set of tools will be no surprise;
+they are the tools of logic. Good critical thinkers can
+
+-   Identify arguments in propositional and categorical logic
+
+-   Evaluate arguments using truth tables and Venn diagrams
+
+-   Use the basic rules of probability, and
+
+-   Identify common logical fallacies.
+
+Another set of tools has been provided by cognitive psychologists.
+Critical thinkers need to understand how the human mind works,
+especially the systematic ways that the mind is misled. So, critical
+thinkers must
+
+-   Understand common cognitive biases,
+
+-   Be aware of the ways that people try to mislead us,
+
+-   Know the situations in which we tend to reason badly.
+
+Finally, I think that it's not enough that critical thinkers understand
+logic. It's not even enough to understand logic and cognitive
+psychology. I think there is a moral, or value component to critical
+thinking as well. Critical thinkers must become certain kinds of people,
+that is we need to acquire certain intellectual virtues. So, we will
+discuss the importance and roles of such virtues as
+
+-   Open-mindedness
+
+-   Intellectual courage
+
+-   Intellectual humility
+
+-   Attentiveness
+
+-   Fairness
+
+-   Perseverance
+
+-   Firmness
+
+So, by the end of this book, and by the end of your course, I hope that
+you are well on the road to acquiring these skills. Like any other
+skills, they cannot be acquired without practice. You will not become a
+perfect critical thinker in a semester, maybe not even over the course
+of a lifetime. You can, however, take some significant steps on a
+journey that leads to one of the most important destinations ever: the
+truth.
+
+[^1]: That doesn't mean that the test should be ignored. It just means
+    that the doctors should not immediately begin dangerous treatments.
+    What is warranted is further testing to lessen the chances of a
+    false positive.

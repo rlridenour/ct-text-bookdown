@@ -1,0 +1,28 @@
+--- 
+title: "Critical Thinking"
+author: "Randy Ridenour"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is a textbook for use in critical thinking courses. The output format for this example is bookdown::gitbook."
+---
+
+# Preface
+
+This is a textbook written primarily for my students in PHIL 1502: Critical Thinking, at Oklahoma Baptist University in Shawnee, Oklahoma.
+
+There are many good textbooks for critical thinking on the market today, so why write another one? First, all of those books were written for someone else's course. None cover all of the topics that I would like to cover in class. Second, as I'm sure any student can attest to, textbooks are remarkably expensive, to the point that most of the world's populatione cannot afford access to good learning material. I'm beginning to think of access to information as a moral issue.  Now, if I could become wealthy by publishing a book on critical thinking, I might be willing to put the ethical considerations aside. Since all profit would likely go to the publisher, however, I might as well just give the book away.
+
+Warning: if you are looking for the perfect book on critical thinking, this will not be it. For various reasons, this text is likely to always be a work in progress. I can promise, though, that it will be worth as least as much as you paid for it.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
