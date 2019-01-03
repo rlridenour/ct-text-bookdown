@@ -1,0 +1,227 @@
+# Categorical Logic
+
+Now we turn to some structured logic systems. The first, categorical logic, is one of the oldest. It dates back at least to Aristotle (384--322 BCE). Categorical logic is a fairly simple logic of categories or classes. A class is a group of things that we designate with a common noun: students, teachers, dogs, politicians, etc. Each sentence will use two different classes. One is the subject class, and the other is the predicate class. In this logic, we can say something about all members of a class, called a universal sentence, or we can say something about some members of a class, called a particular sentence. We can also make a positive claim, called an affirmation, or we can make a negative claim, called a negation.
+
+With these two distinctions, universal/particular and affirnation/negation, we can make four kinds of sentences. S and P stand for the subject class and the predicate class, respectively.
+
+| **A**: All S are P (universal affirmation)
+| **E**: No S are P (universal negation)
+| **I**: Some S are P (particular affirmation)
+| **O**: Some S are not P (particular negation)[^1] 
+
+Here are some examples of categorical statements, some true and some false.
+
+
+1. All dogs are mammals.
+2. All mammals are dogs.
+3. No reptiles are dogs.
+4. No politicians are honest people.
+5. Some politicians are honest people.
+6. Some cats are amphibians.
+7. Some dogs are not beagles.
+8. Some beagles are not dogs.
+
+Look at the sentences carefully. You should be able to tell that the odd-numbered ones are true and the even-numbered ones are false.
+
+## The Square of Opposition
+
+We can visualize interesting logical relationships between these four types of sentences on something called "The Square of Opposition."
+
+The first step is to place the sentence types in the corners of an imaginary square. A is at the upper left; E, the upper right; I, the lower left, and O, the lower right. Next, draw arrows on the diagonals, pointing to the sentences in the corners. Then, draw an arrow between the two at the top, and another one between the two at the bottom. Finally, draw an arrow on each side, going from top to bottom. When finished, you should have something like this:
+
+```{r chunk-label, echo = FALSE, fig.cap = 'Square of Opposition'}
+plot(c(100, 200), c(250, 450), type= "n", xlab = "", ylab = "", axes=F)
+## rect(125, 300, 175, 400) # transparent
+text(118,420,"All S are P")
+text(170,420,"No S are P")
+text(115,300, "Some S are P")
+text(175,300, "Some S are not P")
+arrows(122,415,165,304,code=3)
+arrows(165,415,122,304,code=3)
+arrows(126,418,161,418,code=3)
+arrows(126,300,161,300,code=3)
+arrows(170,410,170,310)
+arrows(118,410,118,310)
+text(144,360,"Contradictories")
+text(144,425,"Contraries")
+text(144,293,"Sub-Contraries")
+text(109,360,"Alternation")
+text(179,360,"Alternation")
+```
+
+The next step is to note the relationship between the diagonals. The diagonals are contradictories, meaning they always have opposite truth values. They can't both be true, and they also can't both be false.  If the A sentence is true, the O sentence must be false---if it is true that all dogs are mammals, it cannot be true that some dogs are not mammals. If the O sentence is true, then the A sentence must be false. It is the same for the E and the I. 
+
+Next, note the relationship between the A sentences and the E sentences, called contraries. Like the contradictories, they cannot both be true. Unlike the contradictories, they can both be false. If it's true that all critical thinking students are good students, then it must be false that no critical thinking students are good students. If it's false that all critical thinking students are good students, then it can be false that critical thinking students are good students. In fact, they are both false, because some critical thinking students are good and others are not. 
+
+At the bottom, we have sub-contraries. They can both be false, but cannot both be true.
+
+Finally, we have the relationship between the top level sentences and the bottom level sentences on the same side. This is called alternation. The universal is called the superaltern and the particular is called the subaltern. If the superaltern is true, then the subaltern must also be true. If the superaltern is false, then the subaltern can be either true or false. If the subaltern is false, then the superaltern must be false. If the subaltern is true, then the superaltern can be either true or false. It is easy to remember this way: truth goes down, falsity goes up.
+
+## Diagramming Sentences ##
+
+We diagram sentences and arguments in categorical logic using Venn diagrams. You've probably used these in a math class at some time. Before we can use these to evaluate arguments in categorical logic, we first have to learn how to diagram individual sentences.
+
+The first step is to draw two interlocking circles. Label the left circle with an "S" and the right circle with "P"---standing for the subject term and predicate term, respectively.
+
+```{r chunk-sentence, echo = FALSE, fig.cap = 'Starting a venn diagram '}
+knitr::include_graphics(rep("images/basic-cat.png"))
+```
+
+### A-Sentences
+
+Remember that the A-sentence has the form All S are P. That means that everything that is in the S circle must also be in the P circle. To diagram this, we shade the region of the S circle that is not contained in the P circle. If a region is shaded, that means that nothing is in that region.
+
+```{r chunk-asentence, echo = FALSE, fig.cap = 'Diagramming an A-Sentence'}
+knitr::include_graphics(rep("images/a-cat.png"))
+```
+
+### E-Sentences
+
+To shade the universal negation, we shade the region that is shared by both S and P:
+
+```{r chunk-ecat, echo = FALSE, fig.cap = 'Diagramming an E-Sentence'}
+knitr::include_graphics(rep("images/e-cat.png"))
+```
+
+### I-Sentences
+
+To diagram a particular affirmation, we place an x in the region shared by S and P:
+
+```{r chunk-icat, echo = FALSE, fig.cap = 'Diagramming an I-Sentence'}
+knitr::include_graphics(rep("images/i-cat.png"))
+```
+
+### O-Sentences
+
+Finally, to diagram an O-sentence, we place an x in S, but not in P:
+
+```{r chunk-ocat, echo = FALSE, fig.cap = 'Diagramming an O-Sentence'}
+knitr::include_graphics(rep("images/o-cat.png"))
+```
+
+## Relations of Equivalence ##
+
+There are three operations that can be applied to categorical sentences: conversion, obversion, and contraposition. It is important to know how to apply them and in what cases does operation result in an equivalent sentence. We're particularly interested in the conditions those different operations are *truth-preserving*. The operation is truth preserving when, applied to a true sentence, always results in a true sentence.
+
+### Conversion
+
+
+Conversion is the simplest of the three. The converse of a sentence simply exchanges the subject and predicate terms of the original sentence. Conversion applied to A-sentences is \emph{not} truth-preserving. "All dogs are mammals" is true, but "All mammals are dogs" is not. Conversion is truth-preserving for E-sentences and I-sentences. If it is true that no dogs are reptiles, it must be true that no reptiles are dots. Likewise, if it is true that some dogs are brown things, it must be true that some brown things are dogs.
+
+<!-- Another way to think about this is to consider what the diagrams would like before the change and after the change. Before the change, the diagram looks like figure below, with the intersection of the S and P circles shaded. -->
+<!-- After the change, the diagram looks like figure \ref{fig:e-after-conv}, with the intersection of the S and P circles shaded. Essentially, there's been no change. Imagine what it would like to view the first diagram from behind, or upside-down. In either case, what you would see is the same as the first diagram. -->
+
+
+### Obversion
+
+Take another look at the square of opposition in figure 4.1. Note that the A and the E are straight across from each other, as are the I and the O. The first step in forming the obverse is to first change the sentence into the type that is straight across the square of opposition. That is, if you started with an A-sentence, then make it into and E. The O becomes and I, and so on.
+
+
+Once you've changed the sentence type, the next step is to change predicate into its complement. The complement of a class *C* is the class of everything that is not in *C*. The easiest way to form a complement is to prefix the class with `non'. For example, the complement of the class of students is the class of non-students.
+
+So, the obverse of all dogs are mammals is no dogs are non-mammals. The obverse of no OBU students are martians is all OBU students are non-martians. Obversion is truth-preserving in all cases.
+
+### Contraposition
+
+The last of our three relations is contraposition. To form the contrapositive of a sentence, first form the converse, then exchange both terms for their complements.
+
+The contrapositive of all dogs are mammals is all non-mammals are non-dogs. Contraposition is truth-preserving for A-sentences and O-sentences only.
+
+Here's a table to help keep this straight (operations that are truth-preserving are in bold type):
+
+| Original         | Converse         | Obverse              | Contrapositive           |
+|:------------------|:------------------|:----------------------|:--------------------------|
+| All S are P      | All P are S      | **No S are non-P**       | **All non-P are non-S**      |
+| No S are P       | **No P are S**       | **All S are non-P**      | No non-P are non-S       |
+| Some S are P     | **Some P are S**     | **Some S are not non-P** | Some non-P are non-S     |
+| Some S are not P | Some P are not S | **Some S are non-P**     | **Some non-P are not non-S** |
+
+## Evaluating Categorical Syllogisms
+
+A syllogism is an argument that has two premises and a conclusion. A categorical syllogism is a syllogism that contains only categorical sentences. Here is an example:
+
+<ul class="list-arg">
+1. All Dogs are mammals.
+2. <u>All mammals are animals.</u>
+3. All dogs are animals
+</ul>
+
+Both premises and the conclusion are A-sentences. Notice that we have three terms in the argument: dogs, mammals, and animals. Every categorical syllogism, in proper form, has three terms. Each term occurs in two sentences. Two of those terms will be found in the conclusion, and one term is only in the premises. The predicate term of the conclusion is called the major term. The subject of the conclusion is called the minor term. The term that is not in the conclusion is called the middle term.
+
+There are two ways to determine if a categorical syllogism is valid. One way uses Venn diagrams, and the other involves applying some simple rules.
+
+### Diagram Method
+
+Since we have three terms in the argument, we'll need three intersecting circles. We'll start by drawing two circles for the conclusion, just as we did before. Then, in the middle and below, we'll draw another circle for the middle term. For labels, use letters that correspond to the classes in the argument. Here, we'll use D for dogs, M for mammals, and A for animals.
+
+```{r chunk-catarg, echo = FALSE, fig.cap = 'Diagramming a categorical syllogism, step 1'}
+knitr::include_graphics(rep("images/cat-arg.png"))
+```
+
+Next, we finish diagramming the premises by shading or placing an x. Since our first premise is ``All dogs are mammals,'' we need to shade everything in the D circle that is not in the M circle.
+
+```{r chunk-catarg2, echo = FALSE, fig.cap = 'Diagramming a categorical syllogism, step 2'}
+knitr::include_graphics(rep("images/cat-arg2.png"))
+```
+
+Next, we diagram the second premise by shading everything that is in the M circle but not in the A circle.
+
+```{r chunk-catarg3, echo = FALSE, fig.cap = 'Diagramming a categorical syllogism, step 3'}
+knitr::include_graphics(rep("images/cat-arg3.png"))
+```
+
+If there is any circle that has only one region left unshaded, you can place an `X' in that region. This is because categorical logic assumes that there are no empty categories, meaning that every category has at least one thing in it. This is really only important for arguments that have an I or an O-sentence for a conclusion. In this case, we won't worry about it.  Now that the premises are diagrammed, check to see if the conclusion has also been diagrammed. If so, then the argument is valid. This shows that making the premises true was enough to make the conclusion true also.
+
+Let's try to diagram this argument:
+
+<ul class="list-arg">
+1. No introverts are politicians 
+2. <u>All artists are introverts</u>
+3. No artists are politicians
+</ul>
+
+```{r chunk-celarent, echo = FALSE, fig.cap = 'Celarent'}
+knitr::include_graphics(rep("images/celarent.png"))
+```
+
+
+<ul class="list-arg">
+1. Some horses are things that weigh over 2,000 pounds.
+2. <u>All horses are mammals.</u>
+3. Some mammals are things that weigh over 2,000 pounds.
+</ul>
+
+```{r chunk-disamis, echo = FALSE, fig.cap = 'Disamis'}
+knitr::include_graphics(rep("images/disamis.png"))
+```
+
+### Hints for Diagramming Categorical Syllogisms
+
+1. Diagram universals before particulars (shade before making an x.)
+2. If it is not clear where the x goes, then put it on the line.
+
+## Rules for Categorical Syllogisms
+
+There is another way to determine validity for categorical syllogisms. Every valid syllogism must meet three conditions:
+
+
+1. There must be the same number of negations in the conclusion as in the premises.
+2. The middle term must be distributed at least once.
+3. Any term distributed in the conclusion must be distributed in the premises.
+
+
+Before these rules can be applied, we'll have to explain what distribution is. Every categorical statement says something about a category or class. A statement distributes a term just in case what it says about that class is true of every subset of the class. To remember when something is distributed, keep this in mind:
+
+
+1. Universals distribute subjects, and
+2. Negations distribute predicates.
+
+
+So, A-sentences distribute the subject, E-sentences distribute both terms, I-sentences don't distribute anything, and O sentences distribute the predicate.
+
+
+
+
+
+
+[^1]: The letters A, E, I, and O, are thought to come from the first two vowels of the Latin words *affirmo* and *nego*, meaning "I affirm" and "I deny."

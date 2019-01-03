@@ -5,22 +5,22 @@
 
 The fundamental tool of the critical thinker is the argument. For a good example of what we are not talking about, consider a bit from a famous sketch by *Monty Python's Flying Circus*:[^1]
 
-Man: (Knock)
-Mr. Vibrating: Come in.
-Man: Ah, Is this the right room for an argument?
-Mr. Vibrating: I told you once.
-Man: No you haven't.
-Mr. Vibrating: Yes I have.
-Man: When?
-Mr. Vibrating: Just now.
-Man: No you didn't.
-Mr. Vibrating: Yes I did.
-Man: You didn't!
-Mr. Vibrating: I did!
-Man: You didn't!
-Mr. Vibrating: I'm telling you I did!
-Man: You did not!!
-Mr. Vibrating: Oh, I'm sorry, just one moment. Is this a five minute argument or the full half hour?
+| Man: (Knock)
+| Mr. Vibrating: Come in.
+| Man: Ah, Is this the right room for an argument?
+| Mr. Vibrating: I told you once.
+| Man: No you haven't.
+| Mr. Vibrating: Yes I have.
+| Man: When?
+| Mr. Vibrating: Just now.
+| Man: No you didn't.
+| Mr. Vibrating: Yes I did.
+| Man: You didn't!
+| Mr. Vibrating: I did!
+| Man: You didn't!
+| Mr. Vibrating: I'm telling you I did!
+| Man: You did not!!
+| Mr. Vibrating: Oh, I'm sorry, just one moment. Is this a five minute argument or the full half hour?
 
 ## Identifying Arguments {#sec:ident-argum}
 
@@ -71,21 +71,8 @@ Now, to make the argument easier to evaluate, we will put it into what is called
 
 ### Indicator Words {#sec:indicator-words}
 
-Unfortunately, when people present arguments, they rarely put them in
-standard form. So, we have to decide which statement is intended to be
-the conclusion, and which are the premises. Don't make the mistake of
-assuming that the conclusion comes at the end. The conclusion is often
-at the beginning of the passage, but could even be in the middle. A
-better way to identify premises and conclusions is to look for indicator
-words. Indicator words are words that signal that statement following
-the indicator is a premise or conclusion. The example above used a
-common indicator word for a conclusion, 'so.' The other common
-conclusion indicator, as you can probably guess, is 'therefore.' Table
-[\[table:indwords\]](#table:indwords){reference-type="ref"
-reference="table:indwords"} lists the indicator words you might
-encounter.
+Unfortunately, when people present arguments, they rarely put them in standard form. So, we have to decide which statement is intended to be the conclusion, and which are the premises. Don't make the mistake of assuming that the conclusion comes at the end. The conclusion is often at the beginning of the passage, but could even be in the middle. A better way to identify premises and conclusions is to look for indicator words. Indicator words are words that signal that statement following the indicator is a premise or conclusion. The example above used a common indicator word for a conclusion, 'so.' The other common conclusion indicator, as you can probably guess, is 'therefore.' Table [\[table:indwords\]](#table:indwords){reference-type="ref" reference="table:indwords"} lists the indicator words you might encounter.
 
-r8cm
 
   *Conclusion*      *Premise*
   ----------------- ---------------------
@@ -97,248 +84,132 @@ r8cm
   Implies that      
   It follows that   
 
-Each argument will likely use only one indicator word or phrase. When
-the conlusion is at the end, it will generally be preceded by a
-conclusion indicator. Everything else, then, is a premise. When the
-conclusion comes at the beginning, the next sentence will usually be
-introduced by a premise indicator. All of the following sentences will
-also be premises.
+Each argument will likely use only one indicator word or phrase. When the conlusion is at the end, it will generally be preceded by a conclusion indicator. Everything else, then, is a premise. When the conclusion comes at the beginning, the next sentence will usually be introduced by a premise indicator. All of the following sentences will also be premises.
 
-For example, here's our previous argument rewritten to use a premise
-indicator:
+For example, here's our previous argument rewritten to use a premise indicator:
 
-> Susan should do well in Calculus II, because Calculus II will be no
-> harder than Calculus I, and Susan did well in Calculus I.
+> Susan should do well in Calculus II, because Calculus II will be no harder than Calculus I, and Susan did well in Calculus I.
 
-Sometimes, an argument will contain no indicator words at all. In that
-case, the best thing to do is to determine which of the premises would
-logically follow from the others. If there is one, then it is the
-conclusion. Here is an example:
+Sometimes, an argument will contain no indicator words at all. In that case, the best thing to do is to determine which of the premises would logically follow from the others. If there is one, then it is the conclusion. Here is an example:
 
 > Spot is a mammal. All dogs are mammals, and Spot is a dog.
 
-The first sentence logically follows from the others, so it is the
-conclusion. When using this method, we are forced to assume that the
-person giving the argument is rational and logical, which might not be
-true.
+The first sentence logically follows from the others, so it is the conclusion. When using this method, we are forced to assume that the person giving the argument is rational and logical, which might not be true.
 
 #### Non-Arguments {#sec:non-arguments}
 
-One thing that complicates our task of identifying arguments is that
-there are many passages that, although they look like arguments, are not
-arguments. The most common types are:
+One thing that complicates our task of identifying arguments is that there are many passages that, although they look like arguments, are not arguments. The most common types are:
 
 1.  Explanations
-
 2.  Mere asssertions
-
 3.  Conditional statements
-
 4.  Loosely connected statements
 
-Explanations can be tricky, because they often use one of our indicator
-words. Consider this passage:
+Explanations can be tricky, because they often use one of our indicator words. Consider this passage:
 
 > Abraham Lincoln died because he was shot.
 
-If this were an argument, then the conclusion would be that Abraham
-Lincoln died, since the other statement is introduced by a premise
-indicator. If this is an argument, though, it's a strange one. Do you
-really think that someone would be trying to prove that Abraham Lincoln
-died? Surely everyone knows that he is dead. On the other hand, there
-might be people who don't know how he died. This passage does not
-attempt to prove that something is true, but instead attempts to explain
-why it is true. To determine if a passage is an explanation or an
-argument, first find the statement that looks like the conclusion. Next,
-ask yourself if everyone likely already believes that statement to be
-true. If the answer to that question is yes, then the passage is an
-explanation.
+If this were an argument, then the conclusion would be that Abraham Lincoln died, since the other statement is introduced by a premise indicator. If this is an argument, though, it's a strange one. Do you really think that someone would be trying to prove that Abraham Lincoln died? Surely everyone knows that he is dead. On the other hand, there might be people who don't know how he died. This passage does not attempt to prove that something is true, but instead attempts to explain why it is true. To determine if a passage is an explanation or an argument, first find the statement that looks like the conclusion. Next, ask yourself if everyone likely already believes that statement to be true. If the answer to that question is yes, then the passage is an explanation.
 
-Mere assertions are obviously not arguments. If a professor tells you
-simply that you will not get an A in her course this semester, she has
-not given you an argument. This is because she hasn't given you any
-reasons to believe that the statement is true. If there are no premises,
-then there is no argument.
+Mere assertions are obviously not arguments. If a professor tells you simply that you will not get an A in her course this semester, she has not given you an argument. This is because she hasn't given you any reasons to believe that the statement is true. If there are no premises, then there is no argument.
 
-Conditional statements are sentences that have the form "If...,
-then...." A conditional statement asserts that *if* something is true,
-then something else would be true also. For example, imagine you are
-told, "If you have the winning lottery ticket, then you will win ten
-million dollars." What is being claimed to be true, that you have the
-winning lottery ticket, or that you will win ten million dollars?
-Neither. The only thing claimed is the entire conditional. Conditionals
-can be premises, and they can be conclusions. They can be parts of
-arguments, but that cannot, on their own, be arguments themselves.
+Conditional statements are sentences that have the form "If..., then...." A conditional statement asserts that *if* something is true, then something else would be true also. For example, imagine you are told, "If you have the winning lottery ticket, then you will win ten million dollars." What is being claimed to be true, that you have the winning lottery ticket, or that you will win ten million dollars? Neither. The only thing claimed is the entire conditional. Conditionals can be premises, and they can be conclusions. They can be parts of arguments, but that cannot, on their own, be arguments themselves.
 
 Finally, consider this passage:
 
-> I woke up this morning, then took a shower and got dressed. After
-> breakfast, I worked on chapter 2 of the critical thinking text. I then
-> took a break and drank some more coffee....
+> I woke up this morning, then took a shower and got dressed. After breakfast, I worked on chapter 2 of the critical thinking text. I then took a break and drank some more coffee....
 
-This might be a description of my day, but it's not an argument. There's
-nothing in the passage that plays the role of a premise or a conclusion.
-The passage doesn't attempt to prove anything. Remember that arguments
-need a conclusion, there must be something that is the statement to be
-proved. Lacking that, it simply isn't an argument, no matter how much it
-looks like one.
+This might be a description of my day, but it's not an argument. There's nothing in the passage that plays the role of a premise or a conclusion. The passage doesn't attempt to prove anything. Remember that arguments need a conclusion, there must be something that is the statement to be proved. Lacking that, it simply isn't an argument, no matter how much it looks like one.
 
 ### Evaluating Arguments {#sec:evaluating-arguments}
 
-The first step in evaluating an argument is to determine what kind of
-argument it is. We initially categorize arguments as either deductive or
-inductive, defined roughly in terms of their goals. In deductive
-arguments, the truth of the premises is intended to absolutely establish
-the truth of the conclusion. For inductive arguments, the truth of the
-premises is only intended to establish the probable truth of the
-conclusion. We'll focus on deductive arguments first, then examine
-inductive arguments in later chapters.
+The first step in evaluating an argument is to determine what kind of argument it is. We initially categorize arguments as either deductive or inductive, defined roughly in terms of their goals. In deductive arguments, the truth of the premises is intended to absolutely establish the truth of the conclusion. For inductive arguments, the truth of the premises is only intended to establish the probable truth of the conclusion. We'll focus on deductive arguments first, then examine inductive arguments in later chapters.
 
-Once we have established that an argument is deductive, we then ask if
-it is valid. To say that an argument is valid is to claim that there is
-a very special logical relationship between the premises and the
-conclusion, such that if the premises are true, then the conclusion must
-also be true. Another way to state this is
+Once we have established that an argument is deductive, we then ask if it is valid. To say that an argument is valid is to claim that there is a very special logical relationship between the premises and the conclusion, such that if the premises are true, then the conclusion must also be true. Another way to state this is
 
 Valid
 
-:   An argument is valid if and only if it is impossible for the
-    premises to be true and the conclusion false.
+:   An argument is valid if and only if it is impossible for the premises to be true and the conclusion false.
 
 Invalid
 
 :   An argument is invalid if and only if it is not valid.
 
-Note that claiming that an argument is valid is not the same as claiming
-that it has a true conclusion, nor is it to claim that the argument has
-true premises. Claiming that an argument is valid is claiming nothing
-more that the premises, *if they were true*, would be enough to make the
-conclusion true. For example, is the following argument valid or not?
+Note that claiming that an argument is valid is not the same as claiming that it has a true conclusion, nor is it to claim that the argument has true premises. Claiming that an argument is valid is claiming nothing more that the premises, *if they were true*, would be enough to make the conclusion true. For example, is the following argument valid or not?
 
-1.  If pigs fly, then an increase in the minimum wage will be approved
-    next term.
 
-2.  3.  An increase in the minimum wage will be approved next term.
+<ul class="list-arg">
+1.  If pigs fly, then an increase in the minimum wage will be approved next term.
+2. <u>Pigs fly.</u>
+3. An increase in the minimum wage will be approved next term.
+</ul>
+
+
 
 The argument is indeed valid. If the two premises were true, then the
 conclusion would have to be true also. What about this argument?
 
-1.  All dogs are mammals
+<ul class="list-arg">
+1. All dogs are mammals
+2. <u>Spot is a mammal.</u>
+3. Spot is a dog.
+</ul>
 
-2.  3.  Spot is a dog.
+In this case, both of the premises are true and the conclusion is true. The question to ask, though, is whether the premises absolutely guarantee that the conclusion is true. The answer here is no. The two premises could be true and the conclusion false if Spot were a cat, whale, etc.
 
-In this case, both of the premises are true and the conclusion is true.
-The question to ask, though, is whether the premises absolutely
-guarantee that the conclusion is true. The answer here is no. The two
-premises could be true and the conclusion false if Spot were a cat,
-whale, etc.
+Neither of these arguments are good. The second fails because it is invalid. The two premises don't prove that the conclusion is true. The first argument is valid, however. So, the premises would prove that the conclusion is true, *if those premises were themselves true.* Unfortunately, (or fortunately, I guess, considering what would be dropping from the sky) pigs don't fly.
 
-Neither of these arguments are good. The second fails because it is
-invalid. The two premises don't prove that the conclusion is true. The
-first argument is valid, however. So, the premises would prove that the
-conclusion is true, *if those premises were themselves true.*
-Unfortunately, (or fortunately, I guess, considering what would be
-dropping from the sky) pigs don't fly.
+These examples give us two important ways that deductive arguments can fail. The can fail because they are invalid, or because they have at least one false premise. Of course, these are not mutually exclusive, an argument can be both invalid and have a false premise.
 
-These examples give us two important ways that deductive arguments can
-fail. The can fail because they are invalid, or because they have at
-least one false premise. Of course, these are not mutually exclusive, an
-argument can be both invalid and have a false premise.
-
-If the argument is valid, and has all true premises, then it is a sound
-argument. Sound arguments always have true conclusions.
+If the argument is valid, and has all true premises, then it is a sound argument. Sound arguments always have true conclusions.
 
 Sound
 
 :   A deductively valid argument with all true premises.
 
-Inductive arguments are never valid, since the premises only establish
-the probable truth of the conclusion. So, we evaluate inductive
-arguments according to their strength. A strong inductive argument is
-one in which the truth of the premises really do make the conclusion
-probably true. An argument is weak if the truth of the premises fail to
-establish the probable truth of the conclusion.
+Inductive arguments are never valid, since the premises only establish the probable truth of the conclusion. So, we evaluate inductive arguments according to their strength. A strong inductive argument is one in which the truth of the premises really do make the conclusion probably true. An argument is weak if the truth of the premises fail to establish the probable truth of the conclusion.
 
-There is a significant difference between valid/invalid and strong/weak.
-If an argument is not valid, then it is invalid. The two categories are
-mutually exclusive and exhaustive. There can be no such thing as an
-argument being more valid than another valid argument. Validity is all
-or nothing. Inductive strength, however, is on a continuum. A strong
-inductive argument can be made stronger with the addition of another
-premise. More evidence can raise the probability of the conclusion. A
-valid argument cannot be made more valid with an additional premise. Why
-not? If the argument is valid, then the premises were enough to
-absolutely guarantee the truth of the conclusion. Adding another premise
-won't give any more guarantee of truth than was already there. If it
-could, then the guarantee wasn't absolute before, and the original
-argument wasn't valid in the first place.
+There is a significant difference between valid/invalid and strong/weak. If an argument is not valid, then it is invalid. The two categories are mutually exclusive and exhaustive. There can be no such thing as an argument being more valid than another valid argument. Validity is all or nothing. Inductive strength, however, is on a continuum. A strong inductive argument can be made stronger with the addition of another premise. More evidence can raise the probability of the conclusion. A valid argument cannot be made more valid with an additional premise. Why not? If the argument is valid, then the premises were enough to absolutely guarantee the truth of the conclusion. Adding another premise won't give any more guarantee of truth than was already there. If it could, then the guarantee wasn't absolute before, and the original argument wasn't valid in the first place.
 
 ### Counterexamples {#sec:counterexamples}
 
-One way to prove an argument to be invalid is to use a counterexample. A
-counterexample is a consistent story in which the premises are true and
-the conclusion false. Consider the argument above:
+One way to prove an argument to be invalid is to use a counterexample. A counterexample is a consistent story in which the premises are true and the conclusion false. Consider the argument above:
 
-1.  All dogs are mammals
-
-2.  3.  Spot is a dog.
+<ul class="list-arg">
+1. All dogs are mammals
+2. <u>Spot is a mammal.</u>
+3. Spot is a dog.
+</ul>
 
 By pointing out that Spot could have been a cat, I have told a story in
 which the premises are true, but the conclusion is false.
 
 Here's another one:
 
-1.  If it is raining, then the sidewalks are wet.
+<ul class="list-arg">
+1. If it is raining, then the sidewalks are wet.
+2. <u>The sidewalks are wet.</u>
+3. It is raining.
+</ul>
 
-2.  3.  It is raining.
+The sprinklers might have been on. If so, then the sidewalks would be wet, even if it weren't raining.
 
-The sprinklers might have been on. If so, then the sidewalks would be
-wet, even if it weren't raining.
-
-Counterexamples can be very useful for demonstrating invalidity. Keep in
-mind, though, that validity can never be proved with the counterexample
-method. If the argument is valid, then it will be impossible to give a
-counterexample to it. If you can't come up with a counterexample,
-however, that does not prove the argument to be valid. It may only mean
-that you're not creative enough.
+Counterexamples can be very useful for demonstrating invalidity. Keep in mind, though, that validity can never be proved with the counterexample method. If the argument is valid, then it will be impossible to give a counterexample to it. If you can't come up with a counterexample, however, that does not prove the argument to be valid. It may only mean that you're not creative enough.
 
 ## Review {#sec:arg-review}
 
-1.  An **argument** is a set of statements; one is the conclusion, the
-    rest are premises.
-
-2.  The **conclusion** is the statement that the argument is trying to
-    prove.
-
-3.  The **premises** are the reasons offered for believing the
-    conclusion to be true.
-
-4.  Explanations, conditional sentences, and mere assertions are not
-    arguments.
-
-5.  **Deductive** reasoning attempts to absolutely guarantee the truth
-    of the conclusion.
-
-6.  **Inductive** reasoning attempts to show that the conclusion is
-    probably true.
-
-7.  In a **valid** argument, it is impossible for the premises to be
-    true and the conclusion false.
-
-8.  In an **invalid** argument, it is possible for the premises to be
-    true and the conclusion false.
-
+1.  An **argument** is a set of statements; one is the conclusion, the rest are premises.
+2.  The **conclusion** is the statement that the argument is trying to prove.
+3.  The **premises** are the reasons offered for believing the conclusion to be true.
+4.  Explanations, conditional sentences, and mere assertions are not arguments.
+5.  **Deductive** reasoning attempts to absolutely guarantee the truth of the conclusion.
+6.  **Inductive** reasoning attempts to show that the conclusion is probably true.
+7.  In a **valid** argument, it is impossible for the premises to be true and the conclusion false.
+8.  In an **invalid** argument, it is possible for the premises to be true and the conclusion false.
 9.  A **sound** argument is valid and has all true premises.
-
-10. An inductively **strong** argument is one in which the truth of the
-    premises makes the the truth of the conclusion probable.
-
-11. An inductively weak argument is one in which the truth of the
-    premises do not make the conclusion probably true.
-
-12. A **counterexample** is a consistent story in which the premises of
-    an argument are true and the conclusion is false. Counterexamples
-    can be used to prove that arguments are deductively invalid.
+10. An inductively **strong** argument is one in which the truth of the premises makes the the truth of the conclusion probable.
+11. An inductively weak argument is one in which the truth of the premises do not make the conclusion probably true.
+12. A **counterexample** is a consistent story in which the premises of an argument are true and the conclusion is false. Counterexamples can be used to prove that arguments are deductively invalid.
 
 ## Exercises {#sec:arg-exercises}
 
