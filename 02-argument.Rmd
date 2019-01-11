@@ -3,7 +3,7 @@
 # Arguments {#cha:arguments}
 
 
-The fundamental tool of the critical thinker is the argument. For a good example of what we are not talking about, consider a bit from a famous sketch by *Monty Python's Flying Circus*:[^1]
+The fundamental tool of the critical thinker is the argument. For a good example of what we are not talking about, consider a bit from a famous sketch by *Monty Python's Flying Circus*:[^clinic]
 
 | Man: (Knock)
 | Mr. Vibrating: Come in.
@@ -61,11 +61,11 @@ believing that the conclusion is true.
 
 Now, to make the argument easier to evaluate, we will put it into what is called "standard form." To put an argument in standard form, write each premise on a separate, numbered line. Draw a line underneath the last premise, the write the conclusion underneath the line.
 
-<ul class="list-arg">
+<ol class="list-arg">
 1. Calculus II will be no harder than Calculus I.
 2. <u>Susan did well in Calculus I.</u>
 3. Susan should do well in Calculus II.
-</ul>
+</ol>
 
  Now that we have the argument in standard form, we can talk about premise 1, premise 2, and all clearly be referring to the same thing.
 
@@ -213,4 +213,4 @@ Counterexamples can be very useful for demonstrating invalidity. Keep in mind, t
 
 ## Exercises {#sec:arg-exercises}
 
-[^1]: [@Cleese:1980aa].
+[^clinic]: [@Cleese:1980aa].

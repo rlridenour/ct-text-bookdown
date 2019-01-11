@@ -1,0 +1,864 @@
+# Truth Tables
+
+Translations in propositional logic are only a means to an end. Our goal is to use the translated formulas to determine the validity of arguments. To do this, we will use a tool called a truth table. Basically, a truth table is a list of all the different combinations of truth values that a sentence, or set of sentences, can have.
+
+## Single Sentences
+
+Before we can analyze arguments with truth tables, we need to know how to construct truth tables for single sentences. Let's begin with a truth table for the negation. First, write the formula to be analyzed at the top.
+
+$$
+\begin{array}{cc}
+ & \neg P \\
+ &  \\
+ & 
+\end{array}
+$$
+
+To the left of the formula, list the simple sentence letters in alphabetical order. In this case, we only have one sentence letter.
+
+
+$$
+\begin{array}{cc}
+P & \neg P \\
+ &  \\
+ & 
+\end{array}
+$$
+
+Now draw a horizontal line underneath all of that, and a vertical line separating the formula from the sentence letters, like this:
+
+
+
+$$
+\begin{array}{c|c}
+P & \neg P \\
+\hline
+ &  \\
+ & 
+\end{array}
+$$
+
+The next step is to list all of the possible combinations of truth-values of the simple sentence letters. In this case, we only have one letter, and can be either true or false.
+$$
+\begin{array}{c|c}
+P & \neg P \\
+\hline
+T &  \\
+F & 
+\end{array}
+$$
+
+Finally, fill in the truth values of the formula for each line, given the truth values of the simple sentences on that line. Since the negation just changes the truth value of the simple sentence, our truth table will look like this:
+
+$$
+\begin{array}{c|c}
+P & \neg P \\
+\hline
+T & F \\
+F & T
+\end{array}
+$$
+
+Now, let's construct a truth table for a conjunction. Again, we'll write the formula at the top:
+
+$$
+\begin{array}{cccccc}
+ &  & P & \& & Q \\
+ &  &  &   &  \\
+ &  &  &   &  \\
+ &  &  &   &  \\
+ &  &  &   & 
+\end{array}
+$$
+
+We'll then write the simple sentence letter to the left, and draw the lines.
+
+$$
+\begin{array}{cc|cccc}
+P & Q  & P & \& & Q \\
+\hline
+ &  &  &   &  \\
+ &  &  &   &  \\
+ &  &  &   &  \\
+ &  &  &   & 
+\end{array}
+$$
+
+Next, we need to write all the different possible combinations of truth values of those simple sentence letters. First, they could both be true.
+
+
+$$
+\begin{array}{cc|cccc}
+P & Q  & P & \& & Q \\
+\hline
+T & T  &  &   &  \\
+ &  &  &   &  \\
+ &  &  &   &  \\
+ &  &  &   & 
+\end{array}
+$$
+
+
+Then, $P$ could be true and $Q$ false.
+
+$$
+\begin{array}{cc|cccc}
+P & Q  & P & \& & Q \\
+\hline
+T & T  &  &   &  \\
+T & F  &  &   &  \\
+ &  &  &   &  \\
+ &  &  &   & 
+\end{array}
+$$
+
+For the next line, $P$ could be false and $Q$ true.
+
+$$
+\begin{array}{cc|cccc}
+P & Q  & P & \& & Q \\
+\hline
+T & T  &  &   &  \\
+T & F  &  &   &  \\
+F & T &  &   &  \\
+ &  &  &   & 
+\end{array}
+$$
+
+
+Last, they could both be false.
+
+$$
+\begin{array}{cc|cccc}
+P & Q  & P & \& & Q \\
+\hline
+T & T  &  &   &  \\
+T & F  &  &   &  \\
+F & T &  &   &  \\
+F & F  &  &   & 
+\end{array}
+$$
+
+Now, we just fill in the rest. The conjunction is true when both conjuncts are true, and false otherwise, So, the completed truth table looks like this.
+
+$$
+\begin{array}{cc|cccc}
+P & Q & P & \& & Q \\
+\hline
+T & T &  & T  &  \\
+T & F &  & F  &  \\
+F & T &  & F  &  \\
+F & F &  & F  & 
+\end{array}
+$$
+
+
+Here is the truth table for the disjunction. Remember that disjunctions are true when at least one disjunct is true, and false otherwise. So, the disjunction is only false on the bottom line.
+
+$$
+\begin{array}{cc|cccc}
+P & Q & P & \vee & Q \\
+\hline
+T & T &  & T  &  \\
+T & F &  & T  &  \\
+F & T &  & T  &  \\
+F & F &  & F  & 
+\end{array}
+$$
+
+This is what the truth table for the conditional looks like. Conditionals are false whenever the antecedent is true and the conclusion is false, but they are true any other time.
+
+$$
+\begin{array}{cc|cccc}
+P & Q & P & \rightarrow & Q \\
+\hline
+T & T &  & T  &  \\
+T & F &  & F  &  \\
+F & T &  & T  &  \\
+F & F &  & T  & 
+\end{array}
+$$
+
+Finally, here is the truth table for the biconditional. Biconditionals are true whenever both sides have the same truth value. That will be the first line, where they are both true, and the last line, where they're both false.
+
+$$
+\begin{array}{cc|cccc}
+P & Q & P & \leftrightarrow & Q \\
+\hline
+T & T &  & T  &  \\
+T & F &  & F  &  \\
+F & T &  & F  &  \\
+F & F &  & T  & 
+\end{array}
+$$
+
+Let's do one that is slightly longer. Here's a truth table for \( P \mathbin{\&} (Q \vee R) \):
+
+We'll go ahead and write the formula and sentence letters, and draw the lines.
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+  &   &   &   &    &    &                     &    \\
+  &   &   &   &    &    &                     &    \\
+  &   &   &   &    &    &                     &    \\
+  &   &   &   &    &    &                     &    \\
+  &   &   &   &    &    &                     &    \\
+  &   &   &   &    &    &                     &    \\
+  &   &   &   &    &    &                     &    \\
+  &   &   &   &    &    &                     &   
+\end{array}
+$$
+
+It gets more difficult to fill in the combinations of truth values for the sentence letters as the tables get larger. Done one entire row at a time, it's easy to miss a combination. The best way is to do it an entire column at a time. Start with the rightmost column, and alternate T's and F's.
+
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+  &   & T  &   &    &    &                     &    \\
+  &   & F  &   &    &    &                     &    \\
+  &   & T  &   &    &    &                     &    \\
+  &   & F  &   &    &    &                     &    \\
+  &   & T  &   &    &    &                     &    \\
+  &   & F  &   &    &    &                     &    \\
+  &   & T  &   &    &    &                     &    \\
+  &   & F  &   &    &    &                     &   
+\end{array}
+$$
+
+Then, move to the next column to the left. Here, alternate pairs of T's and pairs of F's.
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+  & T  & T  &   &    &    &                     &    \\
+  & T  & F  &   &    &    &                     &    \\
+  & F  & T  &   &    &    &                     &    \\
+  & F  & F  &   &    &    &                     &    \\
+  & T  & T  &   &    &    &                     &    \\
+  & T  & F  &   &    &    &                     &    \\
+  & F  & T  &   &    &    &                     &    \\
+  & F  & F  &   &    &    &                     &   
+\end{array}
+$$
+
+Maybe you can see the pattern now. We'll then move to the next column and put four T's and four F's.
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+T  & T  & T  &   &    &    &                     &    \\
+T  & T  & F  &   &    &    &                     &    \\
+T  & F  & T  &   &    &    &                     &    \\
+T  & F  & F  &   &    &    &                     &    \\
+F  & T  & T  &   &    &    &                     &    \\
+F  & T  & F  &   &    &    &                     &    \\
+F  & F  & T  &   &    &    &                     &    \\
+F  & F  & F  &   &    &    &                     &   
+\end{array}
+$$
+
+Notice that we have eight rows. If there were four different simple sentences, we'd have sixteen, thirty-two for five, and so on. The general formula is this: if there are *n* simple sentences, then there will be 2^*n*^ rows.
+
+Next, we fill in the rest of the truth table. With longer tables, it can be easier to first copy the columns of the sentence letters, like this:
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+T  & T  & T  & T  &    & T   &  & T   \\
+T  & T  & F  & T  &    & T   &  & F   \\
+T  & F  & T  & T  &    & F   &  & T   \\
+T  & F  & F  & T  &    & F   &  & F   \\
+F  & T  & T  & F  &    & T   &  & T   \\
+F  & T  & F  & F  &    & T   &  & F   \\
+F  & F  & T  & F  &    & F   &  & T   \\
+F  & F  & F  & F  &    & F   &  & F  
+\end{array}
+$$
+
+Then, we start working inside the parentheses. Since it is a disjunction, it will be true whenever at least one of *Q* and *R* are true, and false when they are both false.
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+T  & T  & T  & T  &    & T   & T  & T   \\
+T  & T  & F  & T  &    & T   & T & F   \\
+T  & F  & T  & T  &    & F   & T & T   \\
+T  & F  & F  & T  &    & F   & F  & F   \\
+F  & T  & T  & F  &    & T   & T & T   \\
+F  & T  & F  & F  &    & T   & T & F   \\
+F  & F  & T  & F  &    & F   & T & T   \\
+F  & F  & F  & F  &    & F   & F  & F  
+\end{array}
+$$
+
+Now, we can ignore the columns under *Q* and *R*. We're focused on *P* and the column under the disjunction symbol. To make it clear, I'll remove the others.
+
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+T  & T  & T  & T  &    &    & T  &    \\
+T  & T  & F  & T  &    &    & T &    \\
+T  & F  & T  & T  &    &    & T &    \\
+T  & F  & F  & T  &    &    & F  &   \\
+F  & T  & T  & F  &    &    & T &    \\
+F  & T  & F  & F  &    &    & T &    \\
+F  & F  & T  & F  &    &    & T &    \\
+F  & F  & F  & F  &    &    & F  &   
+\end{array}
+$$
+
+Now, we complete the column for the conjunction. It's true whenever \(P\) and \(Q \vee R\) are both true.
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+T  & T  & T  & T  & T   &    & T  &    \\
+T  & T  & F  & T  & T   &    & T &    \\
+T  & F  & T  & T  & T   &    & T &    \\
+T  & F  & F  & T  & F   &    & F  &   \\
+F  & T  & T  & F  & F   &    & T &    \\
+F  & T  & F  & F  & F   &    & T &    \\
+F  & F  & T  & F  & F   &    & T &    \\
+F  & F  & F  & F  & F   &    & F  &   
+\end{array}
+$$
+
+Ultimately, the column I'm really interested is the one underneath the main connective. I'll make it bold to be clear. Our complete truth table with all the columns looks like this:
+
+
+$$
+\begin{array}{ccc|ccccc}
+P & Q & R & P & \& & (Q & \vee & R) \\
+\hline
+T  & T  & T  & T  & \textbf{T}   & T   & T  & T   \\
+T  & T  & F  & T  & \textbf{T}   & T   & T &  F  \\
+T  & F  & T  & T  & \textbf{T}   & F   & T &  T  \\
+T  & F  & F  & T  & \textbf{F}   & F   & F  & F  \\
+F  & T  & T  & F  & \textbf{F}   & T   & T &  T  \\
+F  & T  & F  & F  & \textbf{F}   & T   & T &  F  \\
+F  & F  & T  & F  & \textbf{F}   & F   & T &  T  \\
+F  & F  & F  & F  & \textbf{F}   & F   & F  & F  
+\end{array}
+$$
+
+Notice that the column of the main connective has a mixture of T's and F's. This is called a contingency. A contingent statement is true on some rows and false on others. Some sentences are true on all rows. They are called tautologies. Here is a simple example:
+
+\begin{array}{c|ccc}
+P & P & \vee & \neg P \\
+\hline
+T & T & \textbf{T}   & F     \\
+F & F & \textbf{T}   & T    
+\end{array}
+
+If a sentence has an F on every row of the table, it is a contradiction.
+
+\begin{array}{c|ccc}
+P & P & \& & \neg P \\
+\hline
+T & T & \textbf{F}   & F     \\
+F & F & \textbf{F}   & T    
+\end{array}
+
+Tautologies can't possibly be false, contradictions can't possibly be true, and contingencies can be true or false.
+
+## Logical Equivalence
+
+It is sometimes useful to put a pair of sentences on the same truth table. If the columns under their main connectives are identical, then the sentences are *logically equivalent*. That means that they always have the same truth value.
+
+Here is an example. The sentences are separated by a forward slash.
+
+$$
+\begin{array}{cc|cccccccc}
+P & Q & \neg & (P & \& & Q) & / & \neg P & \vee & \neg Q \\
+\hline
+T & T & \textbf{F}   & T  & T  & T  &   & F     & \textbf{F}   & F     \\
+T & F & \textbf{T}   & T  & F  & F  &   & F     & \textbf{T}   & T     \\
+F & T & \textbf{T}   & F  & F  & T  &   & T     & \textbf{T}   & F     \\
+F & F & \textbf{T}   & F  & F  & F  &   & T     & \textbf{T}   & T    
+\end{array}
+$$
+
+It should be no surprise that those sentences are equivalent. The first one essentially claims that it's not the case that *P* and *Q* are both true, and the second one claims that at least one of them is false. They are just two ways of saying the same thing.
+
+## Truth Tables and Validity
+
+To evaluate an argument using a truth table, put the premises on a row separated by a single slash, followed by the conclusion, separated by two slashes.[^slash]
+
+[^slash]: The only function of the slashes is to help visualize where one sentence ends and another begins.
+
+Here's a simple argument, called Modus Ponens:
+
+<ul class="list-arg">
+1. P \(\rightarrow \) Q
+2. <u>P &nbsp; &nbsp; &nbsp; &nbsp;</u>
+3. Q
+</ul>
+
+We'll begin the truth table like this:
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & P & // & Q \\
+\hline
+  &   &    &            &    &   &   &    &   \\
+  &   &    &            &    &   &   &    &   \\
+  &   &    &            &    &   &   &    &   \\
+  &   &    &            &    &   &   &    &  
+\end{array}
+$$
+
+Then fill in our possible truth values for the simple sentences on the left.
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & P & // & Q \\
+\hline
+T  & T  &    &            &    &   &   &    &   \\
+T  & F  &    &            &    &   &   &    &   \\
+F  & T  &    &            &    &   &   &    &   \\
+F  & F  &    &            &    &   &   &    &  
+\end{array}
+$$
+
+We can easily fill in the columns for the second premise and the conclusion, since they involve just copying over the P and Q columns.
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & P & // & Q \\
+\hline
+T  & T  &    &            &    &   & T  &    & T  \\
+T  & F  &    &            &    &   & T  &    & F  \\
+F  & T  &    &            &    &   & F  &    & T  \\
+F  & F  &    &            &    &   & F  &    & F 
+\end{array}
+$$
+
+Finally, we'll fill in the column for the first premise. Remember that a conditional is false only when the antecdent is true and the consequent is false. So, the first premise is false on the second line, and true on the other lines.
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & P & // & Q \\
+\hline
+T  & T  &    &  T          &    &   & T  &    & T  \\
+T  & F  &    &  F          &    &   & T  &    & F  \\
+F  & T  &    &  T          &    &   & F  &    & T  \\
+F  & F  &    &  T          &    &   & F  &    & F 
+\end{array}
+$$
+
+
+Now, what tells us that the argument is valid? Remember that an argument is valid if it is impossible for the premises to be true and the conclusion to be false. So, we check to see if there is a row on the truth table that has all true premises and a false conclusion. If there is, then we know the argument is invalid. In this argument, the only row where all the premises are true is the line 1. On that line, however, the conclusion is also true. So, this argument is valid.
+
+There's often no need to fill out the whole truth table to determine validity. Let's look at shortcut, using the same argument. I can see immediately that there is really only one row that I need to work. See if you can figure out which one it is.
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & P & // & Q \\
+\hline
+T  & T  &    &            &    &   &   &    &   \\
+T  & F  &    &            &    &   &   &    &   \\
+F  & T  &    &            &    &   &   &    &   \\
+F  & F  &    &            &    &   &   &    &  
+\end{array}
+$$
+
+I only need to focus on rows where I know the premises might be true or the conclusion might be false. So, I can safely ignore rows 3 and 4, because the second premise is false on those rows. When I look at rows 1 and 2, I see that the conclusion is true on line 1. So, the only row that has a chance of showing this argument to be invalid is row 2. So, I'll work that one.
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & P & // & Q \\
+\hline
+T  & T  &    &            &    &   &   &    &   \\
+T  & F  &    &   F         &    &   & T  &    & F  \\
+F  & T  &    &            &    &   &   &    &   \\
+F  & F  &    &            &    &   &   &    &  
+\end{array}
+$$
+
+After working it, I see that one of the premises turned out to be false. So, I know there's no row that has all true premises and a false conclusion.
+
+Now, let's see what happens when we switch the second premise with the conclusion. On which rows do you think we should focus?
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & Q & // & P \\
+\hline
+T  & T  &    &            &    &   &   &    &   \\
+T  & F  &    &            &    &   &   &    &   \\
+F  & T  &    &            &    &   &   &    &   \\
+F  & F  &    &            &    &   &   &    &  
+\end{array}
+$$
+
+Notice that the conclusion is false only on rows 3 and 4. On row 4, though, the second premise is false. So, the only row that could make this invalid is row 3. Let's work it and see what results.
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & Q & // & P \\
+\hline
+T  & T  &    &            &    &   &   &    &   \\
+T  & F  &    &            &    &   &   &    &   \\
+F  & T  &    &   T &    &   & T  &    & F  \\
+F  & F  &    &            &    &   &   &    &  
+\end{array}
+$$
+
+Since a conditional with a false antecedent is true, the first premise if true on line 3. The second premise is also true, but the conclusion is false. So, this argument is invalid. In fact, this is such a common invalid argument that it has a name: "Assuming the Consequent."
+
+Here is another example:
+
+<ul class="list-arg">
+1. P \(\rightarrow\) Q
+2. <u>&not; Q  &nbsp; &nbsp; &nbsp;</u>
+3. &not; P
+</ul>
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & \neg Q & // & \neg P \\
+\hline
+T  & T  &    &            &    &   &   &    &   \\
+T  & F  &    &            &    &   &   &    &   \\
+F  & T  &    &            &    &   &   &    &   \\
+F  & F  &    &            &    &   &   &    &  
+\end{array}
+$$
+
+
+We'll just go ahead and fill in the whole thing:
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & \neg Q & // & \neg P \\
+\hline
+T  & T  &    & T  &    &   & F  &    & F  \\
+T  & F  &    & F  &    &   & T  &    & F  \\
+F  & T  &    & T  &    &   & F  &    & T  \\
+F  & F  &    & T  &    &   & T  &    & T 
+\end{array}
+$$
+
+There is no line with all true premises and a false conclusion, so the argument is valid. This argument type is called by the Latin name,  *Modus Tollens*.
+Let's again switch the second premise and the conclusion, and see what happens.
+
+$$
+\begin{array}{cc|ccccccc}
+P & Q & (P & \rightarrow & Q) & / & \neg P & // & \neg Q \\
+\hline
+T  & T  &    & T  &    &   & F  &    & F  \\
+T  & F  &    & F  &    &   & F  &    & T  \\
+F  & T  &    & T  &    &   & T  &    & F  \\
+F  & F  &    & T  &    &   & T  &    & T 
+\end{array}
+$$
+
+The third line has all true premises and a false conclusion, so this argument is invalid. This is called "Denying the Antecedent."
+
+Let's try a truth table for a more complex argument. 
+
+<ul class="list-arg">
+1. A v B
+2. A &rarr; (B v C)
+3. <u> &not;(C & A) &nbsp; &nbsp;</u>
+4. B
+</ul>
+
+The table begins like this:
+
+$$
+\begin{array}{ccc|cccccccccccccccc}
+A & B & C & A & \vee & B & / & A & \rightarrow & (B & \vee & C) & / & \neg & (C &  \& & A) & // & B \\
+\hline
+T  & T  & T  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+T  & T  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+T  & F  & T  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+T  & F  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & T  & T  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & T  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & F  & T  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & F  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &  
+\end{array}
+$$
+
+I'll talk you through the first line, then just fill out the rest. On the first line, since A and B are both true, the first premise is true. The second premise is a conditional with a true antecdent and a true consequent (B and C are both true, making  \(B \vee C\) true). So, the second premise is also true. The third premise is false, since it is a negation of a true conjunction. Finally, the conclusion is true.
+
+$$
+\begin{array}{ccc|cccccccccccccccc}
+A & B & C & A & \vee & B & / & A & \rightarrow & (B & \vee & C) & / & \neg & (C &  \& & A) & // & B \\
+\hline
+T  & T  & T  & T  &  T   & T  &   & T  &  T  & T   &  T   & T   &   & F    & T   &  T   & T   &    & T  \\
+T  & T  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+T  & F  & T  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+T  & F  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & T  & T  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & T  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & F  & T  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &   \\
+F  & F  & F  &   &     &   &   &   &            &    &     &    &   &     &    &     &    &    &  
+\end{array}
+$$
+
+The completed truth table looks like this:
+
+$$
+\begin{array}{ccc|cccccccccccccccc}
+A & B & C & A & \vee & B & / & A & \rightarrow & (B & \vee & C) & / & \neg & (C & \& & A) & // & B \\
+\hline
+T & T & T & T & T   & T &   & T & T          & T  & T   & T  &   & F   & T  & T   & T  &    & T \\
+T & T & F & T & T   & T &   & T & T          & T  & T   & F  &   & T   & F  & F   & T  &    & T \\
+T & F & T & T & T   & F &   & T & T          & F  & T   & T  &   & F   & T  & T   & T  &    & F \\
+T & F & F & T & T   & F &   & T & F          & F  & F   & F  &   & T   & F  & F   & T  &    & F \\
+F & T & T & F & T   & T &   & F & T          & T  & T   & T  &   & T   & T  & F   & F  &    & T \\
+F & T & F & F & T   & T &   & F & T          & T  & T   & F  &   & T   & F  & F   & F  &    & T \\
+F & F & T & F & F   & F &   & F & T          & F  & T   & T  &   & T   & T  & F   & F  &    & F \\
+F & F & F & F & F   & F &   & F & T          & F  & F   & F  &   & T   & F  & F   & F  &    & F
+\end{array}
+$$
+
+There is no line with all true premises and a false conclusion, so the argument is valid.
+
+## Short Truth Tables
+
+Truth tables can be used to determine the validity of any argument in propositional logic. If you carefully follow the rules, *without making any careless mistakes*, you're guaranteed to get the right answer. The only drawback is that they get very large, very quickly. A truth table for an argument with six simple sentences in it has 64 rows---not something that most of us would look forward to doing.
+
+It would be nice if there was a way that we could go straight to the row that showed an argument to be invalid, if there was one. Fortunately, there is, although it can be tricky at times. 
+
+Let's try this argument:
+
+<ul class="list-arg">
+1. A & B
+2. <u>&not; [A &rarr; (C v D)]</u>
+3. C v D
+</ul>
+
+The first step is to set up the truth table as we've done in the past, but we'll only need one row.
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+&&&&&&&&&&&&&&&&&
+\end{array}
+$$
+
+The next step is to put a 'T' underneath the main operator of all the premises and a 'T' under the main operator of the conclusion.
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+& & & & & T &  & & T  &&&&&&& & F &
+\end{array}
+$$
+
+When we do this, we're assuming that there is a line on which all of the premises of the argument are true and the conclusion is false. Now, we'll see if that assumption leads to a contradiction. If it does, then there can't be a line like that, and the argument is valid. If it does not lead to a contradiction, then there will be a line like that, and the argument will be invalid.
+
+Now, we'll start filling in what must be true if our assumptions are correct. The first premise is a true conjunction, so both conjuncts must be true.
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+& & & & T & T & T & & T  &&&&&&& & F &
+\end{array}
+$$
+
+The conclusion is a false disjunction, so both disjuncts must be false.
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+& & & & T & T & T & & T  &&&&&&& F & F & F
+\end{array}
+$$
+
+Now, we know what A, B, C, and D have to be. Let's transfer those values to the second premise.
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+& & & & T & T & T & & T & T & & F &  & F && F & F & F
+\end{array}
+$$
+
+Now, we need to finish completing the second premise. We'll start with the disjunction in the antecedent of the conditional.
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+& & & & T & T & T & & T & T & & F & F  & F & & F & F & F
+\end{array}
+$$
+
+Then, the conditional itself:
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+& & & & T & T & T & & T & T & F & F & F  & F & & F & F & F
+\end{array}
+$$
+
+Now, we check to see if there were any problems. We're looking for something like a letter that has different truth values, or a false disjunction with a true disjunct. Here, each letter has the same truth value wherever it occurs. We have a conjunction with two true conjunctions, two false disjunctions, both with two false disjuncts, a false conditional with a true antecedent and a false consequent, and a true negation with a false negated sentence. Everything looks fine, which means it *is* possible for the argument to have true premises and a false conclusion, and is definitely invalid. The problem row would be the one where A is true, B is true, C is false, and D is false. That would be row 4 of the entire truth table.
+
+
+$$
+\begin{array}{cccc|ccccccccccccc}
+A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
+T & T & F & F & T & T & T & & T & T & F & F & F  & F & & F & F & F
+\end{array}
+$$
+
+Let's try another. Here is a classic argument called a constructive dilemma:
+
+<ul class="list-arg">
+1. A &sup; B
+2. C &sup; D
+2. <u>A v C</u>
+3. B v D
+</ul>
+
+Start by constructing the basic table heading.
+
+$$
+\begin{array}{cccc|ccccccccccccccc}
+A & B & C & D & A & \rightarrow & B & / & C & \rightarrow & D & / & A & \vee & C & // & B & \vee & D \\
+  &   &   &   &   &            &   &   &   &            &   &   &   &     &   &    &   &     &  
+\end{array}
+$$
+
+Then, fill in T and F under the main connective of the premises and conclusion, respectively.
+
+$$
+\begin{array}{cccc|ccccccccccccccc}
+A & B & C & D & A & \rightarrow & B & / & C & \rightarrow & D & / & A & \vee & C & // & B & \vee & D \\
+  &   &   &   &   &    T        &   &   &   &    T        &   &   &   &  T   &   &    &   &  F   &  
+\end{array}
+$$
+
+Then, we'll fill in what we can figure out, given those assumptions. We don't know anything about the premises yet. The first two are true conditionals, and there are three different ways a conditional can come out true. Likewise for the true disjunction in the third premise. So, let's start with the conclusion. Since it is a false disjunction, then both B and D must be false.
+
+$$
+\begin{array}{cccc|ccccccccccccccc}
+A & B & C & D & A & \rightarrow & B & / & C & \rightarrow & D & / & A & \vee & C & // & B & \vee & D \\
+  &   &   &   &   &    T        &   &   &   &    T        &   &   &   &  T   &   &    & F  &  F   &  F
+\end{array}
+$$
+
+Then, we can fill in those values wherever B and D occur.
+
+$$
+\begin{array}{cccc|ccccccccccccccc}
+A & B & C & D & A & \rightarrow & B & / & C & \rightarrow & D & / & A & \vee & C & // & B & \vee & D \\
+  &   &   &   &   &    T        & F &   &   &    T        & F &   &   &  T   &   &    & F  &  F   &  F
+\end{array}
+$$
+
+Now, we can do the first two premises. Notice that we have true conditionals with false consequents. That means that both of the antecedents must be false.
+
+$$
+\begin{array}{cccc|ccccccccccccccc}
+A & B & C & D & A & \rightarrow & B & / & C & \rightarrow & D & / & A & \vee & C & // & B & \vee & D \\
+  &   &   &   & F &    T        & F &   & F &    T        & F &   &   &  T   &   &    & F  &  F   &  F
+\end{array}
+$$
+
+Now, we can fill that in where A and C occur in the third premise.
+
+$$
+\begin{array}{cccc|ccccccccccccccc}
+A & B & C & D & A & \rightarrow & B & / & C & \rightarrow & D & / & A & \vee & C & // & B & \vee & D \\
+  &   &   &   & F &    T        & F &   & F &    T        & F &   & F &  T   & F &    & F  &  F   &  F
+\end{array}
+$$
+
+Now, we have a problem. We have a true disjunction in the third premise with two false disjuncts. That's a contradiction. That means we cannot make this argument have true premises and a false conclusion. We've proved that the argument is valid.
+
+## Argument Forms
+
+Before we leave propositional logic, here are some important argument forms that might be useful.
+
+### Valid ###
+
+**Modus Ponens**
+
+<ul class="list-arg">
+1. P \(\rightarrow \) Q
+2. <u>P &nbsp; &nbsp; &nbsp; &nbsp;</u>
+3. Q
+</ul>
+
+
+**Modus Tollens**
+
+<ul class="list-arg">
+1. P \(\rightarrow \) Q
+2. <u>&not; Q &nbsp; &nbsp; &nbsp;</u>
+3. &not; P
+</ul>
+
+
+**Disjunctive Syllogism**
+
+<ul class="list-arg">
+1. A v B
+2. <u>&not; B &nbsp;  &nbsp;</u>
+3. A
+</ul>
+
+
+
+**Hypothetical Syllogism**
+
+<ul class="list-arg">
+1. A &sup; B
+2. <u>B &sup; C</u>
+3. A &sup; C
+</ul>
+
+
+
+**Constructive Dilemma**
+
+<ul class="list-arg">
+1. A &sup; B
+2. C &sup; D
+2. <u>A v C</u>
+3. B v D
+</ul>
+
+
+**Destructive Dilemma**
+
+<ul class="list-arg">
+1. A &sup; B
+2. C &sup; D
+2. <u>&not;B v &not; D</u>
+3. &not;A v &not; C
+</ul>
+
+### Invalid ###
+
+**Affirming the Consequent**
+
+<ul class="list-arg">
+1. P \(\rightarrow \) Q
+2. <u>Q &nbsp; &nbsp; &nbsp; &nbsp;</u>
+3. P
+</ul>
+
+
+**Denying the Antecedent**
+
+<ul class="list-arg">
+1. P \(\rightarrow \) Q
+2. <u>&not; P &nbsp; &nbsp; &nbsp;</u>
+3. &not; Q
+</ul>

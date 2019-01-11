@@ -7,7 +7,7 @@ With these two distinctions, universal/particular and affirnation/negation, we c
 | **A**: All S are P (universal affirmation)
 | **E**: No S are P (universal negation)
 | **I**: Some S are P (particular affirmation)
-| **O**: Some S are not P (particular negation)[^1] 
+| **O**: Some S are not P (particular negation)[^affirmo] 
 
 Here are some examples of categorical statements, some true and some false.
 
@@ -224,4 +224,4 @@ So, A-sentences distribute the subject, E-sentences distribute both terms, I-sen
 
 
 
-[^1]: The letters A, E, I, and O, are thought to come from the first two vowels of the Latin words *affirmo* and *nego*, meaning "I affirm" and "I deny."
+[^affirmo]: The letters A, E, I, and O, are thought to come from the first two vowels of the Latin words *affirmo* and *nego*, meaning "I affirm" and "I deny."

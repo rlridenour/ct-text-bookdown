@@ -8,8 +8,9 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a textbook for use in critical thinking courses."
+github-repo: "rlridenour/ct-text"
+cover-image: "images/ct-text-cover.png"
+description: "This is a textbook for use in undergraduate critical thinking courses."
 ---
 
 # Preface

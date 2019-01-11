@@ -1,0 +1,275 @@
+# Propositional Logic
+
+Categorical logic is a great way to analyze arguments, but only certain kinds of arguments. It is limited to arguments that have only two premises and the four kinds of categorical sentences. This means that certain common arguments that are obviously valid will not even be well-formed arguments in categorical logic. Here is an example:
+
+<ul class="list-arg">
+1. I will either go out for dinner tonight or go out for breakfast tomorrow.
+2. <u>I won't go out for dinner tonight.</u>
+3. I will go out for breakfast tomorrow.
+</ul> 
+
+None of these sentences fit any of the four categorical schemes. So, we need a new logic, called propositional logic. The good news is that it is fairly simple.
+
+## Simple and Complex Sentences
+
+The fundamental logical unit in categorical logic was a category, or class of things. The fundamental logical unit in propositional logic is a statement, or proposition[^proposition] Simple statements are statements that contain no other statement as a part. Here are some examples:
+
+- Oklahoma Baptist University is in Shawnee, Oklahoma.
+- Barack Obama was succeeded as President of the US by Donald Trump.
+- It is 33 degrees outside.
+
+Simple sentences are symbolized by uppercase letters. Just pick a letter that makes sense, given the sentence to be symbolized, that way you can more easily remember which letter means which sentence.
+
+Complex sentences have at least one sentence as a component. There are five types in propositional logic:
+
+- Negations
+- Conjunctions
+- Disjunctions
+- Conditionals
+- Biconditionals
+
+### Negations
+
+Negations are "not" sentences. They assert that something is not the case. For example, the negation of the simple sentence "Oklahoma Baptist University is in Shawnee, Oklahoma" is "Oklahoma Baptist University is not in Shawnee, Oklahoma." In general, a simple way to form a negation is to just place the phrase "It is not the case that" before the sentence to be negated.
+
+A negation is symbolized by placing this symbol '$\neg$' before the sentence-letter. The symbol looks like a dash with a little tail on its right side. If $\textrm{D}$ = 'It is 33 degrees outside,' then $\neg \textrm{D}$ = 'It is not 33 degrees outside.' The negation symbol is used to translate these English phrases:
+
+- not
+- it is not the case that
+- it is not true that
+- it is false that
+
+A negation is true whenever the negated sentence is false. If it is true that it is not 33 degrees outside, then it must be false that it is 33 degrees outside. if it is false that Tulsa is the capital of Oklahoma, then it is true that Tulsa is not the capital of Oklahoma.
+
+When translating, try to keep the simple sentences positive in meaning. Note the warning on page 24, about the example of affirming and denying. Denying is not simply the negation of affirming.
+
+## Conjunction ##
+
+Negations are "and" sentences. They put two sentences, called conjuncts, together and claim that they are both true. We'll use the ampersand (\&) to signify a negation. Other common symbols are a dot and an upside down wedge. The English words that are translated with the ampersand include:
+
+
+- and
+- but
+- also
+- however
+- yet
+- still
+- moreover
+- although
+- nevertheless
+- both
+
+For example, we would translate the sentence 'It is raining today and my sunroof is open' as '$\textrm{R} \& \textrm{O}$'.
+
+
+<!-- Note the problem of translating ``Joe and Fred are brothers.'' -->
+
+
+
+## Disjunction ##
+
+A disjunction is an "or" sentence. It claims that at least one of two sentences, called disjuncts, is true. For example, if I say that either I will go to the movies this weekend or I will stay home and grade critical thinking homework, then I have told the truth provided that I do one or both of those things. If I do neither, though, then my claim was false.
+
+We use this symbol, called a "vel," for disjunctions: $\vee$. The vel is used to translate
+- or
+- either\dots or
+- unless
+
+
+<!-- Not both -->
+
+<!-- Neither nor -->
+
+## Conditional ##
+
+The conditional is a common type of sentence. It claims that something is true, if something else is also. Examples of conditionals are 
+
+- "If Sarah makes an A on the final, then she will get an A for the course." 
+- "Your car will last many years, provided you perform the required maintenance."
+- "You can light that match only if it is not wet."
+
+We can translate those sentences with an arrow like this:
+
+- $F \rightarrow C$
+- $M \rightarrow L$
+- $L \rightarrow \neg W$
+ 
+ The arrow translates many English words and phrases, including
+ 
+- if
+- if... then
+- only if
+- whenever
+- when
+- only when
+- implies
+- provided that
+- means
+- entails
+- is a sufficient condition for
+- is a necessary condition for
+- given that
+- on the condition that
+- in case
+
+One big difference between conditionals and other sentences, like conjunctions and disjunctions, is that order matters. Notice that there is no logical difference between the following two sentences:
+
+- Albany is the capital of New York and Austin is the capital of Texas.
+- Austin is the capital of Texas and Albany is the capital of New York.
+
+They essentially assert exactly the same thing, that both of those conjuncts are true. So, changing order of the conjuncts or disjuncts does not change the meaning of the sentence, and if meaning doesn't change, then true value doesn't change.
+
+That's not true of conditionals. Note the difference between these two sentences:
+
+- If you drew a diamond, then you drew a red card.
+- If you drew a red card, then you drew a diamond.
+
+The first sentence *must* be true. if you drew a diamond, then that guarantees that it's a red card. The second sentence, though, could be false. Your drawing a red card doesn't guarantee that you drew a diamond, you could have drawn a heart instead. So, we need to be able to specify which sentence goes before the arrow and which sentence goes after. The sentence before the arrow is called the antecedent, and the sentence after the arrow is called the consequent. 
+
+Look at those three examples again:
+
+1. "If Sarah makes an A on the final, then she will get an A for the course." 
+2. "Your car will last many years, provided you perform the required maintenance."
+3. "You can light that match only if it is not wet."
+
+The antecedent for the first sentence is "Sarah makes an A on the final." The consequent is "She will get an A for the course." Note that the `if` and the `then` are not parts of the antecedent and consequent.
+
+In the second sentence, the antecdent is "You perform the required maintenance." The consequent is "Your car will last many years." This tells us that the antecedent won't always come first in the English sentence.
+
+The third sentence is tricky. The antecedent is "You can light that match." Why? The explanation involves something called necessary and sufficient conditions.
+
+### Necessary and Sufficient Conditions ###
+
+A sufficient condition is something that is enough to guarantee the truth of something else. For example, getting a 95 on an exam is sufficient for making an A, assuming that exam is worth 100 points. A necessary condition is something that must be true in order for something else to be true. Making a 95 on an exam is not necessary for making an A---a 94 would have still been an A. Taking the exam is necessary for making an A, though. You can't make an A if you don't take the exam, or, in other words, you can make an a only if you enroll in the course.
+
+Here are some important rules to keep in mind:
+
+- 'If' introduces antecedents, but `Only if` introduces consequents.
+- If A is a sufficient condition for B, then $A \rightarrow B$.
+- If A is a necessary condition for B, then $B \rightarrow A$.
+
+
+
+## Biconditional ##
+
+We won't spend much time on biconditionals. There are times when something is both a necessary and a sufficient condition for something else. For example, making at least a 90 and getting an A (assuming a standard scale, no curve, and no rounding up). If you make at least a 90, then you will get an A. If you got an A, then you made at least a 90. We can use a double arrow to translate a biconditional, like this:
+
+- $N \rightarrow A$
+ 
+For biconditionals, as for conjunctions and disjunctions, order doesn't matter.
+
+Here are some English phrases that signify biconditionals:
+
+- it and only if
+- when and only when
+- just in case
+- is a necessary and sufficient condition for
+
+## Translations ##
+
+Propositional logic is language. Like other languages, it has a syntax and a semantics. The syntax of a language includes the basic symbols of the language plus rules for putting together proper statements in the language. To use propositional logic, we need to know how to translate English sentences into the language of propositional logic. We start with our sentence letters, which represent simple English sentences. Let's use three borrowed from an elementary school reader:
+
+| **T**: Tom hit the ball.
+| **J**: Jane caught the ball.
+| **S**: Spot chased the ball.
+
+We then build complex sentences using the sentence letters and our five logical operators, like this:
+
+
+| English Sentence                                      | PL Translation         |
+| :----                                                 | :---:                  |
+| Tom did not hit the ball                              | $\neg T$               |
+| Either Tom hit the ball or Jane caught the ball       | $T \vee J$             |
+| Spot chased the ball, but Jane caught it.             | $S \mathbin{\&} J$     |
+| If Jane caught the ball, then Spot did not chase it.  | $L \rightarrow \neg S$ |
+| Spot chased the ball if and only if Tom hit the ball. | $S \leftrightarrow T$  |
+
+We can make even more complex sentences, but we will soon run into a problem. Consider this example:
+
+$$ T \mathbin{\&} J \rightarrow S$$
+
+We don't know this means. It could be either one of the following:
+
+1. Tom hit the ball, and if Jane caught the ball, then Spot chased it.
+2. If Tom hit the ball and Jane caught it, then Spot chased it.
+
+The first sentence is a conjunction, $T$ is the first conjunct and $M \rightarrow S$ is the second conjunct. The second sentence, though, is a conditional, $T \mathbin{\&}M$ is the antecdent, and $S$ is the consequent. Our two interpretations are not equivalent, so we need a way to clear up the ambiguity. We can do this with parentheses. Our first sentence becomes:
+
+$$ T \mathbin{\&} (J \rightarrow S) $$
+
+The second sentence is:
+
+$$ (T \mathbin{\&} J) \rightarrow S$$
+
+If we need higher level parentheses, we can use brackets and braces. For instance, this is a perfectly good formula in propositional logic:
+
+$$ [(P \mathbin{\&} Q) \vee R] \rightarrow \{[(\neg P \leftrightarrow Q) \mathbin{\&} S] \vee \neg P\} $$[^runon]
+
+Every sentence in propositional logic is one of six types:
+
+1. Simple
+2. Negation
+3. Conjunction
+4. Disjunction
+5. Conditional
+6. Biconditional
+
+What type of sentence it is will be determined by its main logical operator. Sentences can have several logical operators, but they will always have one, and only one, main operator. Here are some general rules for finding the main operator in a symbolized formula of propositional logic:
+
+1. If a sentence has only one logical operator, then that is the main operator.
+2. If a sentence has more than one logical operator, then the main operator is the one outside the parentheses.
+3. If a sentence has two logical operators outside the parentheses, then the main operator is not the negation.
+
+Here are some examples:
+
+| Formula                                                     | Main Operator | Sentence Type |
+| :----                                                       | :----         | :----         |
+| P                                                           | None          | Simple        |
+| $\neg P \mathbin{\&} Q$                                     | \&            | Conjunction   |
+| $\neg (P \mathbin{\&} Q)$                                   | $\neg$        | Negation      |
+| $P \vee (Q \rightarrow R)$                                  | $\vee$   | Disjunction   |
+| $[(P \mathbin{\&} \neg Q) \leftrightarrow R] \rightarrow P$ | $\rightarrow$ | Conditional   |
+
+
+
+
+
+
+
+
+
+<!-- #### Natural and Formal Languages #### -->
+
+<!-- Natural languages are the languages that have developed over time in linguistic communities. They are the languages that people use to communicate, like English, French, Mandarin, Arabic, etc. Natural languages have many positive features, but they have two important negative characteristics: vagueness and ambiguity. That means it is often not clear exactly what an English sentence means.  -->
+
+
+
+<!-- ## Truth Tables ## -->
+
+<!-- We can show this explicitly using something called a truth table. To construct a truth table,  -->
+
+<!-- <\!-- Negation -\-> -->
+<!-- $$ -->
+<!-- \begin{array}{c|c} -->
+<!-- P & \neg P\\ -->
+<!-- \hline -->
+<!-- T & F\\ -->
+<!-- F & T -->
+<!-- \end{array} -->
+<!-- $$ -->
+
+<!-- <\!-- Conjunction -\-> -->
+<!-- $$ -->
+<!-- \begin{array}{ccccc} -->
+<!-- P & Q & P & \& & Q \\ -->
+<!-- T & T & T & T  & T \\ -->
+<!-- T & F & T & F  & F \\ -->
+<!-- F & T & F & F  & T \\ -->
+<!-- F & F & F & F  & F -->
+<!-- \end{array} -->
+<!-- $$ -->
+
+
+[^proposition]: Informally, we use 'proposition' and 'statement' interchangeably. Strictly speaking, the proposition is the content, or meaning, that the statement expresses. When different sentences in  different languages mean the same thing, it is because they express the same proposition.
+
+[^runon]: It may be a good formula in propositional logic, but that doesn't mean it would be a good English sentence.  

@@ -50,7 +50,7 @@ disease. Most doctors estimated that, in this problem, the patient's
 chances of having breast cancer are somewhere between 70 and 80%. Only
 15% of doctors surveyed were correct, however. Surprisingly, the right
 answer is 7.8%, a mere one-tenth of the estimates by the medical
-professionals.[^1]
+professionals.[^ignoretest]
 
 So, how does one avoid making such mistakes? The best way is to become a
 better critical thinker. You've taken the right initial steps by reading
@@ -162,7 +162,7 @@ of a lifetime. You can, however, take some significant steps on a
 journey that leads to one of the most important destinations ever: the
 truth.
 
-[^1]: That doesn't mean that the test should be ignored. It just means
+[^ignoretest]: That doesn't mean that the test should be ignored. It just means
     that the doctors should not immediately begin dangerous treatments.
     What is warranted is further testing to lessen the chances of a
     false positive.
