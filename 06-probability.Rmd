@@ -1,0 +1,392 @@
+# Probability
+
+Students tend to find these two chapters on probability the most difficult material in the course. It looks hard, but it's really not as complicated as it looks. It is important to understand how probabilities work in order to reason well. We rarely have conclusive evidence for or against any claim. Imagine that you're on a jury trial, you have been tasked with determining the probability of the defendant's guilt given the evidence. To do this well requires that a person have a basic understanding of how probability works.
+
+Given the example about serving on a jury, it's more than a little disturbing that our intuitions about probabilities are extremely flawed. Here's a classic example called the Monty Hall Problem: In the game show *Let's Make a Deal*, the host, Monty Hall, would select a person to play for the big prize. The contestant would have a choice of three doors. After choosing a door, the host, who knows which door the prize is behind, would open one of the other doors and show the contestant that that door did not reveal the prize. The contestant would then be offered the choice to stick with his original choice or to switch to the third door.
+
+So, you are the contestant. You choose door number 1. Let's say that Monty opens door 2 and shows you that it has nothing behind it. What should you do? Stick with 1 or switch to 3? You should do what will increase the probability of your winning. Which has the higher probability? Most people will answer that, since there are only two doors, neither has a higher probability than the other. So, the common answer goes, the odds of your winning are simply 50/50.
+
+The correct answer, though, is that you should switch. If you switch, the probability of winning doubles. Is this intuitive? Absolutely not.
+
+
+
+## Calculating Probabilities
+
+First, a few preliminaries. Probabilities are numbers between 0 and 1. Unfortunately, it will be necessary to be able to add, multiply, and divide fractions. If you can't remember how, look at the review in section 13.6 of the text.
+
+We won't worry about the morality of gambling, but it's easiest to learn basic probability in the context of cards, dice, and coin tosses. Basic probability questions are often about cards and dice. So, a few facts to keep in mind:
+
+
+1. 	Each die has six sides.
+1. 	A standard deck of cards has 52 cards, divided into 4 suits (clubs, diamonds, hearts, and spades). Each suit has an Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, and King. We'll never have Jokers in our imaginary decks.
+1. \(\Pr(S) = n\) means that the probability that the sentence S is true is equal to n.
+1. Probabilities range from zero to one, inclusive. The answer to a probability problem will never be less than zero nor greater than one.
+
+
+## Calculating Simple Events
+
+Examples of simple events include tossing heads with one toss of a single coin, getting a six with a roll of a single die, and drawing a heart on one draw from a standard deck of cards. The rule for calculating the probability of a simple event is this:
+
+$$ \Pr(A)=\frac{\textrm{favorable outcomes}}{\textrm{total possible outcomes}} $$
+
+That's easy enough. We just have to determine how many possible ways this scenario could work out, and how many of those ways get us the outcome that we're looking for.
+
+### Examples
+
+What is the probability of tossing heads with a single coin? If we toss a coin once, there are only two possible outcomes (to keep things simple, we rule out the very, very slim possibility that it lands and stays on edge). Of those two outcomes. only one is heads. So, the probability of tossing heads is equal to 1/2. In probability notation,  \( \Pr(H) = 1/2 \)
+
+What is the probability of rolling two on one roll with a single die? There are six possible outcomes, only one is a two. \( \Pr(2) = 1/6 \)
+
+What is the probability of drawing the Ace of Spades on one draw from a deck of cards? There is one favorable outcome out of 52 total possible: \( \Pr(A\spadesuit) = 1/52 \)
+
+What is the probability of drawing an Ace on a single draw? Now there are four favorable outcomes in the 52 total possible: \( \Pr(A) = 4/52 = 1/13 \)
+
+What is the probability of drawing a Heart on a single draw? Since there are thirteen Hearts, there are 13 favorable outcomes, but still only 52 cards. \( \Pr(A) = 13/52 = 1/4 \)
+
+
+## Calculating Complex Events
+
+
+Complex probabilities are probabilities of negations, conjunctions, or disjunctions. A negation is a "not" sentence. The sentence "I will not go to the movies tonight" is the negation of the sentence "I will go to the movies tonight." A conjunction is an "and" sentence. An example is the sentence "I will go to dinner and I will go to the movies." A disjunction is an "or" sentence, as in "I will go to dinner or I will go to the movies." Unless specified otherwise, disjunctions are always inclusive disjunctions. So, "I will go to dinner or I will go to the movies" means that I will do one, or the other, or both.
+
+There are also some symbols that you need to know. "Not" is symbolized by "$\neg$" and "and" is symbolized by "\&" 
+
+
+1. The probability of $\neg P$ is the probability that P is not true.
+1. The probability of $P\&Q$ is the probability that both P and Q are true.
+1. The probablity of $P \textrm{ or } Q$ the probability that either P or Q or both are true. 
+
+### Necessities and Impossibilities
+
+
+$$	\textrm{If S cannot be true, then}  \Pr(S) = 0 $$ 
+
+$$ 	\textrm{If S must be true, then}  \Pr(S) = 1 $$
+
+What is the probability of rolling a 7 with one die? Since it is impossible to roll more than a six with one die, $\Pr(7) = 0$.
+
+What is the probability of rolling at least a 1 with one die? No matter what you roll, you will get at least a 1, so \( \Pr (\textrm{at least 1}) = 1 \).
+
+
+
+
+
+### Negations
+
+Now, let's pause and think for a moment. Remember that the probability of an event that must occur is equal to one. For any event, it must be the case that some outcome occurs. For example, if you toss a coin, you have to get either heads or tails. So, if you add up the probabilities of all the possible outcomes for an event, they have to add up to 1. Now, let's imagine an event that has three possible outcomes, A, B, and C. By our reasoning, \( \Pr(A) + \Pr(B) + \Pr(C) = 1 \). That is, we can think of the probability of an event as represented by a big pie. Each possible outcome is a piece of the pie. The size of the whole pie is 1, so when we add up the areas of each the pieces, they have to total 1. Now, let's I want to know the probability of $\neg A$. The probability of A is just the size of A in the pie. The probability of $\neg A$ then is the size of the remainder of the pie, once we take out A. Since the size of all of the pieces add up to 1, the probability of A not occuring is equal to $1 - \Pr(A)$. Thus, we get the negation rule:
+
+$$
+	\Pr(\neg S) = 1-\Pr(S)
+$$
+For example, what is the probability of not rolling a 6 on one roll of a die? It must be equal to 1 minus the probability of rolling a six. Since there a six sides, the probability of rolling a six equals 1/6. So, $\Pr(\neg 6) = 1 - 1/6 = 5/6$
+
+What is the probability of not drawing the King of Hearts? 
+\( 1 - Pr(K\heartsuit) = 1 − 1/52 = 51/52 \)
+
+
+### Compatibility
+Two statements are compatible if they can both be true, and two events are compatible if they can both occur. There are certain events such that one's occurring automatically rules out the other's occurring. For example, if I get heads on one coin toss, that means that I didn't get tails. There's no way for both of those to occur on the same toss. They are incompatible events. Other events are compatible. Let's say I draw one card from a deck. Can I get both a King and a Heart? Yes, if I get the King of Hearts. So, getting a King and getting a Heart on the same draw are compatible events.
+
+So, compatible or incompatible?
+
+1. Tossing heads on one coin toss and tossing tails on the same toss. Incompatible
+1. 	Tossing heads on one toss and tossing tails on the next.  Compatible.
+1. 	Drawing the ace of spades on both of two draws, if
+1. The first card is put back into the deck (with replacement). 	Compatible
+1. The first card is not put back into the deck (without replacement). Incompatible
+	
+### Incompatible Disjunctions
+
+If A and B are incompatible, then 
+\( \Pr(A \textrm{ or } B) = \Pr(A) + \Pr(B) \)
+
+What is the probability of getting either heads or tails on one coin toss? The two events are incompatible, you can't get both, so \( \Pr(H \textrm{ or } T) = \Pr(H) + \Pr(T) = 1/2 + 1/2 = 1 \). Of course it equals one, since you must get one or the other.
+
+
+What is the probability of getting either a king or a queen on one draw from a deck? They are incompatible, you can't get both, so \( \Pr(K \textrm{ or } Q) = \Pr(K) + \Pr(Q) = 1/13 +1/13 = 2/13 \).
+
+What is the probability of getting the Ace of Spades or a heart on one draw?
+Incompatible, so \( \Pr(A\spadesuit \textrm{ or } \heartsuit) = \Pr(A\spadesuit) + \Pr(\heartsuit) = 1/52 + 13/52 = 14/52 = 7/26 \).
+
+
+### Compatible Disjunctions
+
+What about compatible events? First, let's see why that formula will not work. What is the probability of getting heads at least once on two coin tosses? If we use the formula for incompatible events, we have \( \Pr (H1 \textrm{ or } H2) = \Pr(H1) + \Pr (H2) = 1/2 + 1/2 = 1 \). This cannot be right! Why not? If it has a probability of one, it must occur, but we know it's possible to get tails on both tosses. In fact, we know the answer should be 3/4. (I'll let you figure out why. Think in terms of favorable and total possible.)
+
+
+
+So what went wrong with the formula? Essentially, we counted the same thing twice. If we toss a coin twice, there are four possible outcomes: HH, HT, TH, and TT. Out of those, there are two ways to get H on toss 1 and two ways to get H on toss 2. Adding those, it looks like we have four favorable outcomes. The problem is that we have counted one of those favorable outcomes (HH) twice, so we need to #tract one of them.
+
+That gives us the rule for compatible disjunctions:
+
+$$
+	\textrm{If A and B are compatible, then } \Pr (A \textrm{ or } B) = \Pr(A) + \Pr(B) − \Pr(A \& B)
+$$
+
+The problem now is that $\Pr(A \& B)$ is the probability of a conjunction. So, before we can calculate compatible disjunctions, we need to learn to calculate the probabilities of conjunctions.
+
+
+### Independent Conjunctions
+
+To calculate disjunctions, we have to determine whether they are compatible or incompatible. For conjunctions, we're concerned about dependence and independence. Two statements are independent if the truth value of one has no bearing on the truth value of the other. Two events are independent if the occurrence of one has no bearing on the truth value of the other.
+
+For example, tossing heads on one toss and tossing tails on the same toss are dependent events. If the first happens, the probability of the second becomes zero. Tossing heads on one toss and then tossing tails on the *next* toss are independent events. he second  has a probability of 1/2 whether the first occurs or not. Card draws are independent if you put the cards back as you draw them (called with replacement). Card draws are dependent if the cards are not placed back in the deck (without replacement).
+
+
+$$
+	\textrm{If A and B are independent, then } \Pr(A \& B) = \Pr(A) \times \Pr(B)
+$$
+
+Here are some examples. What is the probability of getting heads on two consecutive tosses?
+That means getting heads on the first toss and heads on the second toss. The two are independent events, so \( \Pr(H1 \& H2) = \Pr(H1) \times \Pr(H2) = 1/2 \times 1/2 = 1/4 \).
+
+What's the probability of getting a king on two consecutive draws with replacement? Again, these are independent events. \( \Pr(K1 \& K2) = \Pr(K1) \times \Pr(K2) =1/13 \times 1/13 = 1/169 \).
+
+
+
+
+# Conditional Probabilities
+
+Probabilities change as circumstances change. The  probability of drawing an Ace from a full deck of cards is 4/52. If you draw an Ace out and don't replace it, the probability of drawing an ace changes. Now, there are only 51 total possible outcomes, only three of which are favorable. So,  the conditional probability of drawing an ace given that one ace has been removed is 3/51
+
+Now, a  bit more symbolization: \( \Pr(A \textrm{ given } B) \textrm{ is written as } \Pr(A \vert B)  \)
+
+## Calculating Conditional Probabilities
+
+
+The probability of A given B is the probability of the conjunction of A and B, divided by the probability of B, provided $\Pr(B)$ is not 0. This is called the Definition of Conditional Probability. Symbolized, this looks like:
+
+$$ \Pr(A \vert B)= \frac{\Pr(A \& B)}{\Pr(B)} $$ 
+
+
+This formula is rarely used. It's usually only necessary to think in terms of favorable outcomes over total possible. Conditional probabilities change one or more of these outcomes. For example, 
+you draw a king from a standard deck, keep it, and draw a second card. What is the probability of getting a king on your second draw given that you got a king on the first draw? That is, what is \( \Pr(K2 \vert K1) \)? Now there are 51 total cards, three of which are kings. So, it is 3/51.
+
+You roll a die and it goes off table. Your friends tells you that it's an even number, but you can't see. Given this extra information, what's the probability that you got a 2? Now, you can eleimate all of the odd numbers. So, your only possibilities are 2, 4, and 6. So, the probability of rolling a two given that you rolled an even number is 1/3.
+
+
+Now, we can add one more conjunction rule: 
+
+$$
+	\textrm{If A and B are dependent, } \Pr(A \& B) = \Pr(A) \times \Pr(B \vert A)
+$$
+
+
+Draw two cards from a full deck and don't replace the first card before drawing the second. What is the probability of drawing two Kings? \( \Pr(K1 \& K2) = \Pr(K1) \times \Pr(K2 \vert K1) = 1/13 \times 3/51 = 1/221 \)
+
+A and B are independent events just in case $\Pr(A) = \Pr(A \vert B)$. This is just what you would expect. In this case, the extra information that B is true did not change the probability of A. This can only be the case if B makes no difference, in other words, they are independent. 
+
+
+## The Rules
+Here are all the rules up to this point:
+
+### Simple Events
+
+$$ \Pr(A)=\frac{\textrm{ favorable outcomes }}{\textrm{ total possible outcomes }} $$
+
+### Negations
+
+$$ \Pr(\neg A)=1-\Pr(A) $$
+
+### Disjunctions
+
+$$ \Pr(A \, \textrm{ or } \, B)=\Pr(A)+ \Pr(B) \quad \textrm{(Incompatible Events)} $$
+
+$$ \Pr(A \, \textrm{ or } \, B)=\Pr(A)+ \Pr(B)- \Pr(A  \,\textrm{\&} \, B) \quad \textrm{(Compatible Events)} $$
+
+
+### Conjunctions
+
+$$ \Pr(A \, \textrm{\&} \, B)= \Pr(A) \times \Pr(B) \quad \textrm{(Independent Events)} $$
+
+$$ \Pr(A \, \textrm{\&} B)= \Pr(A) \times \Pr(B \vert A) \quad \textrm{(Dependent Events)} $$
+
+
+### Definition of Conditional Probability
+$$ \Pr(A \vert B)= \frac{\Pr(A \& B)}{\Pr(B)} $$
+
+
+## Odds
+
+Odds and probabilities are different, but closely related. Probabilities are numbers between 0 and 1. Odds are not numbers, but ratios between two numbers. Odds are defined as the ratio of favorable outcomes to unfavorable outcomes. The top number will always be the same in probabiliteis and odds. The bottom number will be smaller for the odds than for the corresponding probability.
+
+
+$$
+	\textrm{If } Pr(X) = m/n, \textrm{ the odds in favor of X} = m  \textrm{ to } (n - m) 
+$$
+The odds against something occurring are the same as the odds for it occurring, except reversed. So, if the odds for A are 2/3, the odds against A are 3/2. 
+
+Converting odds to probabilities are just as easy. The top number stays the same, and you add the two numbers together to get the bottom. If odds for S are m to n, probability of S is m/(m + n)
+
+If the odds of OBU's beating SNU are 1:5, then the probability that OBU wins is 1/6. The proability that SNU wins is 5/6. 
+
+Why are odds useful? One reason is that they can be used to easily determine what a fair bet would be. – To make a fair bet a two will come up when you roll a die, you bet 1 dollar you will get a two and your opponent bets 5 dollars you won't. If you both bet these amounts, over the long run you both tend to break even. Since the probability of rolling a two is 1/6, you should expect to win one out of every six times. On that time that you win, you'll win five dollars. Of course, you'll lose the other five times, and will lose a dollar each time. So, in six turns, you should expect to win five dollars and lose five dollars. Notice how this follows naturally from the odds. The odds of rolling a two are 1/5. If the person betting that the event will occur bets the top number and the other person bets the bottom, it's a fair bet.  Gamblers call such a bet an even-up proposition. 
+
+Casinos couldn't turn a profit with even-up bets. So, you will never get a fair bet in a casino. The house essentially takes a percentage of the winnings. They do this by paying the winners less than the actual odds would require. A good example is roulette. A roulette wheel has 38 compartments: 1-36, 0 and 00. You bet the ball will land on number 10. The probability that the ball lands on number 14 is 1/38. So, the odds of the ball landing on 14 are 1/37. If you win, the house should be willing to pay you 37 dollars on a one dollar bet.  At these odds, the true odds, you break even. The house, though doesn't pay according to the true odds, they pay according to house odds. The house odds pretend that the 0 and 00 squares aren't there. So, as far as the house is concerned, the odds of your winning are 1/35. The pay 35 dollars when, in fairness, the winner deserves 37 dollars. Another way of stating this is that they are taking two dollars of your 37 dollar winnings, a percentage of 2/37 or 5.4\%. Now, since they are taking two dollars of your winnings every time, you will lose in the long run. 
+
+# Bayes' Theorem
+
+## Introduction
+
+
+Now that you have an idea of how simple, complex, and conditional probabilities work, it is time to introduce a new formula called Bayes' Theorem. This formula, although a bit more complicated than the others, can be incredibly useful. Sometimes, we know the probability of A given B, but need to know the probability of B given A. Bayes' Theorem provides a way of converting one to the other.
+
+For example, imagine that you have recently donated a pint of blood to your local blood bank. You receive in the mail a letter informing you that your blood has tested positive for HIV antibodies. The letter informs you that you could have AIDS. How worried should you be?
+
+You need to know the probability that you have the disease given a positive test for the disease, or $\Pr(D \vert +)$. Now, if you contact the company that produces the test, they will be glad to give you some information about the test. Each test has certain true positive, false positive, true negative, and false negative rates. These rates have been determined by extensive testing.
+
+The true positive rate is the percentage of times that the test will correctly identify the samples that have the disease. The false positive rate is the percentage of times that the test will say that the disease is present when it really is not. The true negative rate is the percentage of times that the test says negative when the #ject does not have disease. The false negative rate is the rate of positive tests when the #ject did not have the disease.
+
+In terms of probabilities, it looks like this:
+
+**True Positive**: $\Pr(+ \vert D)$
+**False Positive**: $\Pr(+ \vert \neg D)$
+**True Negative**: $\Pr(- \vert \neg D)$
+**False Negative** $\Pr(- \vert D)$
+
+If you know the true positive rate and the true negative rate, you can figure out the other two. The false negative rate is equal to one minus the true positive rate, and so on.
+
+The blood bank is concerned about contamination of the blood supply. Therefore, they want a test that has a false negative rate  of zero. They aren't as concerned about the false positive rate, though. They don't want a high false positive rate, because then they would end up throwing out blood that was just fine. If they have to needlessly dispose of a few pints out of the many that they receive, though, it's no great loss. The other thing they need is an inexpensive test. They have to test every single donation, so the test they use must be one they can afford. It turns out that tests with good false negative rates are fairly inexpensive, but tests with low false positive rates are not. The blood bank takes the cheaper test, because it adequately keeps the blood supply safe, even though a few donations test positive that really were not contaminated.
+
+So, the blood bank gives you the false positive rate: $\Pr(+ \vert \neg D)$, but you need to know $\Pr(D \vert +)$. What do you do? You use Bayes' Theorem.
+
+
+## The Theorem
+The short form of Bayes' Theorem is this:
+$$
+	\Pr (A\vert B)= \frac{\Pr (A)\times \Pr (B \vert A)}{\Pr (B)}
+$$
+
+Here is an expanded version of the same formula:
+$$
+	\Pr (A\vert B)= \frac{\Pr (A)\times \Pr (B \vert A)}{\Pr (A)\times \Pr (B \vert A) + \Pr (\neg A)\times \Pr (B \vert \neg A)}
+$$
+
+Believe it or not, it's often easier to use the expanded version than the shorter version. In fact, you will very rarely use the shorter version. It's generally easier to just automatically begin working the problem with the longer version.
+
+
+## Examples
+
+Let's look at some examples, beginning with a very easy one. This is a problem that you wouldn't need the formula to solve, but it helps us understand how the formula works.
+
+1. What is the probability that a card is a heart given that it is red?
+
+We know that the answer to this problem is 1/2. Half of the red cards are hearts. Just to get used to the formula, we'll solve it using Bayes' Theorem:
+
+$$
+	\Pr(H \vert R) = \frac{\Pr (H)\times \Pr (R \vert H)}{\Pr (R)}
+$$
+
+
+Since, 1/4 of all cards in a deck are hearts, $\Pr(H)=1/4$. All hearts are red, so $\Pr(R \vert H)=1$, and half of the cards are red, so $\Pr(R)=1/2$.
+
+
+
+So,
+
+$$
+\begin{aligned}
+	\Pr(H \vert R) &= \frac{\Pr (H)\times \Pr (R \vert H)}{\Pr (R)}\\
+	&= \frac{\frac{1}{4} \times 1}{\frac{1}{2}}\\
+	&= \frac{\frac{1}{4}}{\frac{1}{2}}\\
+	&=\frac{1}{2}
+\end{aligned}
+$$
+
+
+The longer formula will give us the same answer:
+
+$$
+	\Pr (H\vert R)= \frac{\Pr (H)\times \Pr (R \vert H)}{\Pr (H)\times \Pr (R \vert H) + \Pr (\neg H)\times \Pr (R \vert \neg H)}
+$$
+
+The only additions are the probability that a card is not a heart, which is 3/4; and the probability that a card is red, given that it is not a heart, which is 1/3 (If we don't include the hearts, there are three suits, one of which is red).
+
+So, 
+
+$$
+\begin{aligned}
+	\Pr (H\vert R) &= \frac{\Pr (H)\times \Pr (R \vert H)}{\Pr (H)\times \Pr (R \vert H) + \Pr (\neg H)\times \Pr (R \vert \neg H)}\\
+	&= \frac{\frac{1}{4}\times 1}{\left( \frac{1}{4}\times 1 \right) + \left( \frac{3}{4} \times \frac{1}{3} \right)}\\
+	&= \frac{\frac{1}{4}}{ \left(\frac{1}{4} + \frac{1}{4} \right)}\\
+	&=\frac{1}{2}
+\end{aligned}
+$$
+
+Now, for a more difficult one. Here's a question you might remember from the pre-test:
+
+>Exactly two cab companies operate in Belleville. The Blue Company has blue cabs, and the green Company has Green Cabs. Exactly 85% of the cabs are blue and the other 15% are green. A cab was involved in a hit-and-run accident at night. A witness, Wilbur, identified the cab as a Green cab. Careful tests were done to ascertain peoples' ability to distinguish between blue and green cabs at night. The tests showed that people were able to identify the color correctly 80% of the time, but they were wrong 20% of the time. What is the probability that the cab involved in the accident was indeed a green cab, as Wilbur says?
+
+The probability that a cab is blue is 0.85, and the probability that it is green is 0.15. The probability that Wilbur will say it is green if it is in fact green is 0.80. The probability that Wilbur will not say it is in green if it is in fact green is 0.20. Symbolized, if G = "The cab was green" and W = "Wilbur says the cab was green", this is $\Pr(G)=.15$, $\Pr(\neg G)=.85$, $\Pr(W \vert G)=.80$, and $\Pr(W \vert \neg G)= .20$.
+
+Using the expanded formula:
+
+$$
+\begin{aligned}
+	\Pr (G\vert W) &= \frac{\Pr (G)\times \Pr (W \vert G)}{\Pr (G)\times \Pr (W \vert G) + \Pr (\neg G)\times \Pr (W \vert \neg G)}\\
+	&= \frac{.15 \times .80}{(.15 \times .80) + (.85 \times .20)}\\
+	&= \frac{.12}{.12 + .17} \\
+	&= \frac{.12}{.29} \\
+	&= .41  \textrm{(rounded off)}
+\end{aligned}
+$$
+
+## The Blood Donation
+
+Now, we can solve the problem of the blood donor's positive test. The probability that he has the disease give a positive test is a function of the probability that a person in the population has the disease, which is called the base-rate of the disease, the probability that a person tests positive if they have disease, which is the true positive rate for the test, and the probability that a person will test positive.
+
+One current estimate that I read is that one million people in the USA now have AIDS. The most recent census reports the population as 304,059,724. This means that the base-rate, or the percentage of the population that has AIDS is 0.32%. False-positive rates for the most common, low-cost, AIDS test vary. They range from from 50% to 90%. A more expensive test, the Western Blot test appears to have a false positive rate of 4.8% of Western blood donors.
+
+Let's plug some data into the expanded formula:
+
+$$
+\Pr(D \vert +) = \frac{\Pr(D) \times \Pr( + \vert D)}{\Pr(D) \times \Pr( + \vert D) + \Pr(\neg D) \times \Pr( + \vert \neg D)}
+$$
+
+Let's go with the base-rate of .32%. So, $\Pr(D) = .0032$. We'll also assume the more expensive test, so $\Pr(+ \vert \neg D) = .048$. Let's also assume that the test is very good at catching all cases of the disease, so $\Pr(+ \vert D) = 1$.
+
+$$
+\begin{aligned}
+	\Pr(D \vert +) &= \frac{\Pr(D) \times \Pr( + \vert D)}{\Pr(D) \times \Pr( + \vert D) + \Pr(\neg D) \times \Pr( + \vert \neg D)} \\
+	&= \frac{.0032 \times 1}{(.0032 \times 1) + (.9968 \times .048)} \\
+	&= \frac{.0032}{.0032 + .0478} \\
+	&= \frac{.0032}{.051} \\
+	&= .063
+	\end{aligned}
+$$
+
+So, assuming these numbers, there is only a 6.3% chance that you have AIDS given that you got a positive test for the disease, and this is assuming that the Western Blot was used and not the ELISA test, which has a much worse false-positive rate! There are more expensive and reliable ways to  test for the disease, so if a person gets a positive result on one of these screening tests, they should not panic, but get the more expensive test. There have been tragic reports of people committing suicide because they got a positive result on one of the initial screening tests.
+
+## Hints
+
+As with other probability problems, once the right numbers are plugged into the right formula, then the answers are generally easy to find. The most common problem is finding the right values in what looks like a complex paragraph.
+
+Here's an example conditional probability problem requiring Bayes' Theorem:
+
+>1% of OBU students are philosophy majors. 90% of OBU philosophy majors are accepted into their preferred graduate program. 30% of OBU non-philosophy majors are accepted into their preferred graduate program. Jane is an OBU student that was accepted into her preferred graduate program. What is the probability that she is a philosophy major?
+
+Let, P = "An OBU student is a philosophy major" and A = "An OBU student was accepted into her preferred graduate program."
+
+The first step is to determine the conditional probability that the problem is asking us to solve. The first part is generally easy, just look for the question. In this case, "What is the probability that she is a philosophy major?" To find the given, look for the one thing that is known for certain; it won't be a probability or percentage. We know that she was accepted into her preferred graduate program. So, we want to know the probability that Jane is a philosophy major given that she was accepted into her preferred graduate program, or $\Pr(P\vert A)$. Once that is determined, then simply write out the formula:
+
+$$
+\Pr(P \vert A) = \frac{\Pr(P) \times \Pr( A \vert P)}{\Pr(P) \times \Pr( A \vert P) + \Pr(\neg P) \times \Pr( A \vert \neg P)}
+$$
+
+Now, we have to find the numbers to plug into the formula. Many, if not most, of the problems are stated in terms of percentages. The probability of A given B is a function of the percentage of B's that are A's. That is, if A's comprise half of the B's, then $\Pr (A \vert B) = 0.5$
+
+So,
+
+1. $\Pr(A \vert P) = 0.9$
+1. $\Pr(A \vert \neg P) = 0.3$
+1. $\Pr(P) = .01$
+
+$$
+\begin{aligned}
+	\Pr(P \vert A) &= \frac{\Pr(P) \times \Pr( A \vert P)}{\Pr(P) \times \Pr( A \vert P) + \Pr(\neg P) \times \Pr( A \vert \neg P)} \\
+	&= \frac{.01 \times .9}{(.1 \times .9) + (.99 \times .03)} \\
+	&= \frac{.009}{.009 + .0297} \\
+	&= \frac{.009}{.0387} \\
+	&= .258
+\end{aligned}
+$$

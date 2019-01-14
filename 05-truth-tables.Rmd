@@ -39,6 +39,7 @@ P & \neg P \\
 $$
 
 The next step is to list all of the possible combinations of truth-values of the simple sentence letters. In this case, we only have one letter, and can be either true or false.
+
 $$
 \begin{array}{c|c}
 P & \neg P \\
@@ -354,21 +355,25 @@ $$
 
 Notice that the column of the main connective has a mixture of T's and F's. This is called a contingency. A contingent statement is true on some rows and false on others. Some sentences are true on all rows. They are called tautologies. Here is a simple example:
 
+$$
 \begin{array}{c|ccc}
 P & P & \vee & \neg P \\
 \hline
 T & T & \textbf{T}   & F     \\
 F & F & \textbf{T}   & T    
 \end{array}
+$$
 
 If a sentence has an F on every row of the table, it is a contradiction.
 
+$$
 \begin{array}{c|ccc}
 P & P & \& & \neg P \\
 \hline
 T & T & \textbf{F}   & F     \\
 F & F & \textbf{F}   & T    
 \end{array}
+$$
 
 Tautologies can't possibly be false, contradictions can't possibly be true, and contingencies can be true or false.
 
@@ -644,77 +649,73 @@ Let's try this argument:
 The first step is to set up the truth table as we've done in the past, but we'll only need one row.
 
 $$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-&&&&&&&&&&&&&&&&&
+\begin{array}{ccc|cccccccccccccc}
+A & B & C & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D)] & // & C & \vee & D \\
+\hline
+  &   &   &   &    &   &   &     &      &            &    &     &    &    &   &     &  
 \end{array}
 $$
 
 The next step is to put a 'T' underneath the main operator of all the premises and a 'T' under the main operator of the conclusion.
 
 $$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-& & & & & T &  & & T  &&&&&&& & F &
+\begin{array}{ccc|cccccccccccccc}
+A & B & C & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D)] & // & C & \vee & D \\
+\hline
+  &   &   &   &  T &   &   &   T  &      &            &    &     &    &    &   &   F  &  
 \end{array}
 $$
+
 
 When we do this, we're assuming that there is a line on which all of the premises of the argument are true and the conclusion is false. Now, we'll see if that assumption leads to a contradiction. If it does, then there can't be a line like that, and the argument is valid. If it does not lead to a contradiction, then there will be a line like that, and the argument will be invalid.
 
 Now, we'll start filling in what must be true if our assumptions are correct. The first premise is a true conjunction, so both conjuncts must be true.
 
 $$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-& & & & T & T & T & & T  &&&&&&& & F &
+\begin{array}{ccc|cccccccccccccc}
+A & B & C & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D)] & // & C & \vee & D \\
+\hline
+  &   &   & T &  T & T &   &   T  &      &            &    &     &    &    &   &   F  &  
 \end{array}
 $$
+
+
 
 The conclusion is a false disjunction, so both disjuncts must be false.
 
 $$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-& & & & T & T & T & & T  &&&&&&& F & F & F
+\begin{array}{ccc|cccccccccccccc}
+A & B & C & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D)] & // & C & \vee & D \\
+\hline
+  &   &   & T &  T & T &   &   T  &      &            &    &     &    &    &  F &   F  &  F
 \end{array}
 $$
+
 
 Now, we know what A, B, C, and D have to be. Let's transfer those values to the second premise.
 
 $$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-& & & & T & T & T & & T & T & & F &  & F && F & F & F
+\begin{array}{ccc|cccccccccccccc}
+A & B & C & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D)] & // & C & \vee & D \\
+\hline
+  &   &   & T &  T & T &   &   T  &  T &            &   F &     &  F   &    &  F &   F  &  F
 \end{array}
 $$
+
+
 
 Now, we need to finish completing the second premise. We'll start with the disjunction in the antecedent of the conditional.
 
-$$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-& & & & T & T & T & & T & T & & F & F  & F & & F & F & F
-\end{array}
-$$
+
 
 Then, the conditional itself:
 
-$$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-& & & & T & T & T & & T & T & F & F & F  & F & & F & F & F
-\end{array}
-$$
+
 
 Now, we check to see if there were any problems. We're looking for something like a letter that has different truth values, or a false disjunction with a true disjunct. Here, each letter has the same truth value wherever it occurs. We have a conjunction with two true conjunctions, two false disjunctions, both with two false disjuncts, a false conditional with a true antecedent and a false consequent, and a true negation with a false negated sentence. Everything looks fine, which means it *is* possible for the argument to have true premises and a false conclusion, and is definitely invalid. The problem row would be the one where A is true, B is true, C is false, and D is false. That would be row 4 of the entire truth table.
 
 
-$$
-\begin{array}{cccc|ccccccccccccc}
-A & B & C & D & A & \& & B & / & \neg & [A & \rightarrow & (C & \vee & D) & // & C & \vee & D\\
-T & T & F & F & T & T & T & & T & T & F & F & F  & F & & F & F & F
-\end{array}
-$$
+
 
 Let's try another. Here is a classic argument called a constructive dilemma:
 

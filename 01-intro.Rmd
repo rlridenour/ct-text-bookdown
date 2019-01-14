@@ -115,11 +115,8 @@ involves the skilled use of tools. One set of tools will be no surprise;
 they are the tools of logic. Good critical thinkers can
 
 -   Identify arguments in propositional and categorical logic
-
 -   Evaluate arguments using truth tables and Venn diagrams
-
 -   Use the basic rules of probability, and
-
 -   Identify common logical fallacies.
 
 Another set of tools has been provided by cognitive psychologists.
@@ -128,30 +125,21 @@ especially the systematic ways that the mind is misled. So, critical
 thinkers must
 
 -   Understand common cognitive biases,
-
 -   Be aware of the ways that people try to mislead us,
-
 -   Know the situations in which we tend to reason badly.
 
 Finally, I think that it's not enough that critical thinkers understand
 logic. It's not even enough to understand logic and cognitive
 psychology. I think there is a moral, or value component to critical
-thinking as well. Critical thinkers must become certain kinds of people,
-that is we need to acquire certain intellectual virtues. So, we will
+thinking as well. To become a critical thinker is to become a certain  kind of person, a person of  intellectual virtue. So, we will
 discuss the importance and roles of such virtues as
 
 -   Open-mindedness
-
 -   Intellectual courage
-
 -   Intellectual humility
-
 -   Attentiveness
-
 -   Fairness
-
 -   Perseverance
-
 -   Firmness
 
 So, by the end of this book, and by the end of your course, I hope that
