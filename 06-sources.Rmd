@@ -1,0 +1,23 @@
+# Sources of Information
+
+Determining validity is only half of the task of evaluating an argument. As we've seen, a valid argument can still be very bad. Here's a valid argument:
+
+<ul class="list-arg">
+1. If I tossed heads with that coin, then the world will end tomorrow.
+2. <u>I tossed heads with that coin.</u>
+3. The world will end tomorrow.
+</ul>
+
+No one should take this argument to be evidence for an impending apocalypse. 
+
+## Visual Perception
+
+
+## Memory
+
+
+## People
+
+
+
+## The Internet

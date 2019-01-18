@@ -1,0 +1,13 @@
+# Informal Fallacies
+
+A fallacy is a mistake in reasoning. A formal fallacy is a fallacy that can be identified merely by examining the argument's form or using a tool like a truth table. An informal fallacy cannot be detected from the argument's form. There are no foolproof tools for detecting informal fallacies. Unlike validity, these fallacies occur in degrees. There can be legitmate questions about whether a fallacy has been committed.
+
+## Fallacies of Emotion
+
+There are two important uses of language that play an important role in critical thinking. The first is to convey information, or express cognitive content. The premises and the conclusion of an argument all have information content. It is on the basis of the information they convey that we can evaluate them as true or false. Another use of language, however, is to express emotion, which often tends to evoke similar feelings in the audience. The emotions that are expressed by the language is its emotive content. 
+
+Good critical thinkers are persuaded by relevant cognitive content, and are not unduly persuaded by irrelevant emotive content.
+
+### Euphemisms and Dysphemisms
+
+Different words and phrases passages can have the same cognitive content but differ in their emotive content. 
