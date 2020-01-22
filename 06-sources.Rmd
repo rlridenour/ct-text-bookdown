@@ -8,11 +8,34 @@ Determining validity is only half of the task of evaluating an argument. As we'v
 3. The world will end tomorrow.
 </ul>
 
-No one should take this argument to be evidence for an impending apocalypse. 
+No one should take this argument to be evidence for an impending apocalypse. A valid argument is only as good as its premises, and the implausibility of the first premise makes the argument, although valid, unconvincing. In other words, our reasoning is only as good as the information with which we use to reason.
+
+So, good critical thinking requires the ability to determine whether the claims used as premises should be believed. Given the amount of information that bombards us today, we are rarely in a position to directly determine if a claim is true. For example, imagine that a news source reports that a terrorist attack occured in London. I'm not there, so I can't directly verify the claim. So, should I believe it?
+
+We have three options when presented with a claim that is made. We can either accept it as true, reject it as false, or suspend judgment. Now, consider these claims:
+
+1. Either it will rain today or not.
+2. At least 90% of critical thinking students will pass this semester.
+3. The first person to enroll in critical thinking next semester will make an A.
+4. The United States will adopt a universal health care system within five years.
+5. Everyone in critical thinking this semester will both pass the course and not.
+
+I accept both of the first two claims, but not to the same degree. The first claim I accept to a maximal degree, since it cannot possibly be false. I believe the second claim is true, but I have to admit that this early in the semester, I could be wrong.
+
+The third claim could be true, but just as easily could be false. So, I have to admit I don't know whether to accept it or not. I simply suspend judgment.
+
+The fourth claim, I believe, is likely to be false, but, then again, I have to admit that events could surprise me. So, I reject the claim, but not to the same degree as the fourth claim. We should accept claims that are likely to be true and reject claims that are likely to be false. So, how do we determine if a claim is likely to be true or false? Here are some conditions:
+
+1. The plausibility of the claim.
+2. How strongly the claim coheres with other claims we accept as true.
+3. The trustworthiness of the source of the information.
+
+We fail to think critically when we automatically accept claims from unreliable sources and automatically reject claims from reliable sources. So, it is important to know how to evaluate sources of information. Some important sources of information are our senses, memory, other people, and now, the Internet.
 
 ## Visual Perception
 
 
+ 
 ## Memory
 
 
@@ -21,3 +44,7 @@ No one should take this argument to be evidence for an impending apocalypse.
 
 
 ## The Internet
+
+
+
+  
