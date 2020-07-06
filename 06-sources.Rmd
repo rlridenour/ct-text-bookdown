@@ -1,4 +1,6 @@
-# Sources of Information
+# Sense Perception
+
+## Evaluating Sources of Information
 
 Determining validity is only half of the task of evaluating an argument. As we've seen, a valid argument can still be very bad. Here's a valid argument:
 
@@ -30,21 +32,50 @@ The fourth claim, I believe, is likely to be false, but, then again, I have to a
 2. How strongly the claim coheres with other claims we accept as true.
 3. The trustworthiness of the source of the information.
 
-We fail to think critically when we automatically accept claims from unreliable sources and automatically reject claims from reliable sources. So, it is important to know how to evaluate sources of information. Some important sources of information are our senses, memory, other people, and now, the Internet.
+We fail to think critically when we automatically accept claims from unreliable sources and automatically reject claims from reliable sources. So, it is important to know how to evaluate sources of information. Some important sources of information are our senses, memory, other people, and now, the Internet. We will begin by examining human sense perception.
 
-## Visual Perception
+## Don't Take Your Senses For Granted
+
+Computational vision researchers have made some remarkable advances over the last fifty years. Software on your mobile phone can read text and recognize faces fairly well, yet the most powerful computers that we currently have can't keep up with the average two year old toddler. Seeing, smelling, touching, and tasting seem effortless and automatic to us, yet the processes behind those tasks are unbelievably complex. Learning about those processes will help us to understand when they work well and when they sometimes deceive us. We will focus on vision, but many of the issues related to vision apply to the other senses as well.
+
+When we take our senses for granted, we risk making two mistakes. First, we don't appreciate how amazing they are. In what is called a rapid serial visual presentation test (RSVP), test subjects are shown a series of pictures at a rate of about 10 per second. (If you were taking the test, you would have seen about fifty pictures in the time that it took you to read this sentence.) After several repetitions of the series, the test subject is asked to write down what she saw. Even though the images are presented at an unbelievably fast rate, most people can remember almost all of the pictures in the series. Whenever you start to feel disappointed in your abilities, think about this — scientists have not found any information processing systems that can do these operations as fast as your brain. The world's fastest supercomputer just can't keep up with you when doing these complex tasks. Your brain can do some unbelievably complex tasks, and do them amazingly well. That's the good news.
+
+Now, for the bad news... the second mistake we make when we take our senses for granted is to be overconfident in their accuracy. The reason that our brains can do those difficult tasks at the speed that they do is because they receive sensory input, then basically make educated guesses about the world around us. We can demonstrate this with a simple experiment called the blind spot test. Take a blank piece of paper, draw a dot on the left side, and an X on the right. Make them about 4-5 inches apart. Now, hold the paper in your hand and extend your arm in front of you. Cover your left eye, and focus on the dot with your right eye. You should see the X in your peripheral vision. Now, slowly move the paper toward you. At some point, the X will vanish, then reappear as you continue to bring the paper closer to you. 
+
+What has happened? Basically, each eye has a blind spot where the optic nerve attaches to the retina. When you can't see the dot, it's because it is in the blind spot. Why do we not just have a hold in the visual field? Why do we see a solid sheet of paper? It's because the brain makes a guess: it decides that what is in the blind spot is probably like what is in the area around it. Your brain made a guess — a better way to state this it that it made an inference from the data surrounding the blind spot. These inferences are fast, automatic, and outside our conscious awareness. Very often, they are correct, but sometimes, occasionally tragically so, they get it wrong.
+
+## Is What You See What You Get?
+
+The blind spot test tells us that we should be at least a bit skeptical that the way we see things is the way they are. We all can think of times when we "saw" something that wasn't there or failed to see something that was there. The latter is often called selective perception. Some of that selectivity is "hard-wired" into us — we only see light and hear sounds within certain frequency ranges. Dogs, for example, can hear higher pitched sounds than we do. 
+
+Other instances of perceptual selectivity are not simply functions of our physiology, but rather of our beliefs, emotions, desires, etc. Think of the filtering that occurs when you are in a noisy, crowded room. At first, the noise level is very high, and you can't understand anything anyone is saying. Then, after you begin to have a conversation with a particular person, the noise level seems to decrease and you can easily hear the voice of the person with whom you are engaged in conversation. That is, until you hear someone across the room say your name, then the person in front of you might as well just be moving their lips. We hear what we think is important and ignore the rest.
+
+### Constancies and Ambiguities
+
+When you walk closer to your desk, does the desk appear to change size? As you watch someone open a door, does the door appear to change shape? For most of us, the answer would be no. What we see tends to stay the same size and shape. These are called perceptual constancies. The retinal images, hwoever, change. As we approach the desk, the retinal image increases in size, although what we see does not change. As the door swings open, the retinal image goes from rectangular to more trapezoidal. Again, what we see does not change shape.
+
+If we think of the retinal image as input, and the image in our minds as output. Then, perceptual constancies teach us that we can have the same output for different inputs. That is, sameness of input is not necessary for sameness of output.
+
+Ambiguous figures teach us something else, that we can have the same input with different outputs, or that sameness of input is not sufficient for sameness of output. A classic case, one that you are probably familiar with, is called the Necker Cube:
+
+![Necker cube](./images/necker.pdf)
 
 
- 
-## Memory
+The interesting thing about the Necker cube is that we can, at will, change which side of the cube faces front. That is, we can change the way the image looks to us in our minds, although we know that the printed image on the page is not changing. Here, we have same inputs with different outputs. So, sameness of input is not sufficient for sameness of output. That is, the same sensory input does not guarantee that we will see the same thing.
 
 
-## People
+### Perceptual Set
 
+It's particularly interesting when what we see is determined by context, expectations, beliefs, desires etc. These things form what is called the perceptual set. 
 
+Look at this next figure:
 
-## The Internet
+![B or 13?](.images/abc123.pdf)
 
+Here we have an ambiguous figure in the center, which could either be the letter "B" or a "13". You can see how a viewer would report seeing a "B" in one context, and a "13" in another. There's a sense in which what was seen would not change, but how the experience would be interpreted certainly would. There are plenty of more familiar cases of times that our perceptual set affects what we see:
 
+- Have you ever proof-read an essay that you wrote and found no mistakes, just to have a friend look it over and instantly see a host of spelling and typographical errors?
+- Have you ever yelled at a friend that you saw in the distance just to find out that it was a stranger who looked nothing like your friend?
 
-  
+We'll discuss other examples in class. The point is that there are factors that influence the way we see the world. We should always be aware of how much these our influencing us, and careful not to naively trust our senses beyond what they deserve.
+
