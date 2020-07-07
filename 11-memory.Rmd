@@ -1,0 +1,14 @@
+# Memory
+
+In the last chapter, we discussed the potential problems with sense perception as a source of information. In this chapter, we'll do the same for memory. Although the details differ, the main problem with both perception and memory is the same. That is, they are active, not passive. Memory is not like a machine that simply records what happened. Our memory adds new information, fills in the gaps, revises what was remembered, and invents new information. 
+
+## Stages of Memory
+
+There are three stages of memory. The first is the encoding stage; this is the point at which the person had the initial sense perception that is later remembered. So, all of the problems with sense perception are also problems with memory. The second stage is the storage stage, and the final stage is the retrieval stage. Errors can happen at all three stages.
+
+## Retrieval
+
+    There are two important types of retrieval. The first is recall. 
+
+
+
