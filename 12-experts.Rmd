@@ -31,3 +31,11 @@ How does one determine if a person is an expert? What do you think that experts 
 ## Faking Expertise
 
 People tend to listen to experts, so if someone wants to influence others, it is in their best interests to appear to be an expert. Things that give a person an aura of expertise are called halo effects. These can include props, clothing, jargon, and certificates that look like degrees or licenses.
+
+## The Internet
+
+More and more of our information is coming from online sources. These sources should be evaluated in the same ways that we evaluate other sources of information. Online information is often anonymous, however, which means that the source cannot be evaluated for expertise in the usual ways. Some things to consider are:
+
+- Has the site been linked to from a known, reputable site?
+- Was it recommended by someone who is a known expert in the area?
+- Was it cited in some reputable, scholarly source?
