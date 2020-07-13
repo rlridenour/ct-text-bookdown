@@ -8,7 +8,34 @@ There are three stages of memory. The first is the encoding stage; this is the p
 
 ## Retrieval
 
-    There are two important types of retrieval. The first is recall. 
+There are two important types of retrieval. The first is recall. This is what happens in most instances when you are trying to remember something. For example, remembering someone's name, answering an essay question on an exam, and describing what someone looks like are all examples of recall. 
+
+Recognition is when you see the thing you remember and are able to recognize it as the thing remembered. For example, seeing a friend that you haven't seen in years and recognizing her as your friend would be an instance of recognition. Answering a multiple choice question is also recognition. The answer is right there in front of you, all you need to do is recognize it as the answer.
+
+Retrieval is context dependent, state dependent, and mood congruent. Context dependence means that a person will tend to remember information when they are in the same context as when they initially learned that information. For example, students can recall information on a test more easily when they are taking the test in the same room in which they initially learned the information.
+
+State dependence means that information is more likely to be remembered when the subject is in the same psychological state as when the information was initially learned. These states included synthetic states of consciousness induced with certain drugs (as mild as caffeine), or moods.
+
+Mood-congruence means that when in a certain mood, subjects will tend to remember things that match that mood. For example, if a person is feeling depressed, they will tend to remember depressing things, while if happy, they will tend to remember happy things.
+
+## Framing Effects
+
+Another thing that can affect what we remember is the wording of the questions used to prompt the retrieval. This is called the framing effect. In one study, some subjects were asked "How frequently do you have headaches?" The average response was 2.2 headaches per week. Other subjects were asked, "If you have them, how often?" Their responses averaged 0.7 headaches per week. The first question assumes that the subjects have headaches, and their answers reflected that assumption.
+
+## Source Misattribution
+
+Source misattribution occurs when a person can remember some information, but can't remember from whom they got the information. A famous case was Ronald Reagan, who repeatedly told a story about a pilot who heroically went down with his plane in World War II. The scene, though, was actually from a film called _A Wing and a Prayer_.
+
+There are two particular dangers caused by source misattribution. The first is plagiarism. A person might think that the idea is their own, but, in reality, he heard it from another person. The second danger is in believing information to have a higher degree of credibility that it really does. Someone might believe that she learned the information from a credible source, but actually she learned it from someone who she wouldn't really trust.
+
+## Confidence and Accuracy
+
+So, how do we know when a memory is accurate. Unfortunately, there's no easy answer. There are memories that seem to us to be "fuzzy." We're not very confident that those memories are true. On the other hand, there are memories that seem so vivid, that we can say exactly where we were when we initially experienced the event that we remember. Psychologists call such events "flashbulb events," and we tend to have an extreme level of confidence in those memories. It turns out, though, that confidence is not a reliable indicator of accuracy. 
+
+After one such event, a psychologist had the students in a large class write down what they were doing when the event occurred. Later, he contacted them, and had them again write down what they were doing when the event occurred. Only in 1/3 of the cases did their memories of the event match what they wrote immediately after the event. Another 1/3 were wrong in some important details, while the remaining 1/3 were wildly wrong. It is interesting that, when the psychologist showed the initial report to the people who were significantly wrong, they made up a story to justify why the initial thing they wrote was wrong. 
+
+
+
 
 
 

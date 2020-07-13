@@ -1,1 +1,33 @@
-# Experts
+# Other People as Sources of Information
+
+Other people are an important, and inevitable, source of information. We trust our doctors to tell us what is wrong with us when we aren't feeling well. I have to trust my auto mechanic to tell me what is wrong when my car isn't running right. We trust absolute strangers to give us directions when traveling in unfamiliar places. When is it rational to rely on someone else for information? Who should we ask? Who should we _not_ ask?
+
+## Expertise
+
+We should ask the person who is likely to know the answer, that is, the expert. We will define expertise very generally — an expert is someone who knows more about a field than most people do. This does not mean that an expert is always right. Experts are certainly not foolproof. Expertise also comes in degrees. There could be a person that knows more than the average person and another person that knows much more than the average person. The first is an expert, but the second has a higher degree of expertise. The final thing to keep in mind is that expertise is always in a field. If the claim is outside the expert's area of expertise, then there is not reason to think that she knows any more than the average person on the subject.
+
+## Evaluating Claims to Expertise
+
+An argument from expertise has the following structure:
+
+<ul class="list-arg">
+1. Some person, P, is an expert on a subject, S.
+2. C is a claim in S.
+2. <u>P says that C is true.</u>
+3. C is true.
+</ul>
+
+Are such arguments valid? What would it mean if they were? Since valid arguments are such that, if the premises are true, the conclusion must be true. So, in this case, if these arguments from expertise were valid, then anything an expert said that was in her field would have to be true. That would mean, however, that experts were foolproof, which they certainly are not. So, arguments from expertise are invalid. That doesn't mean they are bad, however. Arguments from expertise can be strong inductive arguments. That is, if the premises are true, then the conclusion is likely to be true.
+
+These arguments can fail in several different ways, at least one for each premise:
+
+1. The person who made the claim might not be an expert.
+2. The person might be an expert, but the claim is outside the expert's area of expertise.
+3. The person never made the claim. That is, they have been misquoted, or the quote is taken out of context.
+4. The person might be an expert, the claim might be in their area of expertise, they actually made the claim, but, for some reason, they are biased.
+
+How does one determine if a person is an expert? What do you think that experts have that non-experts lack? Some things that come to mind are education, professional licensing, and experience.
+
+## Faking Expertise
+
+People tend to listen to experts, so if someone wants to influence others, it is in their best interests to appear to be an expert. Things that give a person an aura of expertise are called halo effects. These can include props, clothing, jargon, and certificates that look like degrees or licenses.

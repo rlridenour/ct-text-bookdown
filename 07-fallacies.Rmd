@@ -1,13 +1,274 @@
 # Informal Fallacies
 
-A fallacy is a mistake in reasoning. A formal fallacy is a fallacy that can be identified merely by examining the argument's form or using a tool like a truth table. An informal fallacy cannot be detected from the argument's form. There are no foolproof tools for detecting informal fallacies. Unlike validity, these fallacies occur in degrees. There can be legitmate questions about whether a fallacy has been committed.
+A fallacy is a mistake in reasoning. A formal fallacy is a fallacy that can be identified merely by examining the argument's form or using a tool like a truth table. An informal fallacy cannot be detected from the argument's form. There are no foolproof tools for detecting informal fallacies. Unlike validity, these fallacies can occur in degrees. Sometimes, it is clear that a fallacy has been committed, at other times, there can be legitimate questions about whether a fallacy has been committed.
 
-## Fallacies of Emotion
+## Emotions and Critical Thinking
 
-There are two important uses of language that play an important role in critical thinking. The first is to convey information, or express cognitive content. The premises and the conclusion of an argument all have information content. It is on the basis of the information they convey that we can evaluate them as true or false. Another use of language, however, is to express emotion, which often tends to evoke similar feelings in the audience. The emotions that are expressed by the language is its emotive content. 
+There are two important uses of language that play an important role in critical thinking. The first is to convey information, or what is sometimes called cognitive content. The premises and the conclusion of an argument all have cognitive content. It is on the basis of the information they convey that we can evaluate them as true or false. Another use of language, however, is to express emotion, which often tends to evoke similar feelings in the audience. The emotions that are expressed by the language is its emotive content. 
 
 Good critical thinkers are persuaded by relevant cognitive content, and are not unduly persuaded by irrelevant emotive content.
 
+## Slanters
+
+Slanters are words or phrases that are used to manipulate by using emotive language. Slanters can have both positive and negative connotations. Slanters are types of non-argumentative persuasion. Sometimes, people will use them innocently, maybe because they have passionate feelings about the subject being discussed.  Other time, though, they are used because the speaker knows that he does not have a good argument for his position. They are ways for people to affect the beliefs of others without offering reasons for their positions.
+
 ### Euphemisms and Dysphemisms
 
-Different words and phrases passages can have the same cognitive content but differ in their emotive content. 
+Different words and phrases passages can have the same cognitive content but differ in their emotive content. A euphemism is a positive synonym for some neutral term. A dysphemism is a negative synonym. For example, think of the words that we use to talk about the death of a pet:
+
+- Neutral: euthanize
+- Euphemism: put to sleep
+- Dysphemism: ?
+
+Euphemisms are common in the military and in advertising. Here are some examples:
+
+* Enhanced interrogation methods
+* Collateral damage
+* Depopulated area
+* Pre-owned, Pre-loved
+* Genuine imitation leather
+
+In other cases, a person may use a euphemism when they have been caught doing something wrong, but want to minimize the wrongness of the action. I heard a politician once, who was caught telling a falsehood, admit to having "committed terminological inexactitude."
+
+Dysphemisms convey a negative attitude towards something. Examples of dysphemisms include:
+
+* Snail mail
+* Cancer stick
+* Egghead
+* Worm food
+* Pig
+* Dead tree edition
+
+### Innuendoes
+
+Innuendoes imply something by what is not said. A common scene in crime films has a gangster go into a store and say something like "Nice store you got. It would be a shame if anything happened to it." Notice that he didn't actually say he would damage the store, although he certainly implied it.
+
+Another use of an innuendo is to condemn with faint praise. Imagine receiving a reference letter for a student applying to graduate school. The letter only says that the student was never late to class. The implication is that her punctuality is the best that can be said of her.
+
+Finally, there is the apophasis, which is mentioning something by saying that it won't be mentioned. For example, "I'm not going to talk about your failure to turn assignments in on time."
+
+### Weaselers
+
+A weaseler is a way of qualifying a claim in order to avoid criticism. Weaselers include words and phrases like "perhaps," "there's a good chance that," and "it's possible that." A weaseler that is common in advertising is "up to" — "By using our diet plan, you can lose up to ten pounds in a month." Notice that "up to ten pounds" means "no more than ten pounds." So, if a customer loses no weight at all, then there is no grounds for a lawsuit.
+
+### Downplayers
+
+A downplayer is a way of making something seem less important than it is. The most common downplayers are “mere, merely, and so-called.” A person might say, "That's merely your opinion" to avoid having to respond with facts. A politician might talk about his opponent's "so-called" plan to cut spending, implying that it isn't much of a plan at all. Improper use of quotation marks can also serve as a downplayer.
+
+### Proof surrogate ###
+
+A proof surrogate offers no real support, but just claims that support exists. Examples are using "studies show" without saying what those studies are and where they can be found. Another proof surrogate is just to say that "It’s obvious that....” Doing so implies that proof is simply not needed.
+
+### Hyperbole ###
+
+Hyperbole is an inappropriate or extreme exaggeration. "Taking critical thinking is the most exciting thing you'll do in your whole life!" Since it is an extreme exaggeration, no one will be fooled into believing it, so what's the danger? The danger of hyperbole is that once the exaggeration is made, the listener is then prepared to accept a weaker version of the statement. The weaker version, compared to the extreme exaggeration, sounds more believable.
+
+## Fallacies of Ambiguity and Vagueness
+
+An ambiguous word or phrase is one that has more than one meaning. "Bank" is an ambiguous term, it can refer to a financial institution, a riverbank, a kind of basketball or pool shot, etc. A vague term is one that does not have a precise meaning. That is, there will be cases where a vague term clearly applies, cases in which it clearly does not apply, and cases in the middle where it's just not clear whether it applies. Terms like "rich" and "heap" are vague terms. 
+
+### Equivocation
+
+The fallacy of equivocation is committed by using the same term in two different senses in the same argument. Here is my favorite example:
+
+<ul class="list-arg">
+1. God is love.
+2. Love is blind
+2. <u>Ray Charles is blind.</u>
+3. Ray Charles is God.
+</ul>
+
+There are several things wrong with this argument, one of them is equivocating on "blind." To say that love is blind, is to say that people overlooks the faults of those they love. To say that Ray Charles is blind is to say that he cannot physically see anything, not that he just overlooks things.
+
+### Amphiboly
+
+Amphibolies rely on syntactic ambiguities. Those are ambiguities that result from the arrangement of the words. Church bulletin bloopers are good places to find amphibolies: "The Rev. Adams spoke briefly, much to the delight of his audience."
+
+### Accent
+
+The fallacy of accent is an equivocation resulting from accenting different words in a sentence. Think about the different meanings that are implied from accenting different words in this sentence: "I didn't take the exam yesterday."
+
+### Division and Composition
+
+The last two fallacies of ambiguity are division and composition. The fallacy of division improperly attributes a property of the whole to its parts. The fallacy of division improperly attributes a property of the parts to the whole. Here is an example of division: "That wall weighs more than 500 pounds, so each brick in it weighs more than 500 pounds." A similar example of composition is "Each brick in that wall weighs less than a pound, so the entire wall weighs less than a pound."
+
+Some properties, however, can be attributed from the parts to the whole or the whole to the parts. For example, "Each link in that chain is solid gold, so the whole chain is solid gold."
+
+### Line-Drawing Fallacy
+
+The line-drawing fallacy is a fallacy of vagueness, having the form "Since there is no precise line that can be drawnd between A and not-A, there is no real difference between A and not-A." Example: "Since no one can say where the line should be drawn between legitimate uses of force and excessive uses of force, then no one can honestly claim that any use of force is excessive." 
+
+## Fallacies of Relevance ##
+
+A good critical thinker will offer arguments that have premises that are logically relevant to their conclusions. A fallacy of relevance is committed when the premises of the argument are not logically relevant to the truth of the conclusion. They may be, however, _psychologically_ relevant, so that we can be deceived in thinking that the argument is valid, when in fact it is not.
+
+### Ad Hominem
+
+The Ad Hominem fallacy is committed by attacking the person giving the argument, rather than responding to the argument itself. There are four common types:
+
+#### Personal Attack 
+
+This is also known as an ad hominem abusive. This is committed when one verbally attacks the person giving the argument instead of responding to the argument itself. For example:
+
+Jack: "There are so many unexplored planets out there. Surely, there must be life somewhere out there"
+
+Jill: "You can't be right, you're just a loser who watches too much television."
+
+#### Circumstantial Ad Hominem
+
+A person commits the circumstantial ad hominem by referring to circumstances that discredit the arguer. This is often a charge of bias or vested interest. A person has a vested interest when they stand to gain, financially or otherwise, by something. For example, a doctor has a vested interest in a pharmaceutical study when she owns stock in the company that produces the drug. Bias or vested interest is a good reason to examine an argument carefully, but not a good reason to simply dismiss it.
+
+Jill: John has made an excellent case for increasing the budget of the church's youth program.
+
+Jack: Of course he would say that — he's the youth minister! You can just forget everything he said.
+
+#### Tu Quoque
+
+This is also known as a pseudorefutation. It accuses the arguer of hypocrisy. Example: "Don't tell me I shouldn't start smoking. I know how many packs a day you inhale!"
+
+A person's behavior may very well be inconsistent with their argument, but that doesn't mean that the argument is bad.
+
+#### Poisoning the Well
+
+Poisoning the well is an ad hominem committed before the arguer has spoken. The goal is to provide harmful information about the speaker to preemptively discredit anything that the speaker might say. Any of the previous examples can be turned into examples of poisoning the well. For example: "John is about make his case for increasing the church's youth budget. Don't pay any attention to him — he's the youth minister, what else would he say?"
+
+### Appeal to Force
+
+The appeal to force, also called scare tactics, is a threat, either explicit or implicit. For example, imagine a student saying to a professor, “I deserve an A because my father is a major donor to this university and a very good friend of the dean.” The appeal to force tries to instill fear in the listener, and to be fallacious, the fear must be irrelevant to the truth of the claim.  These are common in both advertising and politics. An example of an appeal to force in advertising would be an ad for a Medicare supplement policy with an elderly woman weeping in front of a pile of unpaid bills. The advertisement works by making the viewer afraid of ending up like the person in the commercial.
+
+### Appeal to Pity
+
+The appeal to pity is like the appeal to force, except that the goal is to evoke pity, not fear. For example: “I deserve an A because my mother is very ill, and I had to spend most of my time caring for her this semester.”
+
+
+### Popular Appeal
+
+This is also called appeal to the people. Here, the goal is to use the desire to be loved, admired, accepted, etc. to get others to accept the conclusion. Two important types are the bandwagon fallacy and the appeal to vanity.
+
+#### Bandwagon
+
+The bandwagon fallacy tells the listener that since everyone does, or believes, something, then they should too.
+
+Example: "Everyone supports Smith for president. You need to get with the program and support him too!"
+
+#### Appeal to Vanity
+
+This is a claim that you will be admired if you do this. Unlike bandwagon, which claims that everyone does this, the appeal to vanity is usually about something that not everyone can do or have.
+
+Example: "Wear a Rolex — that way everyone will know that you're not just somebody."
+
+### Appeal to Ignorance
+	 Concluding that since something has never been proved true (false), it must be false (true). Example: "No one has ever proved that there are no extra-terrestrial beings visiting us on earth, so there must be some here." In order for this to be a fallacy, the burden of proof must be placed on the wrong side.
+	 
+#### Burden of Proof
+
+On most issues, one side will have the burden of proof. That means that if that side fails to make its case, then the other side wins by default. There are two standard rules for determining burden of proof:
+
+1. Especially for existence claims, the side making the positive case has the burden of proof.
+2. The side making the more implausible claim has the burden of proof.
+
+Sometimes, these conditions can conflict.  Here is an example:
+
+Jill: Surely, there are species of insects that we have not yet discovered.
+
+Jack: I don't think that's true.
+
+Who has the burden of proof? Jill is making a positive existence claim, but it is one that very plausible. That makes Jack's claim very implausible. In this case, I'd say that Jack has the burden of proof.
+
+#### The Law
+
+One area where these rules do not apply is the American legal system. There, the prosecution _always_ has the burden of proof. That is, if the prosecution fails to make its case against the defendant, then the defense wins.
+
+Burden of proof should not be confused with standard of proof. Burden of proof is concerned with who needs to make their case. Standard of proof is concerned with how strong a case needs to be made. There are four different levels of standard of proof in the law:
+
+1. Beyond a reasonable doubt
+2. Clear and convincing evidence
+3. Preponderance of evidence
+4. Probable cause
+
+Criminal cases use the highest standard of proof, which is "beyond a reasonable doubt." This is a high degree of probability. It does not mean that no doubt at all is possible, but that any doubt, given the evidence, would be unreasonable. The next two level are used in civil cases. Most civil cases are tried at the "preponderance of evidence" level. This means that, given the evidence, it is more likely that the defendant is liable than not. Clear and convincing evidence is a standard of proof between preponderance of evidence and beyond a reasonable doubt. It is used in civil cases that involve the potential loss of important rights or interests, such as the termination of potential rights. The lowest standard of proof is probable cause. This is used to determine if a search or arrest is warranted, and also used by grand juries to issue indictments.
+
+### Straw Man
+The straw man fallacy Distorts a position so that it can be easily attacked. It does not address the actual view held by the opponent, but responds to a weaker version. It is often committed by making the conclusion of an argument more extreme than it actually is, since extreme views are often easy to attack. 
+
+Example: "Senator Snodgrass has argued that there be a mandatory waiting period before any handgun purchase. Obviously, the senator wants to make all firearm ownership illegal."
+  
+Here some subtle ways of committing the fallacy:
+
+- Taking words out of context.
+- Treating extreme views as representative.
+- Criticizing early versions of a position.
+- Criticizing deliberately simplified versions of a position.
+
+### Red Herring
+
+The goal of the red herring fallacy is to lead the opponent off the track, by subtly changing the issue being discussed. The arguer changes the subject to a different but related one. To determine if something is a red herring, ask yourself if the issue at the beginning of the argument is the same as the issue at the end. Here is an example: 
+
+>The American Cancer Society has argued that smoking is bad for your health. Many people in the Southeastern United States are dependent upon the tobacco industry for their jobs. Making smoking illegal would have a devastating economic effect on many states. Therefore, the ACS is simply wrong.
+
+Notice the original isse is whether smoking has bad health consequences. By the end of the paragraph, the issue has been changed to the economic impact of making smoking illegal.
+
+### Horse Laugh
+
+This occurs when someone simply ridicules the position held, and offers no real response to the argument at all. For example: "Mr. Jones has argued that watching television is emotionally unhealthy. If you believe that, then I've got a great deal on some swampland for you."
+
+
+## Fallacies of Unwarranted Assumptions ##
+
+
+### Begging the Question
+
+An argument begs the question if it is impossible to believe at least one of the premises unless one already believes the conclusion. Note that if this is the case, then the premises cannot serve as reasons to believe the conclusion, since believing the premises requires already believing the conclusion. There are three common types of arguments that beg the question.
+
+The first is a circular argument. That occurs when one explicitly uses the conclusion as support for one of the premises. Here is an example:
+
+<ul class="list-arg">
+1. The Bible says that God exists.
+2. <u>The Bible is the inspired word of God.</u>
+3. God exists.
+</ul>
+
+The Bible can't be the inspired word of God unless God exists, so the argument begs the question.
+
+Another type of argument that begs the question is one that simply rephrases the conclusion and uses it as a premise. Example: "If such actions were not illegal, then they would not be prohibited by the law." In this case, the conclusion is synonymous with one of the premises.
+
+The last type is one that generalizes the conclusion and uses the generalized rule as a premise. Example: "Spanking children is wrong because corporal punishment is wrong."
+
+### Appeal to Authority
+
+The fallacy of appeal to authority is committed by using an pseudo-authority to support a claim. Note that it is not committed by merely appealing to an authority, but by appealing to an unqualified authority. Always ask, "Should this person know more about this subject than the average person?"
+
+### Loaded Question
+
+A loaded question suggests something with the question. "Whem will you stop cheating on exams?" is a loaded question, the question implies that the person is cheating. Notice that there is no way to directly answer the question without admitting to cheating on exams. 
+
+### False Dilemma
+This is sometimes called the either-or fallacy. This happens when a person asserts a disjunction, a sentence of the form "either _A_ or _B_,  when there is at least one more option that is true. Disjunctions are true whenever at least one of the disjuncts, the sentences joined by the 'or', are true. A False dilemma asserts that one of the two sentences must be true when there is really a third alternative. Here are some examples:
+
+"Either buy our personal financial guide or never have control of your finances." 
+  
+Child to parent: "Either let me go to the party or I'll just die."
+
+False dilemmas are often expressed in pithy slogans on bumper stickers: "It's my way or the highway" or "America, love it or leave it."
+
+Consider this example: "My opponent voted against the public schools spending bill. He must think educating our children is not important." The claim is that either one votes for the bill or one believes that education is not important. This is a false dilemma since there may be many other reasons to vote against a particular bill.
+
+It's important to remember that a disjunction can be expressed as a conditional: "Either let me go to that party or I'll die" is equivalent to "If you don't let me go to that party, then I'll die." In general, P or Q is equivalent to if not-P then Q.
+
+### Slippery Slope
+
+Slippery slopes rest a conclusion on a chain reaction that is not likely to occur. They generally have this form:
+
+<ul class="list-arg">
+1. $A → B$
+2. $B → C$
+3. $C → D$
+2. <u>D is bad.</u>
+3. A is bad.
+</ul>
+
+In order for this to be a fallacy, at least one of the conditional statements in the premises must not be likely to be true. Here's an example: "If I fail this test, then I will fail the course. If I fail the course, then I'll be expelled from school. If I'm expelled from school, then I'll never be able to have a good job. If I can't get a good job, then I can't support a family..."
+
+To test for a slippery slope, just ask, are there any weak links in this chain of conditionals? Is it really the case that one failed exam will result in an F for a course grade? 
+
+
