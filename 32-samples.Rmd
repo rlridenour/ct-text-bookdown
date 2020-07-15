@@ -1,1 +1,136 @@
-# Sampling
+# Inductive Arguments
+
+The goal of an inductive argument is not to guarantee the truth of the conclusion, but to show that the conclusion is probably true. Three important kinds of inductive arguments are
+
+- Inductive generalizations,
+- Arguments from analogy, and
+- Inferences to the best explanation.
+
+## Inductive Generalizations
+
+Sometimes, we want to know something about some group, but we don't have access to the entire group. This may be because the group is too large, we can't reach some members of the group, etc. So, we instead study a subset of that group. Then, we infer that the entire group is probably like the subset. The group we are interested in is called the population, and the observed subset of the population is called the sample. 
+
+Imagine that I wanted to know the level of current student satisfaction with access to administration at the university. I would probably survey students to get this information. The population would be students currently enrolled at the university, and the sample would be students who were surveyed. The sample is guaranteed to be a subset of the population, since, even if I give every student a chance to take the survey, we know that not all students will participate. Some students will return the survey, giving me an answer for the sample. I then conclude that the answer for the population is about what it is for the sample.
+
+There are some terms that are important to know when dealing with data values. The mean is the mathematical average. To find the mean, add up all the values of the data points and divide by the number of data points. For example, the mean of 1, 2, 3, 5, 9 is 4. The median is the value that is in the center, such that half of the numbers are less than it and have are greater. In this case, the median is 3. The mode is the value that occurs most often. The mode of 1, 2, 4, 2, 7, 2 is 2.
+
+Another thing that is important to keep in mind is how spread out the values are. The average annual temperature in Oklahoma City is about the same as the average annual temperature in San Diego, leading one to conclude that the two cities have about the same comfort level. The difference is that the average monthly highs and lows range from 45 to 76 in San Diego and 29 to 94 in Oklahoma City. Three ways to talk about data dispersal are
+
+- Range: the distance between the greatest and the smallest value,
+- Percentile rank: the percentage of values that fall below some value, and 
+- Standard deviation: how closely things are grouped the mean. 
+
+### Random Samples
+
+In an inductive generalization, the premises will be claims about the sample, and the conclusion will be a claim about the population. Although such arguments are not valid, they can be inductively strong if the sample is good. Good samples are first, not too small, and second, not biased. The ideal sample is representative, which means that it matches the population in every respect. Of course, reasoning from a representative sample to a population would always be perfect, since they would be, except for size, mirror images of each other. Unfortunately, there is no way to guarantee that a sample is representative, nor is there any way, presumably, to know that a sample is representative. To know that our sample was representative, we would already have to know everything about the population. If that were the case, what's the use taking a sample?
+
+Since we can't do anything to guarantee a representative sample, our best way to ensure our sample is not biased is for it to be random. A random sample is one such that every member of the population had an equal chance of being included in the sample. Randomness is very difficult to achieve in practice. For example, if I send out an email invitation to participate in the university survey, it looks like every student has an equal chance of being included in the sample. Actually, though, there are several groups that are guaranteed to not be included: students who have forgotten their email password, students who don't check email, students who don't really care, etc. Even if I have a truly random sample, it is still possible for it to be a biased sample. This is called random sampling error. Random samples, though, are less likely to be biased than non-random samples.
+
+### Margins of Error
+
+The other feature of a good sample is that it needs to be big enough. How big is big enough? It often depends on what we want to know and the result that we get from the sample. This is because of something called the margin of error. Let's assume that I have a random sample from a population. I get a value from the population, and I can be pretty confident that the value in the population is within the margin of error from the value in the sample. How confident? It depends on how big the margin of error is.
+
+Does this sound confusing? It's really not. Imagine that a friend is coming to visit you at your home on Monday. You, wanting to be prepared, asked her when she would arrive. Here are some possible responses that she might give:
+
+1. "Exactly 9:00"
+2. "About 9:00"
+3. "Sometime Monday morning"
+4. "Sometime on Monday"
+
+Now, which of these can you be most confident is true? It's easy to see that the first is the one in which we should be the least confident, and the fourth is one in which we should be the most confident. The first is very precise, and then the answers become increasingly more vague, and thus more likely to be true. Margins of error function the same way. The greater the margin of error, the more vague the claim. The more vague the claim, the greater the likelihood of being true.
+
+There is a trade-off, though. Your friend could tell you that she will be there sometime this year. That's very likely to be true, but not very helpful, because it's so imprecise. The trade-off is between precision and likelihood. The more precise the claim, the less likely it is to be true. What we need to find is the best balance between the two.
+
+For inductive generalizations, precision is a function of the margin of error. Likelihood is expressed by something called the confidence level. The confidence level of a study is a measure of how confident we can be that the right answer in the population is within the margin of error of the value in the sample. Here is a chart with confidence levels and their respective margins of error, expressed in standard deviations (SD).
+
+| Margin of Error | Confidence Level |
+| :---            |             :--- |
+| 1 SD            |              67% |
+| 2 SD            |              95% |
+| 3 SD            |              99% |
+
+So, if my margin of error is $\pm 1$ standard deviation, then I can be 67% confident that the value in the population is within that margin of error. If I increase the margin of error by another standard deviation, my confidence level leaps a whole 32% from 67% to 95%. Increasing it by another margin of error only gives me an additional 4% confidence level. So, the best balance between likelihood and precision seems to be at the 95% confidence level, and most, if not almost all, studies are done at the 95% confidence level.
+
+The margin of error is a function of the sample size. As the sample size gets larger, the margin of error gets smaller. Statisticians use complicated formulas to calculate standard deviations and margins of error. If the population is very large, though, we can estimate them fairly simply:
+$1 SD = \frac{1}{2 \times \sqrt{N}}$, where $N$ is the sample size. So, at the 95% confidence level, the margin of error is $\frac{1}{\sqrt{N}}. This gives us the following margins of error for a few, easy to calculate, sample sizes:
+
+
+| Sample Size | Margin of Error |
+| :---        | :---            |
+|         100 | $\pm 10$        |
+|         400 | $\pm 5$         |
+|      10,000 | $\pm 1$         |
+
+Remember when I said that how large a sample needs to be depended on what we wanted to know and the result we got from the sample? Now, that should make more sense. Let's say you were conducting a survey to determine which of two candidates were going to win an upcoming election. You somehow managed to get a random sample of 100, 70% of whom were going to vote for candidate A. So, you conclude that between 60% and 80% of the population were going to vote for candidate A. Since your range does not overlap the 50% mark, you rightfully conclude that candidate A will win. Now, had 55% of your sample intended to vote for candidate A, you could only infer that between 45% and 65% of the population intended to vote for that candidate. To conclude something definite, you will need to shrink the margin of error, which means that you'll need to increase your sample size.
+
+### Bad Samples
+
+Since a good sample is unbiased and large enough, there are two ways for samples to be bad. Generalizing from sample that is too small is called committing the fallacy of hasty generalization. Here are some examples of hasty generalizations:
+
+1. I've been to two restaurants in this city and they were both bad. There's nowhere good to eat here.
+2. Who says smoking is bad for you? My grandfather smoked a pack a day and live to be 100!
+
+Cases like the second example are often called fallacies of anecdotal evidence. This happens when evidence is rejected because of a few first-hand examples. (I know someone who had a friend who...)
+
+We're often not very aware of the need for large enough samples. For example, consider this question:
+
+A city has two hospitals, one large and one small. On average, 6 babies are born a day in the small hospital, while 45 are born a day in the large hospital. Which hospital is likely to have more days per year when over 70% of the babies born are boys?
+
+1. The large hospital
+2. The small hospital
+3. Neither, they would be about the same.
+
+The answer is "the small hospital." Think of this as a sampling problem. Overall, in the world, the number of boys born and girls born is roughly the same.[^1] A larger sample is more likely to be close to the actual value than a smaller sample, so the small hospital is more likely to have more days when the births are skewed one way or another.
+
+We'll call drawing a conclusion from a biased sample the fallacy of biased generalization.[^2] Imagine a study in which 1,000 different households were randomly chosen to be called and asked about the importance of regular church attendance. The result was that only 15% of the families surveyed said that regular church attendance was important. On the surface, it seems that a study like this would be good — it's certainly large enough and the families were chose randomly. Let's imagine that the phone calls were made between 11:00 and 12:00 on Sunday morning? Would that make a difference? 
+
+The classic example is the 1936 U.S. presidential election, in which Alfred Landon, the Republican governor of Kansas, ran against the incumbent, Franklin D. Roosevelt. _The Literary Digest_ conducted one of the largest and most expensive pools ever done. They used every telephone directory in the country, lists of magazine subscribers, and membership rosters of clubs and associations to create a mailing list of 10 million names. Everyone on the list was sent a mock ballot that they were asked to complete and return to the magazine. The editors of the magazine expressed great confidence that they would get accurate results, saying, in their August 22 issue,
+
+>Once again, [we are] asking more than ten million voters -- one out of four, representing every county in the United States -- to settle November's election in October.
+
+>Next week, the first answers from these ten million will begin the incoming tide of marked ballots, to be triple-checked, verified, five-times cross-classified and totaled. When the last figure has been totted and checked, if past experience is a criterion, the country will know to within a fraction of 1 percent the actual popular vote of forty million [voters].
+
+2.4 million people returned the survey and the magazine predicted that Landon would get 57% of the vote to Roosevelt's 43%.
+
+The election was a landslide victory for Roosevelt. He got 62% of the vote Landon's 38%. What went wrong?
+
+The problem wasn't the size of the sample, although only 24% of the surveys were returned, 2.4 million is certainly large enough for an accurate result. There were two problems. The first was that 1936 was the end of the Great Depression. Telephones, magazine subscriptions, and club memberships, were all luxuries. So, the list that the magazine generated was biased to upper and middle-class voters. 
+
+The second problem was that the survey was self-selected. In a self-selected survey, it is the respondents who decide if they will be included in the sample. Only those who care enough to respond are included. Local news stations often do self-selected surveys. They will ask a question during the broadcast, then have two numbers to dial, one for "Yes" and another for "No." There's never a number for "Don't really care," because those people wouldn't bother calling in anyway. The 1936 survey failed to include people who didn't care enough to respond to the survey, but they very well might have cared enough to vote.
+
+### Bad Polls
+
+Good surveys are notoriously difficult to construct. There are a number of ways that surveys can be self selected — think of what you do when you see someone standing in the mall holding a clipboard. Caller ID now makes telephone surveys self-selected. If your caller ID read, "ABC Survey Company", would you answer the phone?
+
+Today, telephone surveys are almost guaranteed to be biased. Most telephone surveys are conducted by calling traditional "landline" phones, not mobile phones. More and more, though, people are rejecting such phones in favor of only having mobile phones. So, by having a telephone survey, pollsters are limiting their responses to mostly older generations.
+
+Another example of a bad poll is the push-poll. Here, the goal is not to pull information from the sample, but to push information to the people in the sample. A few years ago, I received a call from the National Rifle Association today. A recorded message from the NRA Executive Vice-President concerning the U.N. Small Arms Treaty was followed by the following single question survey:
+
+>Do you think it’s OK for the U.N. to be on our soil attacking our gun rights?
+
+I was instructed to press “1” if I did not think was OK for the U.N. to be on our soil attacking our gun rights. That was followed by a repeat instruction to press “1” if I did not think it was OK. I was then instructed to press "2" if I did think was OK for the U.N. to attack our gun rights. (Note that I was only given that instruction once.)
+
+This survey was a classic example of a push-poll. It was designed simply to push a message out to the population. This is evident from the question. What useful information do we expect to gain from asking people if they think it’s OK for the U.N to attack our gun rights. Do we really not know how people will answer that question? It’s no different from my polling my students to find out if they would like to get out of class early. As far as information gathering goes, it’s a complete waste of time and money. For propaganda pushing, on the other hand, it’s very effective.
+
+This is also a good example of a slanted question. When I looked up the purpose of the U.N. Small Arms Treaty, it's stated purpose was to keep firearms out of the hands of terrorists. If the question had been, "Do you think it’s OK that the U.N. negotiate a treaty designed to prevent guns from falling into the hands of terrorists?", I would expect a very different result.
+
+One reason it is very difficult to construct good surveys is because of order effects. The order that questions appear in affects how people will respond to them. A study conducted a survey that included these two questions:
+
+1. Should U.S. allow reporters from a fundamentalist country like Iraq come here and send back reports of the news as they see it to their country?
+2. Should an Islamic Fundamentalist country like Iraq let US news reporters come in and send back reports of the news as they see it to the US?
+
+When question 1 was asked first, 55% of respondents said yes. When question 1 was asked second, however, 75% of the respondents answered yes. What seems to happen here is a basic commitment to fairness. Once I have already said that other countries should let in our reporters, then there's no fair reason for me not to allow their reporters into my country.
+
+To summarize, here is a list of bad polls:
+
+- Self-selected
+- Ignore order effects
+- slanted questions
+- push polls
+- loaded questions
+
+
+
+[^1]: There are slightly more boys born than girls. Worldwide, the ratio of boys to girls is 107:100. This is partially explained by sex-selective abortion in countries where sons are more desired than daughters. If we eliminate those cases, the ration is still 105:100.
+
+[^2]: There is no general agreement on this. Sometime "hasty generalization" is used for both. I think it's useful to have two terms to distinguish the two different errors.

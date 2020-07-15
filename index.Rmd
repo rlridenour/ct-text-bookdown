@@ -26,7 +26,7 @@ There are many good textbooks for critical thinking on the market today, so why 
 [^hypocrisy]: As a wise man once said, every person has to decide for themselves what level of hypocrisy they're willing to live with.
 
 The book is written in [R Markdown](https://rmarkdown.rstudio.com) with the [R bookdown](https://bookdown.org) package, and published on [R Studio Connect](https://www.rstudio.com/products/connect/). 
-There is a link at the top of the page to download a PDF version of the text. If you do that, keep in mind that there will be formatting errors. The process that I am using to produce this book  
+There is a link at the top of the page to download a PDF version of the text. If you do that, keep in mind that there will be formatting errors. 
 
 Warning: if you are looking for the perfect book on critical thinking, this will not be it. For various reasons, this text is likely to always be a work in progress. I can promise, though, that it will be worth as least as much as you paid for it.
 

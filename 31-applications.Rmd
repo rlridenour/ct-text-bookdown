@@ -1,1 +1,68 @@
 # Applying Probabilities
+
+## What Do They Mean?
+
+In the last chapter, we defined simple probabilities as the number of favorable outcomes divided by the number of total possible outcomes. This is called the _Classical Theory_ of probability. This works only when all cases are equally probable, as in drawing cards, throwing dice, tossing coins, and so on. There are other cases, though, for which the classical theory seems to fail. For example, what's the probability that the Democratic candidate will beat the Republican candidate in the U.S. Presidential election in 2020, or what's the probability that I will live to at least age 90? For these, we have two other ways of assessing simple probabilities.
+
+The first is the frequency method. On the frequency method, a simple probability is the number of favorable observed outcomes divided by total observed outcomes. To determine the probability that I will leave at least to age 90, take a large group of people that are a lot like me, and determine what percentage of them lived at least to 90.
+
+The second alternate method is to use degrees of confidence.[^1] On this account, the simple probability is determined by the level of confidence you have that the event will occur. No matter which method is used, however, the rules governing complex probabilities are all the same.
+
+
+
+[^1]: This is sometimes called "degrees of belief." I prefer degrees of confidence, since it seems to me that one either believes something or not, but can have different levels of confidence in those beliefs.
+
+## Expected Value
+
+It should be obvious that, when it comes to making decisions, it's important to know the probabilities involved. Is there any other information required? Think about it this way, would you ever make a bet that you were almost certain to lose? When I ask that question, most people say no. What if some offered you this wager: they pick a number between 1 and 1,000,000. If you guess it correctly, you win; otherwise, you lose. The probability of winning is $\frac{1}{1,000,000}$, so you are almost certain to lose. However, if you win, you win 10,000,000 dollars, and if you lose, you lose 1 cent. Now, everyone I ask is willing to take this bet.
+
+So, it helps to know the probabilities when making good decisions, but it also helps to know the costs and benefits. This obviously applies to gambling situations. Imagine a dice game, in which you roll a single die. If you get a six, you win 6 dollars. If you get anything else, you pay 1 dollar. If you remember from the last chapter, we know that we can determine if the bet is fair by converting the probability of winning into odds. Here, the probability of winning is $\frac{1}{6}$, which is equal to odds of $\frac{1}{5}$. So, a fair one dollar bet should pay 5 dollars. Since it pays 6, a winning player will be paid more than she deserves. There is a simple formula that lets us determine expected value, what one should expect to gain or lose from a decision. It is
+
+$$EV  = \Pr (Success) \times Payoff + \Pr (Failure) \times Cost$$
+
+In this case, the probability of success is $\frac{1}{6}$, the payoff is 6 dollars, the probability of failure is $\frac{5}{6}$, and the cost is 1 dollar. So,
+
+$$EV = \frac{1}{6} \times 6 + \frac{5}{6} \times -1 = 1 - \frac{5}{6} = \frac{1}{6}$$
+
+That is, when playing this game, you should expect to come out ahead $\frac{1}{6}$ of a dollar, or nearly 17 cents, each time you plan. Obviously, no casino will offer a game like this.
+
+There are other, non-gambling, applications for expected value. Some standardized exams discourage guessing by assessing a penalty for every wrong answer. So, imagine you are taking such an exam, and you come to question 32, a multiple choice question with four options. You have no idea which is correct, and would have to guess. If you guess correctly, you get one point, if you guess incorrectly, you lose $\frac{5}{12} of a point. Should you guess? It depends on the expected value.
+
+$$ EV = \frac{1/4} \times 1 + \frac{3}{4} \times -\frac{5}{12} = -\frac{3}{48}$$
+
+Since, the expected value is negative, guessing is not in your best interests. Now, imagine that on the next question, you still don't know which option is correct, but you know that it can't be the first one. The payoffs are the same, but the probabilities have now changed.
+
+$$ EV = \frac{1/3} \times 1 + \frac{2}{3} \times -\frac{5}{12} = -\frac{3}{48} = \frac{1}{18}$$
+
+Now, the expected value is positive, and guessing pays.
+
+## Four Common Mistakes
+
+### The Gambler's Fallacy
+
+The gambler's fallacy is committed when a person treats independent things as if they were dependent. When flipping a coin, each toss is independent — the coin can't remember what happened on the previous tosses. If a person tossed twenty heads in row, though, it's natural to think that the next toss is more likely to be tails, since it's very unlikely to get 21 tails in a row. The probability of getting tails on the 21st toss is the same as getting tails on the first toss, 0.5. 
+
+### The Conjunction Fallacy
+
+The conjunction fallacy is judging a conjunction to be more probable than its conjuncts. Here is a common experiment used to demonstrate the conjunction fallacy:
+
+>Susan is 27 years old, and very intelligent. She majored in philosophy at the University of California, Berkeley. There, she was active in many different political, conservation, and justice issues. Which of the following is more likely?
+>
+>A: Susan is a bank teller.
+>B: Susan is a bank teller and a feminist activist.
+
+The answer is A, although people are inclined to answer B. Here is one way to think about these questions, every time you add another condition that must be met, the probability of meeting all of those conditions goes down (assuming the probability is not 1). Imagine that the probability of Susan being a bank teller is $\frac{1}{100}$ and the probability of her being a feminist activist is $\frac{9}{10}. The probability of her being both, assuming they are independent, is $\frac{9}{1,000}, which is lower than $\frac{1}{100}$.
+
+### Failure and Success
+
+People seem to have a strong tendency to overestimate the probability of success and underestimate the probability of failure. Consider a complex system that has many different subsystems. In order for the entire system to work, each subsystem has to work. This can be represented as a conjunction: $S₁ \& S₂ \& S₃ \&$.... Failure requires only the failure of one of those subsystem, now represented as a disjunction: $S₁ \vee S₂ \vee S₃ \vee$.... With each additional conjunct, the probability of the conjunction goes down, but with each additional disjunct, the probability of the disjunction goes up. This also applies to anything that occurs repeatedly; for example, the probability of having an accident sometime during your commute over the years.
+
+### Regression to the Mean
+
+In 1953, the University of Oklahoma lost its opening game to Notre Dame, tied the next game wit Pittsburgh, then began a remarkable winning streak that continued for the next four seasons. In November of 1957, the team was featured on the cover of _Sports Illustrated_, with the title "Why Oklahoma is Umbeatable." Just a few days after the magazine cover was printed, and before the actual date of that particular issue, Oklahoma lost to Notre Dame. This began something that has come to be known as the _Sports Illustrated_ curse. Apparently, after athletes get their pictures on the cover of the magazine, they are doomed to a bad season or poor performance.
+
+There is some truth to this, but it's probably not a curse. Athletes are featured on the cover when they are having better than average performances, and it's no surprise that a better than average series is followed by a below average series. That is, for any series that has variation, some parts of the series will be above the average and others below the average. The above average parts will be followed by below average parts to bring the whole back to the average. This is called regression to the mean.
+
+This makes it difficult to predict future performance when we just have one encounter with a person. Imagine that you are interviewing two candidates for a position in your company. One candidate has an exceptional performance and the other has a lackluster performance. Who do you hire? Could it be the case that the first is having an above average day and the second a below average day? It would be natural to hire the first, but it would be also natural to expect some regression to the mean.
+
+Regression to the mean also makes it difficult to assess the effectiveness of policies. If a city were to have a period with higher than average rates of crime, it would be natural for citizens to demand that the mayor take action. Unsurprisingly, after initiating curfews, hiring more police officers, and instituting neighborhood watch programs, the crime rate goes down. Did it go down because of the policies, or was it simply regression to the mean? It's difficult to say.
