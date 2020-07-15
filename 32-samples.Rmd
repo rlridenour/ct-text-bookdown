@@ -80,9 +80,9 @@ A city has two hospitals, one large and one small. On average, 6 babies are born
 2. The small hospital
 3. Neither, they would be about the same.
 
-The answer is "the small hospital." Think of this as a sampling problem. Overall, in the world, the number of boys born and girls born is roughly the same.[^1] A larger sample is more likely to be close to the actual value than a smaller sample, so the small hospital is more likely to have more days when the births are skewed one way or another.
+The answer is "the small hospital." Think of this as a sampling problem. Overall, in the world, the number of boys born and girls born is roughly the same.[^boysgirls] A larger sample is more likely to be close to the actual value than a smaller sample, so the small hospital is more likely to have more days when the births are skewed one way or another.
 
-We'll call drawing a conclusion from a biased sample the fallacy of biased generalization.[^2] Imagine a study in which 1,000 different households were randomly chosen to be called and asked about the importance of regular church attendance. The result was that only 15% of the families surveyed said that regular church attendance was important. On the surface, it seems that a study like this would be good — it's certainly large enough and the families were chose randomly. Let's imagine that the phone calls were made between 11:00 and 12:00 on Sunday morning? Would that make a difference? 
+We'll call drawing a conclusion from a biased sample the fallacy of biased generalization.[^hastygen] Imagine a study in which 1,000 different households were randomly chosen to be called and asked about the importance of regular church attendance. The result was that only 15% of the families surveyed said that regular church attendance was important. On the surface, it seems that a study like this would be good — it's certainly large enough and the families were chose randomly. Let's imagine that the phone calls were made between 11:00 and 12:00 on Sunday morning? Would that make a difference? 
 
 The classic example is the 1936 U.S. presidential election, in which Alfred Landon, the Republican governor of Kansas, ran against the incumbent, Franklin D. Roosevelt. _The Literary Digest_ conducted one of the largest and most expensive pools ever done. They used every telephone directory in the country, lists of magazine subscribers, and membership rosters of clubs and associations to create a mailing list of 10 million names. Everyone on the list was sent a mock ballot that they were asked to complete and return to the magazine. The editors of the magazine expressed great confidence that they would get accurate results, saying, in their August 22 issue,
 
@@ -129,8 +129,47 @@ To summarize, here is a list of bad polls:
 - push polls
 - loaded questions
 
+## Arguments from Analogy
+
+Another common type of inductive argument is the argument from analogy. Let's say that you are shopping for a car, so that you can have transportation to school, work, and so on. Since it's important that you get to the places on time, you need to buy a reliable car. You find a good deal on a 2013 Honda Civic, but how do you know that it will be reliable? One way to judge reliability is to look at reliability reports from owners of other 2013 Honda Civics. The more cases in which they reported that their cars were reliable, the more you can conclude that yours will be also.
+
+With inductive generalizations, we were reasoning from a sample to a population. Arguments from analogy reason from a sample to another individual member of the population, called the target. The members of the sample have a number of properties in common; they are all Honda Civics made in 2013. They also have another property in common that we will call the property in question, in this case, reliability. Our target has all of the other properties, so it probably also have the property in question. The more similar our target is to the sample in some respects, the more similiar it is likely to be in other respects. Here is the basic structure:
+
+<ul class="list-arg">
+1. members of s have properties $P₁… Pₙ$ and $P_Q$. 
+2. <u>The target has $P₁… Pₙ$.</u>
+3. The target probably also has $P_Q$
+</ul>
+
+These arguments are weak when 
+
+1. The similarities stated aren't relevant to the property in question. (In our example, the color of the car would not be relevant to its reliability.)
+2. There are relevant dissimilarities. (If all the members of the sample had excellent maintenance records, but our target had very poor maintenance, then we wouldn't expect the target to be reliable just because the members of the sample were.)
+3. There are instances of the sample that do not have the property in question. (The more 2013 Honda Civics we find that are unreliable, the weaker the argument becomes.)
+
+So, the arguments are stronger when there are
+
+1. More relevant similarities,
+2. Fewer relevant dissimilarities, and
+3. Fewer known instances of things that have the shared properties but lack the property in question.
+
+## Inferences to the Best Explanation
+
+Our final type of inductive argument to discuss in this chapter is the inference to the best explanation, also called abductive reasoning. Very simply, this is used when we have a situation that needs explanation. You consider the possible explanations, and it's rational for you to believe the best one.
+
+How do we decide which explanation is best, though? Here are some critiera:
+
+1. It must explain the data, that is, tell us why the data is true.
+2. It must be a good explanation, which means be
+   1. Plausible
+   2. Simple
+3. Of the good explanations, be the best.
 
 
-[^1]: There are slightly more boys born than girls. Worldwide, the ratio of boys to girls is 107:100. This is partially explained by sex-selective abortion in countries where sons are more desired than daughters. If we eliminate those cases, the ration is still 105:100.
 
-[^2]: There is no general agreement on this. Sometime "hasty generalization" is used for both. I think it's useful to have two terms to distinguish the two different errors.
+
+
+
+[^boysgirls]: There are slightly more boys born than girls. Worldwide, the ratio of boys to girls is 107:100. This is partially explained by sex-selective abortion in countries where sons are more desired than daughters. If we eliminate those cases, the ration is still 105:100.
+
+    [^hastygen]: There is no general agreement on this. Sometime "hasty generalization" is used for both. I think it's useful to have two terms to distinguish the two different errors.
