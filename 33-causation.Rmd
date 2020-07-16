@@ -1,1 +1,130 @@
-# Causation
+# Reasoning about Causation
+
+Much of our reasoning is about causes and effects. We argue about proposed solutions to social problems, but how can we evaluate a solution if we haven't identified the cause? Reasoning about causation is difficult but important, if we're wrong about causes, then we won't be able to bring about our desired effects. So, it's important to be able to accurately detect causes and to avoid the common mistakes in causal reasoning.
+
+## Correlations
+
+An important 18th century philosopher, David Hume, pointed out that we don't directly observe the necessary causal link between two events. What we observe is that the two events are correlated, then we infer that they are causally related. The stronger the correlation, the greater the evidence that there is some causal link.[^causallink]
+
+Correlation is a measure of the degree to which two variables are related. A variable is something which can have different values, like age, GPA, or nationality. Some variables, called dichotomous variables, only have two values, pass/fail, enrolled, not enrolled, etc. If the variables are positively correlated, then higher values of one tend to go with higher values of the other, and lower values of one tend to go with lower values of the other. Examples of positively correlated variables include height and weight, and number of years in school and income. Variables that are negatively correlated tend to go in opposite directions, like absences and GPA. None of these examples are _perfect_ correlations. Perfect positive correlations always go in the same direction, and perfect negative correlations always go in opposite directions. An example of a perfect positive correlation is height in inches and height in centimeters. Almost all perfect correlations are as trivial as this example. If there is no correlation between two variables, then they are independent, like state of residence and GPA. Correlations are measured from -1 to 1. -1 is a perfect negative correlation, 1 is a perfect positive correlation, and 0 is no correlation. 
+
+We make predictions on the basis of correlations. If regular attendance is positively correlated with doing well in a class. Then, if you have good attendance, we can predict that you will do well. The higher the correlation, the stronger the prediction. We can represent correlation in probability terms. Assume that A = regular attendance and P = passing the course. If the two are positively correlated, then $\Pr (P \vert A) > \Pr (P \vert \neg A)$. It will also be true that $\Pr (P \vert A) > \Pr (P)$. Both of these probability statements will be true if either is.
+
+Correlation is symmetrical, meaning it goes both ways. If A is positively correlated with B, then B is positively correlated with A. In probability terms, if $\Pr (A \vert B) > \Pr (A)$, then $\Pr (B \vert A) > \Pr (B)$. Causation, however, is not symmetrical. If A is the cause of B, then B is not the cause of A. The important point here is that correlation is evidence for causation, but correlation is not causation.
+
+## Causal Fallacies
+
+### Post Hoc, Ergo Propter Hoc
+
+The Latin phrase, "Post hoc, ergo propter hoc" means "After this, therefore caused by this."[^posthoc] This happens when one believes that two events have a causal relationship simply because they have a temporal relationship, or that A is caused by B just because A was followed by B. A trivial example would be believing that the crowing of roosters cause the sun to rise just because the crowing precedes the rising. I have heard about people who wear the same shirt to every game that their favorite team plays. They wore it once and their team one, therefore their wearing the shirt some caused the team to win. Many superstitions and stereotypes are rooted in post hoc fallacies.
+
+### Ignoring a Common Cause
+
+Sometimes two events are correlated, not because one causes the other, but because they are both effects of the same thing. A person might have a bad headache and begin to feel nauseated. It is natural to think that the headache caused the nausea, but it might well be the case that they are both symptoms of the flu.
+
+An interesting example is that the bigger a child's shoe size is, the better the child's handwriting will be. I don't think we would conclude that big feet causes better penmanship. It's more likely that having bigger feet is caused by increased physical development of a child, which makes the motor control possible that good penmanship requires.
+
+### Confusing Cause and Effect
+
+This happens when you think the cause is really the effect, and the effect is really the cause. You might think that this fallacy should be difficult to commit, since causes generally precede their effects. No one should observe that the number of firefighters on the scene is positively correlated with the size and intensity of the fires, then conclude that more firemen cause bigger fires.
+
+Sometimes, though, it's hard to separate causes from effects. A sports announcer might say that the team is moving the ball well because they got their confidence back. Could it be that they are more confident now that they began to play well? A family therapist might face a counseling situation with a dysfunctional family that has a child with severe behavioral problems. Is the dysfunction a cause of the behavioral problems, or do the behavioral problems cause the dysfunction. These cases are particularly difficult, because they generate what is called a "feedback loop." As the behavioral problems increase, so does the dysfunction, which causes even greater behavioral problems, which causes the dysfunction to become greater, and so on.
+
+## Mill's Methods
+
+Mill's methods are ways that are used to determine genuine causes. They aren't foolproof — they certainly won't work in every situation, but they can be very useful in helping to identify the most likely cause. There are four different methods, each to be used in different situations. Unfortunately, the easiest examples are cases of food poisoning. 
+
+### The Method of Agreement
+
+Imagine that you and a friend go out to dinner on Friday night. When you wake up Saturday morning, you aren't feeling well. Naturally, you call your friend and find out that she is also ill. So, what did you eat last night that's causing the illness? Since you're both ill, it must be something you both ate. Ideally, there will be only one thing that you both ate. Let's expand the example to a family of four:
+
+| Person  | Oysters | Beef | Salad | Cake | Ill  |
+| :---    | :---    | :--- | :---  | :--- | :--- |
+| Mom     | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Dad     | Yes     | No   | No    | Yes  | Yes  |
+| Sister  | Yes     | Yes  | No    | No   | Yes  |
+| Brother | Yes     | No   | Yes   | No   | Yes  |
+
+Everyone is ill, what's the cause? The oysters are the only thing that they all ate, so that's the most likely culprit.
+
+This is called the Method of Agreement. It's used to detect the cause when there are multiple cases of the effect. 
+
+
+### The Method of Difference
+
+The Method of Difference is used when the effect occurs in some cases but not in others. The cause must be a difference between the two. If there's only one difference, then we should conclude that the single difference is the cause. Look at this example:
+
+| Person  | Oysters | Beef | Salad | Cake | Ill  |
+| :---    | :---    | :--- | :---  | :--- | :--- |
+| Mom     | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Dad     | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Sister  | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Brother | Yes     | Yes  | No    | Yes  | None |
+
+The brother did not get ill, but everyone else did. So, the cause must be something the rest ate, but he did not. The only thing is the salad, so that must be it.
+
+
+### The Joint Method
+
+| Person  | Oysters | Beef | Salad | Cake | Ill  |
+| :---    | :---    | :--- | :---  | :--- | :--- |
+| Mom     | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Dad     | Yes     | Yes  | No    | Yes  | Yes  |
+| Sister  | Yes     | Yes  | Yes   | No   | Yes  |
+| Brother | Yes     | No   | No    | Yes  | No   |
+
+The Joint Method is simply applying both the Method of Agreement and the Method of Difference in a case. Note here that the brother is not ill, but everyone else is. Applying the Method of Difference, we decide that it is either the beef or the salad. Now, we apply the method of agreement, and see that, of those two things, the beef is the only one that everyone who got ill ate. So, the cause is the beef.
+
+### The Method of Concomitant Variation
+
+| Person  | Oysters | Beef | Salad | Cake | Ill  |
+| :---    | :---    | :--- | :---  | :--- | :--- |
+| Mom     | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Dad     | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Sister  | Yes     | Yes  | Yes   | Yes  | Yes  |
+| Brother | Yes     | Yes  | Yes   | Yes  | Yes  |
+
+Here, everyone is ill, and everyone had an identical meal. So, neither the method of difference nor the method of agreement will help identify the cause. They are not, however, ill to the same extent. The brother and the sister feel a bit queasy, the mom is fairly ill, but the dad is critically ill. Everyone had identical portion sizes of everything except the oysters. The brother and the sister ate one oyster, the mom had four, and the dad ate a dozen. The degree to which they ate the oysters matches the degree to which they are ill.
+
+This is called the method of concomitant variation. If a quantitative change in the effect is correlated with quantitative changes in some given factor, then that factor should be cause. 
+
+
+## Causal Studies
+
+### Types
+
+Mill's methods are handy tools to determine causes in fairly simple situations. For cases like finding the cause of a disease, or determining the causal efficacy of a drug, we'll need some more complex, and more careful, tools.
+
+Two basic types of studies are cross-sectional studies and longitudinal studies. A cross-sectional study collects data at one point in time, for instance, the end-of-semester course evaluation is a cross-sectional study. A longitudinal study collects data over time. 
+
+There are two types of longitudinal studies. A prospective longitudinal study tracks data forward in time. Subjects are chosen, then tracked over time to see if the effect occurs. A retrospective study, on the other hand, looks backward in time to gather data. Subjects are chosen by effect, then the study looks back to see if the cause was present.
+
+Both prospective and retrospective are useful for different purposes. Let's imagine a study to determine if smoking causes heart disease. A prospective study will pick subjects, some who smoke and others who do not, and trace them over time to determine if they develop heart disease. There are two problems, here. First, this study will take a long time. It won't be the case that someone will start smoking one week and develop heart disease the next. It will likely take decades to get the data. The second problem is related, the study will be very expensive, since it requires medical testing of many subjects over many years.
+
+Retrospective studies, in comparison, are short and inexpensive. An example of a retrospective study would be finding some people who have heart disease and others who do not, then looking back to see if the rates of past smoking in the two groups. We would expect there to be more smokers in the heart disease group than in the non-disease group. 
+
+So, why should one do a prospective study, if retrospective studies are cheaper and faster. Retrospective studies also have two significant problems. First, they often depend on subjects accurately reporting their past histories. We tend to not be entirely honest about our bad habits. Second, retrospective studies are testing for the wrong probability. In the smoking and heart disease case, what we want to know is $\Pr (D \vert S)$, the probability of getting heart disease given that the subject is a smoker. What they tell us is the $\Pr (S \vert D)$, the probability of being a smoker, given that the subject has heart disease.
+
+So, retrospective studies can be unreliable, and they are testing for the wrong thing. Why do them? Why not just do the prospective study that will give us the information we need? One answer is that prospective studies, since they are so long and expensive, will require funding before they can begin. Before the researchers can get the funding, however, they will have to give some reason to believe that the study will be fruitful. A retrospective study, although far from conclusive, can show that there is some reason to believe that a prospective study would be successful.
+
+### Controlled Studies
+
+Sometimes, just believing that one is receiving treatment can lead to improvement. This is called the placebo effect. To compensate for the placebo effect, scientists use controlled experiments.
+
+A controlled study has a control group — a group that does not receive the purported cause. To eliminate the placebo effect, the control group has to receive something, most likely a causally inert substance called a placebo. The group that gets the purported cause is called the experimental group. So, every person in the study receives something, and they do not know which group they are in. This is called a blind study. Ideally, the researchers who immediately interact with subjects will not know which group the subjects are in. This is called a double-blind study.
+
+In an interventional (or experimental) study, the researchers assign the groups. In a randomized interventional study, the groups are randomly assigned by the researchers. In an observational study, the subjects assign themselves to groups. There are observational studies with control groups, but there are also observational studies without control groups. In general, from most reliable to least, studies are ranked in this order:
+
+1. Interventional study
+2. Observational study with controls
+3. Observational study with no controls
+
+A researcher may choose to do an observational study for very good reasons. Some people hypothesized that having an abortion increased the risk of breast cancer. For ethical reasons, a researcher would not want to divide women randomly into two groups, those who would be given induced abortions and those who would not.
+
+It is important to understand that what the control group receives depends on the nature of the hypothesis being tested. If the hypothesis is that the substance being tested has no causal effect, then the control group will receive a placebo. If the hypothesis is that the new drug has no more causal effect than the current one, then the control group will receive the current drug.
+
+
+
+[^causallink]: We'll see later that, even with very strong correlation, it can be very difficult to say exactly what the causal relation is.
+
+[^posthoc]: This is often called simply  the "Post hoc" fallacy.
