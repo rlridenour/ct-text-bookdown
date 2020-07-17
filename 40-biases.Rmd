@@ -1,1 +1,120 @@
-# Cognitive Biases
+# Heuristics and Cognitive Biases
+
+## Heuristics
+
+Ideally, when we are pressed to make a decision about what to do or believe, we would be able to gather and assess the evidence required to make a good decision. Sometimes, though, we're just not in a position to do that. We are finite creatures with limited attention spans, limited computational abilities, and even limited interest. Besides that, we very often do not have the time or energy necessary to gather evidence. So, when we are pressed for quick decision, we just have to work with what is available. What we use in those cases are reasoning shortcuts, called inferential heuristics. They are quick, and often get us close enough to the truth. Given our cognitive limitations, quick and close is sometimes better than slow and precise. 
+
+We use these inferential heuristics often, and we're usually not away of them. They allow us to draw very quick inferences without having to gather evidence or compute probabilities, and they work nearly automatically. it's important, though, to understand them, because there are certain situations in which they tend to fail us in systematic ways. Here are some examples:
+
+1. Do more people in the United States die from murder or suicide?
+2. Are there more six letter words in English that end in 'ing' or that have 'n' as their fifth letter?
+
+The answer to the first question is that there are nearly twice as many suicides as there are murders. There have to be more six letter words that have 'n' as their fifth letter. If you got these wrong, it was likely from using the availability heuristic.
+
+### The Availability Heuristic
+
+We use the availability heuristic when we draw conclusions about frequencies or proportions based on what we can easily recall in our memories or imaginations. When we do this, we're conducting our own sampling, but that sampling is all in our heads. This heuristic is often accurate. For instance, if asked "Are there more Fords or Jeeps on the road?", you will naturally think of what you have seen in the past. having seen more fords than jeeps, you'll conclude correctly that there are in fact more Fords than Jeeps. You are using the data that is readily available to you, because it is present in memory.
+
+When the data is available because it really occurs more frequently, then the heuristic works find. The problem, though, is that there are many other reasons for availability. Something might be more available because it's reported more frequently in the media, not because it actually occurs more frequently. This is the case with suicides and murders. All murders are reported, but few suicides are reported. This leads us to mistakenly believe that there are more murders than suicides.
+
+This also makes us underestimate some things and overestimate others, which, in turn, causes us to make bad decisions concerning risks. Every terrorist attack is reported, but few deaths by heart attack or stroke are reported. Shark attacks are reported nationwide, but deaths caused by other animals are not. Cases of winning the lottery are always reported, but no one mentions the number of people who lost. We are led to believe, then, that winning the lottery is not the near statistical impossibility that it is.
+
+The easier it is to recall things, the more likely we tend to think they are. How many six letter English words ending in 'ing' can you recall? (Flying, skiing, typing, boring,...) Are there more famous people from Oklahoma or from Kansas? What can you easily recall? A person from Oklahoma is likely to answer that differently than a person from Kansas.
+
+### The Representativeness Heuristic
+
+"Representativeness" is an awkward word, but, unfortunately, we're stuck with it. We use the representativeness heuristic when we conclude that something is more closely something resembles the typical example of some type, the more likely it is to be of that type. For example, Joe is very physically fit, over six-feet tall, 250 pounds, and played football in college. Which of the following is more likely?
+
+1. Joe is an NFL linebacker.
+2. Joe works in the insurance industry.
+
+The answer is that Joe is more likely to be an insurance agent. If you answered that Joe is more likely to be an NFL linebacker, then you were using the representativeness heuristic. Some uses of the representativeness heuristic are perfectly reasonable, maybe even wise The snake in front of me has vertical slits for pupils, rough scales, a triangular shaped head, and distinct fangs. It looks like the typical poisonous snake, so I'll treat it like it's dangerous.
+
+The instances when the representativeness heuristic goes wrong are often because it leads us to ignore base rates. The base rate for a characteristic is the frequency, proportion, or percentage of things in the population that have that characteristic. In probability terms, this is called the prior probability of the characteristic. 79% of the world's population have brown eyes, so the base rate of brown-eyed people is 0.79. A quick Internet search reveals that there are currently 357 linebackers in the NFL. I don't know how many people work in the insurance industry, but it's many times more than 357. So, given the base rates, and the fact that the description is compatible with working in insurance, it is more likely that Joe is in insurance than the NFL.
+
+Ignoring base rates when estimating probabilities and making predictions is called the base rate fallacy.
+
+### The Affect Heuristic
+
+A third heuristic is the affect heuristic. We won't spend much time on it, since it's something that we all have probably used in the past. If you've ever decided to do something foolish because you were angry, then you've likely used the affect heuristic. The affect heuristic is basing a decision on emotion, not on a reasonable assessment of the risks and payoffs. Examples of the affect heuristic might be a gambler playing against the odds because he feels lucky, or posting something you regret on social media because you are angry.
+
+Of course, it's not always wrong to base decisions on our emotions. It may even be better at times to base those decisions on emotions rather than a calculation of the costs and payoffs. What is a better reason to buy flowers for my wife, a cost-benefit analysis, or because I love her? There are other times, though, when our emotions keep us from making good decisions, that's when we need to be careful.
+
+## Cognitive Biases
+
+Cognitive biases are systematic ways that we are prone to reason badly and make irrational decisions. That we have these biases has been confirmed by much research. So, it's important to understand what they are and when they are likely to be used to avoid falling into the traps that they set for us. Psychologists have identified many different cognitive biases, I will limit our discussion to some that I think are particularly important.
+
+## Confirmation Bias
+
+Confirmation bias is the tendency to recognize only the evidence that supports what we already believe, or interpret any evidence in a way that confirms our preconceptions.
+
+## Belief Bias
+
+Belief bias is tendency to judge arguments based on whether we believe their conclusions or not.
+
+## Anchoring and Adjustment
+
+This is the tendency to begin with a given piece of information and adjust insufficiently from there. (So, this is also called insufficient adjustment.)
+
+## Contrast Effect
+
+The contrast effect is the tendency to determine the value of something based, not on its inherent qualities, but by comparing it to the things around it.
+
+## Endowment Effect
+
+This is our tendency to think that something is more valuable simply because it is ours.
+
+## Loss Aversion
+
+This explains why a loss seem greater than a gain of the same size
+
+## Status Quo Bias
+
+This is a preference for things remaining the way they are now.
+
+## Framing Effect
+
+This is the tendency for people to make different choices when given the same options expressed in different language.
+
+
+## Self-Fulfilling Prophecy
+
+A self-fulfilling prophecy a the tendency of one's expectations about the future to influence the future in such a way that makes those expectations come true.
+
+This is related to the Pygmalion effect, the tendency for people to live up, or down, to our expectations.
+
+## Wishful Thinking
+
+This is believing something simply because you want it to be true.
+
+## Primacy and Recency Effects
+
+The primacy effect is the tendency to remember the first members of a series. The recency effect is a tendency to remember the last members of a series.
+
+## Just-world Hypothesis
+
+This is a belief that the world is basically just, that is, people get what they deserve.
+
+## Sunk Costs
+
+A sunk cost is a cost that has already been paid and cannot be recouped. For example, imagine that you have paid 20 dollars for a ticket to a movie. After an hour, you find that you are really not enjoying the movie, and you're deciding whether to stay for the second hour. Many people would stay because, otherwise, they would be wasting 20 dollars. The twenty dollars, though, is gone either way, and shouldn't play a role in the deliberation.
+
+## Magic Numbers
+
+A magic number is a relatively arbitrary target. The problem is that people will set targets, and, if they finish just short of the target, consider themselves failures. A larger problem is that once the target is reached, the tendency is to quit, rather than try to exceed the target.
+
+## Lake Woebegone Syndrome
+
+This is the tendency that we all have to believe that we are above average.
+
+## Dunning-Kruger Effect
+
+This is a bias in which people who have low levels of ability at some task believe that they have high levels of ability.
+
+## Validity Effect
+
+The validity effect is the fact that mere repetition of a claim increases the tendency of people to believe it.
+
+## Mere Exposure Effect
+
+This is our tendency to like things more the more times that we are exposed to them.
