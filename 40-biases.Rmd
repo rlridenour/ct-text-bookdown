@@ -44,77 +44,77 @@ Of course, it's not always wrong to base decisions on our emotions. It may even 
 
 Cognitive biases are systematic ways that we are prone to reason badly and make irrational decisions. That we have these biases has been confirmed by much research. So, it's important to understand what they are and when they are likely to be used to avoid falling into the traps that they set for us. Psychologists have identified many different cognitive biases, I will limit our discussion to some that I think are particularly important.
 
-## Confirmation Bias
+### Confirmation Bias
 
 Confirmation bias is the tendency to recognize only the evidence that supports what we already believe, or interpret any evidence in a way that confirms our preconceptions.
 
-## Belief Bias
+### Belief Bias
 
 Belief bias is tendency to judge arguments based on whether we believe their conclusions or not.
 
-## Anchoring and Adjustment
+### Anchoring and Adjustment
 
 This is the tendency to begin with a given piece of information and adjust insufficiently from there. (So, this is also called insufficient adjustment.)
 
-## Contrast Effect
+### Contrast Effect
 
 The contrast effect is the tendency to determine the value of something based, not on its inherent qualities, but by comparing it to the things around it.
 
-## Endowment Effect
+### Endowment Effect
 
 This is our tendency to think that something is more valuable simply because it is ours.
 
-## Loss Aversion
+### Loss Aversion
 
 This explains why a loss seem greater than a gain of the same size
 
-## Status Quo Bias
+### Status Quo Bias
 
 This is a preference for things remaining the way they are now.
 
-## Framing Effect
+### Framing Effect
 
 This is the tendency for people to make different choices when given the same options expressed in different language.
 
 
-## Self-Fulfilling Prophecy
+### Self-Fulfilling Prophecy
 
 A self-fulfilling prophecy a the tendency of one's expectations about the future to influence the future in such a way that makes those expectations come true.
 
 This is related to the Pygmalion effect, the tendency for people to live up, or down, to our expectations.
 
-## Wishful Thinking
+### Wishful Thinking
 
 This is believing something simply because you want it to be true.
 
-## Primacy and Recency Effects
+### Primacy and Recency Effects
 
 The primacy effect is the tendency to remember the first members of a series. The recency effect is a tendency to remember the last members of a series.
 
-## Just-world Hypothesis
+### Just-world Hypothesis
 
 This is a belief that the world is basically just, that is, people get what they deserve.
 
-## Sunk Costs
+### Sunk Costs
 
 A sunk cost is a cost that has already been paid and cannot be recouped. For example, imagine that you have paid 20 dollars for a ticket to a movie. After an hour, you find that you are really not enjoying the movie, and you're deciding whether to stay for the second hour. Many people would stay because, otherwise, they would be wasting 20 dollars. The twenty dollars, though, is gone either way, and shouldn't play a role in the deliberation.
 
-## Magic Numbers
+### Magic Numbers
 
 A magic number is a relatively arbitrary target. The problem is that people will set targets, and, if they finish just short of the target, consider themselves failures. A larger problem is that once the target is reached, the tendency is to quit, rather than try to exceed the target.
 
-## Lake Woebegone Syndrome
+### Lake Woebegone Syndrome
 
 This is the tendency that we all have to believe that we are above average.
 
-## Dunning-Kruger Effect
+### Dunning-Kruger Effect
 
 This is a bias in which people who have low levels of ability at some task believe that they have high levels of ability.
 
-## Validity Effect
+### Validity Effect
 
 The validity effect is the fact that mere repetition of a claim increases the tendency of people to believe it.
 
-## Mere Exposure Effect
+### Mere Exposure Effect
 
 This is our tendency to like things more the more times that we are exposed to them.
