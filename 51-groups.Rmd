@@ -1,1 +1,75 @@
-# Groups
+# Group Reasoning
+
+We often find ourselves, whether we like it or not,  having to work in groups, whether it is a school group project, committee work, a social club, or a community service organization. It's important, therefore, to understand the situations in which groups tend to reason badly, so that we can guard against them.
+
+## Supposed Advantages
+
+Since groups are made up by individuals, all of the cognitive biases that we discussed in chapter 16 affect group reasoning. There are particular biases, though, that apply only in the contexts of reasoning in groups or about groups. So, if groups are susceptible to special group biases, and tend to reason badly in certain situations, why are we so often asked to use them?
+
+We tend to think that groups are more likely to come to more reasonable and unbiased decisions than people working alone, because groups _seem_ to have the following advantages:
+
+1. Groups should have access to more information than single individuals do, because everyone brings something to the table, so to speak.
+2. Since every individual has their own point of view, group decisions will represent more perspectives than decisions made by single individuals.
+3. We have all had times when we have overlooked something important, or just not noticed a flaw in one of our plans. The more people that are considering a proposed solution, the more likely it should be that some notices a problem.
+4. We are all either risk-averse or risk-seekers to various degrees. Do we really want the people on the extremes making the decisions? If those decisions are made by a group, the risk-seekers and the risk-averse members should balance each other out to form a more reasonable decision-making body.
+5. There are times when we want our decisions to reflect the will of the majority of the members of the organization. Given what we know about sampling, it seems right that a group decision would more accurately reflect the general will than the decision of a single individual.
+
+These five points should be true of groups, but they are not true of _all_ groups. We will examine particular weaknesses that groups can have, and think about ways to structure groups so that we can avoid the weaknesses while maintaining the advantages. 
+
+## Social Loafing
+
+There are people who are driven to succeed, and then, there are the rest of us. If you are one of those people who are driven to succeed, my guess is that you're also a person who doesn't like group work. You're probably afraid that you'll end up doing all of the work, and pulling the weight of those who fail to do their fair share.
+
+Social loafing is the tendency for members of a group to do less work, and to do it less well, than they would if they were working alone. One reason for this is the diffusion of responsibility that we discussed in the last chapter. If all members of the group are equally responsible for the work, then the feeling of responsibility is diffused throughout the group, so that the individuals in the group each feel less responsible than they would have had they been working alone.
+
+There are ways to reduce social loafing in group projects. They include:
+
+1. Grading each person on how much they contributed to the project.
+2. Assigning each member a particular task, so that 100% of the responsibility for completing that task falls on some particular person.
+3. Including peer reviews as part of the evaluation process.
+
+## Group Polarization
+
+Group polarization, also called choice shift, is the tendency for people to make decisions about risks differently when in a group than when alone. When they become more risk-seeking, this is called the risky shift. When they become more risk averse, it is called the conservative, or cautious, shift.
+
+That this occurs should surprise no one. We have all heard stories about people who have done things in mobs that they never would have considered if acting alone. For both types of shifts, being in a group magnifies the qualities of the individuals. 
+
+There have been a number of proposed explanations for the risky shift:
+
+1. Diffusion of responsibility might again be the cause. Feeling completely responsible for the decision should prompt one to take few chances, that is, to become more risk averse. As perceived responsibility is shared with others, the risk is also perceived as shared. [@wallach64:_diffus_respon_level_risk_takin_group]
+2. Risk-seekers naturally are perceived as being more confident, and thus may persuade others to also accept the greater risk. [@collins64:_social_psych_group_proces_decis_makin]
+3. It may be that risk-seekers tend to have greater status within the group, leading people to follow their lead and supporting riskier choices. [@brown03:_social_psych]
+4. As groups discuss a proposed action, group members become more comfortable with the proposal, making it seem less risky. [@bateson66:_famil_group_discus_risk_takin]
+
+Group polarization has also been shown to affect our attitudes. Students that had low levels of racial prejudice became even less prejudiced after discussing issues of race with each other. The reverse happened with more highly prejudiced students. The became even more prejudiced after discussing the same issues with each other. [@myers70:_discus_effec_racial_attit]
+
+## Group Accuracy
+
+The accuracy of a group depends, of course, on the type of problem and the characteristics of the particular members of the group. It's not surprising that on problems with clear right answers, a math problem, for example, groups tend to do better than the average member of the group, but worse than the best member.
+
+## Groupthink
+
+Groupthink is the tendency for groups to make poor decisions and judgments. This is common in groups that are highly cohesive, have dynamic leaders, and are isolated from any external input or information. Several of the studies discussed in the last chapter are relevant here, such as the Asch conformity study, the Milgram experiment, and the Stanford prison experiment. (Remember that the Stanford study was only stopped after it was viewed by an external evaluator.) Members of such groups have a strong tendency to want to please the group leader, to agree on any decision that is made, and to feel both a strong sense of invulnerability and a strong sense of being right.
+
+In many cases, though, groups are tasked to work on problems for which there are no clear right answers. For example, a university committee might be tasked with develop a strategy for increasing enrollment, or revise the core curriculum. Groups working on problems like these can work well, but often do not. The reason is that the group decision process naturally tends to go like this:
+
+1. Once the problem or task has been identified, a group member proposes a solution.
+2. Objections are then raised to the proposed solution.
+3. Another solution is proposed, and new objections are raised. This may be repeated several times.
+4. Finally, a solution is proposed against which no strong objections are raised.
+5. Since no one can think of a serious objection, the proposal is accepted.
+
+There are two problems with this process. The first is that the process is biased in favor of ideas that are discussed early. The second problem is that the solution that is accepted is the first minimally acceptable solution. There may very well be better solutions that never had a chance of being considered.
+
+## Successful Groups
+
+Since there seem to be so many problems with groups, it's natural to wonder if there is any reason to use them, especially in education. One reason is, since graduates, once they join the work force, will have to sometimes participate in groups, students should learn the skills of successful group interaction. Another reason is that, although group work does not seem to enhance abilities to learn material in a basic sense, discussing and explaining the material does enhance the understanding of the material.
+
+By understanding when groups reason badly, we can now identify some characteristics of successful groups. Successful groups
+
+1. Protect the brain-storm process. That is, they do not evaluate the ideas until _all_ of the ideas have been proposed. If this isn't feasible, then another option is to initially split into sub-groups for the initial group reasoning process.
+2. Set specific goals. A group cannot identify the best solution if the problem has not been made clear.
+3. Get feedback, especially from outside the group.
+4. Encourage dissent. If no one disagrees, then appoint someone to raise objections to the group's decision (known as the devil's advocate).
+4. Reward success, to motivate finding the best solution.
+

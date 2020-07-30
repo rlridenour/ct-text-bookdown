@@ -52,6 +52,8 @@ The experimenter began timing the subject's response time from the beginning of 
 
 Notice that the larger the group, not only were the subjects less likely to report at all, but they were slower to report when they did. Every subject in the two-person groups eventually reported, some after the victim finished his message.
 
+There are reasons that would explain this behavior. First, since we can't see or hear wha the other people are doing (or, more importantly, _not_doing), we tend to assume that someone else has already intervened. The second reason is something called diffusion of  responsibility. If there is one person besides the victim present, then that person feels 100% of the responsibility for acting. If there are 10 people present, then the responsibility is diffused throughout the group, an each person feels only 10% of the responsibility. Feeling 10% percent of of the responsibility might very well not be enough to motivate the person to act. 
+
 ### Stanford Prison Study
 
 Philip Zimbardo's famous Stanford Prison Experiment divided volunteer subjects randomly into two groups, prisoners and guards. Prisoners were picked up at their homes, charged, cuffed, and put into police cars, then taken to a station where they were informed of their rights, booked, finger printed, blindfolded, and placed in a holding cell. The "prison"  was constructed in the basement of the psychology building at Stanford University. Guards were given no training, and were free to do whatever they thought was necessary to maintain order. The guards began to increasingly harass and humiliate the prisoners, forcing them to do things like clean out toilet bowls with their bare hands. Some guards were strict, but fair, others lenient, but some were hostile and creative in devising ways to humiliate the prisoners.
@@ -71,6 +73,8 @@ Students from Swarthmore College were chosen to participate in the study, and in
 knitr::include_graphics(rep("images/asch.png"))
 ```
 Each person was to state aloud which line (A, B, or C) was closest in size to the target line — the answer was intended to be obvious. The test subject always sat at the end of the row and would answer last. The confederates would give a clearly incorrect answer, and about 75% of the test subjects conformed to that wrong opinion at least once. The times that the confederates gave the right answer, less than 1% of the subjects gave the wrong answer. Later, when asked why they gave the wrong answer, most subjects said that they didn't believe the answer was correct, but went along with the group to avoid being ridiculed. [@asch51:_effec_group_press_upon_modif_distor_judgm] 
+
+It is important to note that Asch discovered that if there was only one confederate then the test subject would not conform. Disagreeing with one person seems to be no problem, but disagreeing with an otherwise unanimous group is different. More important, even in the larger group, if even one of the confederates refused to conform to the others, then the test subject would also not conform.
 
 ### Milgram Experiment 
 
