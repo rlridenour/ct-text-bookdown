@@ -14,6 +14,7 @@ We tend to think that groups are more likely to come to more reasonable and unbi
 4. We are all either risk-averse or risk-seekers to various degrees. Do we really want the people on the extremes making the decisions? If those decisions are made by a group, the risk-seekers and the risk-averse members should balance each other out to form a more reasonable decision-making body.
 5. There are times when we want our decisions to reflect the will of the majority of the members of the organization. Given what we know about sampling, it seems right that a group decision would more accurately reflect the general will than the decision of a single individual.
 
+
 These five points should be true of groups, but they are not true of _all_ groups. We will examine particular weaknesses that groups can have, and think about ways to structure groups so that we can avoid the weaknesses while maintaining the advantages. 
 
 ## Social Loafing
@@ -72,4 +73,90 @@ By understanding when groups reason badly, we can now identify some characterist
 3. Get feedback, especially from outside the group.
 4. Encourage dissent. If no one disagrees, then appoint someone to raise objections to the group's decision (known as the devil's advocate).
 4. Reward success, to motivate finding the best solution.
+
+## Voting
+
+The final step in any group decision-making process is to determine the will of the group, usually done by voting. If there are only two options, then voting presents no problems — if there is a winner, then it will be absolutely clear which option it is. If there are more than two options, however, things get complicated. 
+
+Sometimes the group's preferences are simply inconsistent. Let's imagine a small group with three people, who are considering three different options, A, B, and C. The three people rank their preferences like this:
+
+1. A>B>C
+2. B>C>A
+3. C>A>B
+
+Both persons 1 and 3 prefer A to B, so A should win over B. Persons 1 and 2 both prefer B to C, so B should win over C. A consistent preference structure should be transitive, so if A beats B, and B beats C, then A should also beat C. In this case, however, persons 2 and 3 both prefer C to A, so the ranked order looks like this: A>B>C>A, which means that A should be preferred over A!
+
+Let's look at a fairly simple group of nine people considering three options. Imagine that the people order their preferences like this:
+
+| 2    | 3    | 4    |
+| :--- | :--- | :--- |
+| A    | B    | C    |
+| B    | A    | A    |
+| C    | C    | B    |
+
+That is, two people prefer A to B to C, and 3 people, B to A to C, and 4 people, C to A to B. Now, let's look at a few reasonable voting methods and see which option wins on each.
+
+### Plurality Wins
+
+This is the method that we use for large-scale elections in the United States. There is a single round of voting and the option with the most first place vote wins. In this case, C wins with four votes, compared to three votes vor B and 2 votes for A. The problem here is that the majority of the people place C last. C is the winner, but the majority want anything else.
+
+### Weighted Voting
+
+One way to avoid this problem is by using weighted voting. Here, voters, list all of their preferences. First-place vote gets the most points, second-place votes get a little less, and so on. The most common weighted voting scheme is called _Borda's scheme_, where for _n_ options, first-place votes get $n-1$ points, second-pace votes get $n-2$ points, and so on, all the way to 0 points for last-place.
+
+In this case, A wins with 11 points, B and C are tied for second place with 8 points each.
+
+### Preferential Voting
+
+Here, again, voters rank all of the options. If there is an option that receives a majority of first place votes, then that option wins. If not, then the option with the fewest first-place votes is eliminated. We then look at the rankings that have the eliminated option first, and give those votes to whatever option those people ranked second. That sounds complicated but it should be easy to understand with the example. Look at the scenario again:
+
+| 2    | 3    | 4    |
+| :--- | :--- | :--- |
+| A    | B    | C    |
+| B    | A    | A    |
+| C    | C    | B    |
+
+A is eliminated, having only 2 first-place votes. Those two votes to to B, so B then wins 5 to 4 over C. The intuition here is that, had A not been an option, those two people would have voted for B instead.
+
+### Approval and Negative Voting
+
+We already have three apparently reasonable voting methods that each produces a different winner from the same set of social preferences. There are many more methods, however. For example, approval voting, where you get to give one vote to as many options as you like, like voting for all the candidates that you wouldn't mind winning.
+
+There is also negative voting. In this case, you can give a +1 to the option you prefer, or you can give a -1 to the option that you absolutely wouldn't want to win. That provides a way for people to express their preferences who really don't care which options wins, but really care that one of them not win.
+
+### Runoff Voting
+
+This is common in some smaller scale elections, and avoids the problem of possibly electing the candidate that the majority would place last. It still can be problematic in certain situations. 
+
+Imagine three candidates for office, with 17 voters having these preferences:
+
+| 6    | 5    | 4    | 2    |
+| :--: | :--: | :--: | :--: |
+| A    | C    | B    | B    |
+| B    | A    | C    | A    |
+| C    | B    | A    | C    |
+
+A and B each have 6 of the 17 votes, but a majority requires 9. So, there's a runoff between those two candidates, and, if nothing were to happen, then C's voters would switch to A and A would win.
+
+Now, imagine instead that there is a debate just before the election, and A has a particularly impressive performance. The two voters in the rightmost column decide to switch their votes from B to A.
+
+| 6    | 5    | 4    | 2    |
+| :--: | :--: | :--: | :--: |
+| A    | C    | B    | A    |
+| B    | A    | C    | B    |
+| C    | B    | A    | C    |
+
+
+Now, A has 8 votes, B only 4, and C has 5. So, the runoff now is between A and C. The four voters in the third column that supported B give their votes to C, and C wins with 9 votes compared to the 8 votes for A. Curiously, A would have won had A not gained the extra support before the election!
+
+### Best Method?
+
+All of the methods we've discussed have their particular strengths and weaknesses. Economist Kenneth Arrow proved in 1950 that there is no method that meets certain plausible minimal conditions. These conditions are:
+
+1. The method will produce an ordering of options for any logically possible ordering of individual preferences.
+2. If voters initially prefer A to B,  changing their mind about the ranking of anything else shouldn't affect A and B.
+3. If every individual prefers A to B, then the method should rank A over B.
+4. The method should not be sensitive only to one person's rankings.
+
+Arrow proved that no method meets all of these conditions. So, since there is no perfect method, which method should be used? It really depends on the circumstances. Some things that will need to be considered include the cost and complexity of the voting system and the type and extent of information that needs to be gathered. The more complex the system, the less likely voters will feel they can trust the system. A system that is too expensive is useless no matter how accurate it is.
 
