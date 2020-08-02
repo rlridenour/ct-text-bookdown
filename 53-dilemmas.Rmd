@@ -1,1 +1,71 @@
 # Social Dilemmas
+
+Sometimes, what is rational for you to do in a particular situation depends on what another person does. In those cases, in order to decide what you should do, you have to make assumptions about what the other person will do. Many board games, like checkers or chess, are played like this. A player deliberates about how to play by thinking like this, "If I move here, then she will move there, and I won't be able to save my queen, but if I move there, then she will have to move here, and I'll be able to put her in check...."
+
+When we reason like this, we generally assume two things:
+
+1. The other player wants to win, and
+2. The other player knows how to play the game well.
+
+These situations happen, not just in when playing board games, but in the rest of life as well. For example, imagine that you are the first person who is asked to help put on some event. You certainly don't mind helping, but you don't want to do it all yourself. Should you agree? It depends on whether you think other people can be depended on to help also.
+
+There is a branch of study that focuses on these situations, called _game theory_. Game theory is the study of the ways in which the choices of interacting persons result in outcomes that are described in terms of the preferences of those persons. (What this means will become clearer later.) The situations that game theorists study range from fairly simple to very complex. We'll only discuss four simple examples, including the most famous, the prisoner's dilemma. As we do when playing a board game, we will make two assumptions:
+
+1. Each person wants the outcome that is best for that person.
+2. Each person will act intentionally to achieve that outcome.
+
+Most board games are what are called _zero-sum_ games. In a zero-sum game, if there is a winner, there must be a loser. Tic-tac-toe is the classic example. If we give +1 point to the winner, -1 to the loser, and 0 to each for a tie, then the sum of each players score for a game will always be 0. Our personal interactions in life, however, are not always zero-sum. In a non-zero-sum game, both players can win. Sometimes, what is best for me can always be best for you.
+
+In the cases that we will look at, all simple social dilemmas involving two persons, each player will have two choices, to cooperate or to defect. We can think of cooperating as keeping an agreement, or doing what is best for the other person. Defecting is breaking an agreement, or doing what is best for you at the expense of the other person. Each person decides to cooperate with, or defect against, the other, without knowing what the other person will do. There are, then, four possible outcomes:
+
+1. Mutual cooperation (CC)
+2. Mutual defection (DD)
+3. Mixed (CD)
+4. Mixed (DC)
+
+The type of social dilemma is determined by how the persons involved rank these four preferences. Before we look at some examples, I should define two important concepts.
+
+**Pareto Optimality**: An outcome is Pareto optimal when any other outcome that would be better for one party is worse for the other party. In other words, there is no other outcome where everyone would be better off. 
+
+**Stability**: An outcome is stable when no party would have been better off by acting in a different way, given what the other person did. This means that I wouldn't have any regrets acting the way I did, considering how you acted.
+
+## Deadlock
+
+In a deadlock, the parties have this preference structure: 
+
+1. DC 
+2. DD 
+3. CC 
+4. CD 
+
+Each person's first preference is that they defect and the other person cooperate, followed by mutual defection, then mutual cooperation, and finally that they cooperate and the other person defect. Notice that, strictly speaking, this is not a dilemma. Each player prefers defection to cooperation, so there is no question about what will happen.
+
+Negotiations often take the form of deadlocks. Cooperation means that the party will have to give something up in the negotiation. Of course, the first preference is that they not have to give anything up, while the other party does. Given the endowment effect, what a party gives up seems greater in value than what they gain in return. So, neither party is inclined to see cooperation as a benefit. Thus, the final outcome is mutual defection. Negotiations break down, and the result is maintaining the status quo.
+
+## Chicken
+
+This dilemma gets its name from a foolish game in which two people drive at high rates of speed directly toward each other. The goal is to force the other person to swerve, showing your bravery (or foolishness), and their cowardice. In this case, cooperation is swerving, and defection is maintaining the direct course. Here are the preferences:
+
+1. DC
+2. CC
+3. CD
+4. DD
+
+The first preference is to seem brave, while the other person is a coward. The second preference is to both be cowards, and never mention that this happened. The third preference is to be the coward and still alive. The last preference is that you are both remembered as brave, and kind words are etched on your tombstone.
+
+So, what should you do, swerve or drive straight? (Obviously, the answer is that you shouldn't play foolish games like this, but we'll ignore that for now.) It depends on what you think your opponent will do. If you have good reason to think your opponent is suicidal, then you definitely should swerve. Otherwise, it's hard to say.
+
+Chicken dilemmas don't just involve foolish games that can end in death. Many volunteer situations are examples of chicken dilemmas. Imagine that you are a parent who is asked to help provide refreshments for an elementary school party. You're very busy now, so you would prefer that someone else do it. If that can't happen, then your next preference is that you provide some, but not have to provide all of the refreshments. You do want the kids to be able to have the party, though, so your third preference is that you do everything. This is better than no one doing anything, because then there would be no party.
+
+## Stag Hunt
+
+A stag hunt is any situation with these preferences:
+
+1. CC
+2. DC
+3. DD
+4. CD
+
+
+
+
