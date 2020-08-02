@@ -158,5 +158,5 @@ All of the methods we've discussed have their particular strengths and weaknesse
 3. If every individual prefers A to B, then the method should rank A over B.
 4. The method should not be sensitive only to one person's rankings.
 
-Arrow proved that no method meets all of these conditions. So, since there is no perfect method, which method should be used? It really depends on the circumstances. Some things that will need to be considered include the cost and complexity of the voting system and the type and extent of information that needs to be gathered. The more complex the system, the less likely voters will feel they can trust the system. A system that is too expensive is useless no matter how accurate it is.
+Arrow proved that no method meets all of these conditions. [@arrow50:_diffic_concep_social_welfar] So, since there is no perfect method, which method should be used? It really depends on the circumstances. Some things that will need to be considered include the cost and complexity of the voting system and the type and extent of information that needs to be gathered. The more complex the system, the less likely voters will feel they can trust the system. A system that is too expensive is useless no matter how accurate it is.
 
