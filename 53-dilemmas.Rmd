@@ -66,6 +66,106 @@ A stag hunt is any situation with these preferences:
 3. DD
 4. CD
 
+The name comes from a story used as an example. Imagine two people, Fred and Ethel, hunting with primitive weapons. Their goal is to kill a stag, because that will provide them with food for the winter. To kill the stag, though, Fred has to hide at one location, while Ethel tries to direct the stag there from another location. While separated, they cannot see each other. So, after waiting for some time, Fred begins to wonder if Ethel is still looking for the stag. Then, he sees a rabbit nearby. Now he has a dilemma: should he wait in his hiding place, or go chase the rabbit? If he waits, they might be able to get a stag, that is, if Ethel really is out there chasing one. On the other hand, if Ethel has abandoned him, he's better off with the rabbit than with nothing. So what should he do? His preferences are:
 
+1. Get the stag, which requires mutual cooperation.
+2. Get the rabbit, and Ethel gets nothing. (DC)
+3. They both get a rabbit. (DD)
+4. Ethel gets a rabbit, and he gets nothing (CD)
 
+In a stag hunt, mutual cooperation is ideal. The extent to which one is inclined to cooperate, though, is determined by the amount of trust one has in the other person. 
 
+## The Prisoner's Dilemma
+
+A prisoner's dilemma is a social dilemma with this preference structure:
+
+1. DC
+2. CC
+3. DD
+4. CD
+
+This is the most famous, and important, social dilemma. Now, imagine that Fred and Ethel have been arrested on suspicion of robbing a bank. The district attorney, unfortunately, does not have enough evidence for a conviction, unless one of them confesses. So, she offers both of them the same deal. If one confesses and the other does not, the one who confesses goes free, and the other gets 10 years. If neither confesses, they will be convicted on lesser charges, which will get them 3 years apiece. If both confess, then they both get 7 years. So, should they each confess or stay quiet? Here's a table with the possible outcomes:
+
+|      | T    | Q    |
+| :--- | :--- | :--- |
+| T    | 7,7  | 0,10 |
+| Q    | 10,0 | 3,3 |
+
+Assuming that each person wants only what is best for that person, then what should they do? An understandable first inclination is to say that they should both stay quiet. That's the only way they can both get 3 years, which is really the best practical outcome. On the other hand, if Fred is going to stay quiet, then shouldn't Ethel confess? Then her sentence would drop from 3 to 0 years. Also, if Fred decides to talk, then Ethel certainly should confess. Her sentence would drop from 10 to 7 years. Basically, each person is three years better off by confessing, regardless what the other does. But if it's rational for Ethel to confess, then it's rational for Fred to also. So, it seems that they're both doomed to 3 years apiece.
+
+They both would have been better off had they just cooperated with each other by staying quiet. What makes the prisoner's dilemma particularly interesting is that, by acting rationally in terms of utility maximization, both parties are worse off than they would have otherwise been. Acting for their own individual good was, in fact, self-defeating.
+
+Prisoner's dilemma situations happen whenever a person can be better off by defecting, providing that everyone else cooperates, but, if everyone defects, then everyone is made worse off compared to mutual cooperation. So, if everyone is cooperating, then each person has a strong motivation to defect, which results in everyone defecting, which is worse for everyone. 
+
+### Real-Life Prisoner's Dilemmas
+
+Prisoner's dilemmas can happen more often than you might think. A classic example is called "the tragedy of the commons." Centuries ago, villages had a central pasture that everyone used for grazing called the "commons." Obviously, the more cattle a family had, the more prosperous it was. One family adding an extra cow or two wouldn't affect the commons, but if every family did it, then the pasture would be over-grazed, and everyone suffers. 
+
+That same situation can happen in  21st century cities. Imagine a group of competing builders in a city. So long as the builders do not build too many houses, then they can sell the houses they build for a good price. It's in each builder's interests to build a few more houses to make more money. If every builder does this, though, there are too many houses for the market, prices drop, and every builder suffers.
+
+Advertising can put businesses in a prisoner's dilemma situation. Take a product that everyone buys, something like toilet paper. Advertising is unlikely to attract new customers who have never used the product. (Can you imagine someone seeing a toilet paper commercial and thinking "I never thought of that—that stuff really looks handy!"?) The ads that a company buys are intended just to lure customers away from its competitors. Selling more advertising is good for a company, but only if its competitors don't increase their advertising. But, what is good for one, should be good for everybody, so everyone increases their ad sales, expenses rise, and profits drop.
+
+The same thing happens with salary caps in sports. An agreement to cap salaries is good for the owners, but if everyone else keeps the agreement, it's good for one owner to exceed the cap to attract the best players. If one breaks the agreement, though, the others will have to also, so the owners find themselves in the same situation as they were in before, except for spending a lot more money. 
+
+The use of performance-enhancing drugs, or doping, is another case in sports. If only one athlete is doping, then that athlete has a competitive advantage over others. So, to compete, the others also have to use the performance-enhancing drugs. In the end, no one has an advantage, and everyone suffers from the detrimental effects of using the drugs.
+
+### Iterated Prisoner's Dilemmas
+
+There are circumstances in which it wouldn't be a good idea to take the deal from the district attorney and send a partner in crime to prison for 10 years, even if it meant no prison time for you. What's going to happen in 10 years when the other person is released? What you should do depends on whether the other person will have a chance to get even. 
+
+Let's switch from thinking about the prisoner's dilemma in terms of prison sentences to a game with points. The goal here is not to get more points than your opponent, but to get the most points for yourself. (This is like life, if you are underpaid in your job, it shouldn't satisfy you that you are less underpaid than any other employee—you are all still underpaid.) For each turn, the players get to select to either cooperate or defect. The points given are determined by this payoff table:
+
+|      | C    | D    |
+| :--- | :--- | :--- |
+| C    | 2,2  | 0,3  |
+| D    | 3,0 | 1,1 |
+
+The first number in a pair is the points given to the row player, and the second number is the points given to the column player. So, if a person cooperates and the other defects, the defector is given 3 points and the other Son gets nothing. Mutual cooperation is awarded 2 points apiece, and mutual defection 1 point apiece. So, how should you play? If you're only going to play one round, the answer is clear: you should defect. Let's assume that your opponent will cooperate. In that case, you are one point better off by defecting. If your opponent defects, you're also one point better off by defecting. So, you're one point better off by defecting, no matter what your opponent does. The rational strategy is for both players to defect.
+
+What if you're going to play more than one round? Should you cooperate or defect? If you adopted a strategy of defecting every turn, you and your opponent will end up getting one point per turn, which is only half what you would get if you both cooperated. On the other hand, if you cooperated every turn, you would be in trouble as soon as your opponent realized what your strategy was. Somehow, you need a way of encouraging your opponent to cooperate. The best strategy for a game with an unknown number of turns, called an iterated prisoner's dilemma with an unknown number of iterations, is one called _tit-for-tat_. You cooperate on the first turn, then, on every successive turn, do what your opponent did on the previous turn. So, you reward your opponent for cooperating, and punish your opponent for defecting. If both players are rational, then this strategy results in mutual cooperation in the long run. The opponent realizes that it's impossible to get ahead by defecting, because the other person just gets even. What if your opponent is irrational, that is, someone who doesn't try to maximize their points? This can happen in a number of ways—your opponent may just want to "stick it to you" on every turn, or maybe he flips a coin to decide what to do. In these cases, players just has to protect themselves by defecting every turn.
+
+If you're playing a iterated game with a _known_ number of iterations, then things get surprising. Let's say two people are playing a game with only five rounds. To determine what they should do let's work backwards from the end of the game. The fifth round is essentially just like playing a single round game. Each player is one point better off by defecting no matter what the other person does, and there is no way for the other person to get even. So, both players will defect on the fifth round:
+
+|          |    1 |    2 |    3 |    4 |    5 |
+| :---     | :---: | :---: | :---: | :---: | :---: |
+| Player A |      |      |      |      | D    |
+| Player B |      |      |      |      |   D  |
+
+If my opponent is going to defect in round 5 no matter what I do in round 4, then there is no reason for me to cooperate in round 4. So, we'll both defect in round 4:
+
+|          |     1 |     2 |     3 | 4     | 5     |
+| :---     | :---: | :---: | :---: | :---: | :---: |
+| Player A |       |       |       | D     | D     |
+| Player B |       |       |       | D     | D     |
+
+But what is true of round 4 is also true of rounds 1–3, so we should defect on all turns:
+
+|          | 1     | 2     | 3     | 4     | 5     |
+| :---     | :---: | :---: | :---: | :---: | :---: |
+| Player A | D     | D     | D     | D     | D     |
+| Player B | D     | D     | D     | D     | D     |
+
+## Public Goods
+
+Prisoner's dilemmas and chicken dilemmas are both dangers in situations that involve public goods. A public good is one that meets all of these three conditions:
+
+1. The contribution of many members of a group is necessary for providing the good. 
+2. If the good is provided, then it will be available for the use of everyone in the group, regardless of whether they contributed. (There's no practical way to prevent non-contributors from using the good.)
+3. Contribution is a cost to those members that do so.
+
+Public television is a public good. Most of the revenue for public television comes from voluntary viewer support. Viewers still have access to public television even if they did not contribute anything during the annual fund-raising drives. National defense is also a public good. People contribute by paying taxes or serving in the armed forces. People who don't pay taxes for whatever reason still enjoy the benefits of national defense. Other examples are highways and bridges, public health by immunizations, environmental protection, and so on. 
+
+These goods require the contribution of many people, but they don't require the contribution of everyone. So long as enough people contribute to the fund drive, I'll still be able to watch public television, even if I don't contribute. So, I have a strong motivation to be a free rider. If I can get the good for free, then why should I pay? Here's an argument that I shouldn't pay:
+
+<ul class="list-arg">
+1. Production of the good requires contributions by some large number of people.
+2. It's very unlikely that exactly the number of people required will contribute.
+3. So, either more than enough people will contribute, or not enough people will.
+4. If more than enough people contribute, I can receive the good anyway.
+5. If not enough people do, then the good will not produced.
+6. If I can receive the good without contributing, I shouldn't contribute.
+7. <u> If the good will not be produced, then I shouldn't contribute</u>
+8. I shouldn't contribute.
+</ul>
+
+Most of us don't reason this way, because we're not what economists call "rational utility maximizers." We're happy to contribute our fair share, _if_ we can be assured that others will also. The latest research on prisoner's dilemma situations shows that people defect because they fear being taken advantage of by others. So, the more free-riders there are, the less motivated others are to contribute.
