@@ -1,0 +1,65 @@
+# Cognitive Dissonance
+
+Fred and Ethel have volunteered to participate in a study, neither knowing anything about the study. When they report at their assigned time, they were separated into two groups. Both groups were asked by researchers to eat a few live grasshoppers, a task that they somehow manage to complete.  Fred's group had a researcher that was very pleasant and friendly, but Ethel's group had a researcher that was cold, aloof, and even rude. Later, the participants were asked if they enjoyed eating the grasshoppers. Which of the two would be more likely to report enjoying the grasshoppers, Fred or Ethel?  
+
+This was an actual study conducted by Philip Zimbardo and others in 1965. Surprisingly, the people with the rude experimenter were more likely to report that eating the grasshoppers was a positive experience. [@zimbardo65:_commun_effec_produc_public_confor] 
+
+## Three Surprising Results
+
+The grasshopper experiment confirms the results of several interesting studies from the 1950's. First, Irving Janis and Bert King conducted two studies suggesting that a person's opinion changes to be consistent with the behavior they performed. Subjects who were tasked with performing a speech that supported a view with which they disagreed. In the end, their views on the subject changed to a greater extent than those of people who merely read or heard the speech. [@janis56:_compar_effec_improv_versus_non; @janis54:_influen_role_playin_opinion_chang] 
+
+Next, Herbert Kelman hypothesized that the greater the reward that was offered, the greater degree the person's opinion would change. His results, though, showed that large rewards resulted in less change than smaller rewards. [@kelman53:_attit_chang_funct_respon_restr] 
+
+Finally, Leon Festinger and James Carlsmith had subjects volunteer for a two-hour study supposedly dealing with "measures of performance." When a subject arrived, he would wait for a while in a secretary's office. Then, the experimenter would lead the subject into the laboratory, where the subject was asked to perform two tasks:
+
+1. Put twelve spools onto a tray, using only one hand. The subject would empty the tray, then refill it with the spools. This was repeated for thirty minutes.
+2. After the completion of the first task, the subject was given a board containing 48 square pegs inserted into holes in the board. The subject was to turn each peg a quarter-turn clockwise, again using one hand. Then, he would turn each peg another quarter-turn clockwise, repeating this task for another thirty minutes.
+
+This was designed to be an hour of pointless misery. Then the experimenter tells the subject that there are two groups in the study. One group is just told what they need to do to complete the tasks. Another group is told more about the tasks by a student hired to do so. The student was to make these points about the tasks, saying that they were:
+
+- Enjoyable
+- Fun
+- Interesting
+- Intriguing,
+- Exciting
+
+The tasks were certainly none of these, and the subject knew that the points made were lies. Subjects were then asked to fill in for the student who would make these points for people waiting to perform the tasks. The subjects were paid to do this — some were paid one dollar, and others were paid twenty dollars. (There was also an unpaid control group that only performed the boring tasks.)
+
+Later, all were asked questions about their experience. One questions was about how enjoyable the tasks were, on a scale from -5 to +5. The control group and the 20 dollar group were very close to each other at -0.45 and -0.50, respectively. Interestingly, the 1 dollar group rated the activity positively, at +1.35. What explains these results? [@festinger59:_cognit_conseq_forced_compl] 
+
+## Dissonance
+
+In both the grasshopper and the boring task cases, there were two groups that had an inducement to do something that they didn't want to do, that is, eat grasshoppers or lie to a potential subject. The difference between the two groups was that one had a strong external inducement (a friendly person asked them to do it, or they were paid 20 dollars). The other group had a weak external inducement. The group with the weak external inducement tended to change their attitude toward the thing that they did. Why?
+
+The reason is because of something called cognitive dissonance, a conflict between actions, beliefs, or attitudes. Sometimes our attitudes and actions support one another: Joe is concerned about his health and exercises daily. Sometimes our attitudes and actions are irrelevant to one another: Joe is concerned about his health and wears brown shoes. Sometimes, though, our actions and attitudes are inconsistent with each other. Joe is concerned about his health and smokes two packs a day. This inconsistency can produce cognitive dissonance, an unpleasant tension that is felt when we perceive the inconsistency.
+
+For example, almost no one believes that they would never tell a lie.[^lie] What we do believe, however, is that we wouldn't lie without a good reason. The 20 dollar group could believe all of the following and feel no dissonance:
+
+1. I lied.
+2. I wouldn't lie without a good reason.
+3. 20 dollars is a good reason to lie.
+
+The one dollar group has a problem:
+
+1. I lied.
+2. I wouldn't lie without a good reason.
+3. 1 dollar is not a good reason to lie.
+
+The cognitive dissonance produces and unpleasant psychological discomfort. To eliminate the discomfort,  the subjects had to resolve the dissonance. One of those sentences has to be rejected. Let's consider them each, starting with the third. To believe that 1 dollar _is_ a good reason to lie would mean that, not only am I a liar, but I'm a cheap liar. Everyone has their threshold, but surely it's not that low. Rejecting the second is even worse, I'm willing to lie with even a bad reason, or no reason at all. The only way for the subjects to protect their self-image is to reject the first, and believe that the statement wasn't a lie.
+
+It's the same with the grasshopper experiment. The people who had the rude experimenter ate the grasshopper with no good reason — why do something you don't want to do for someone who has treated you badly? So, instead, they convince themselves that they liked it. This is sometimes called the insufficient-justification through induced-compliance paradigm of dissonance reduction. People were induced to do something that was contrary to their attitudes about themselves or the thing that they were induced to do. If the had a sufficient justification for doing the action, then they needn't change their attitudes. Those without sufficient justification, though, changed their attitudes to avoid the dissonance.
+
+Another kind of dissonance reduction is used to justify the effort that we put into something. People who belong to groups that had a severe initiation process tend to rate being a member of those groups as more valuable than groups of the same kind that do not have severe initiations. If the group is no better than the others, than why go through all of that punishment to be a member of it?
+
+The third type of dissonance reduction is post-decisional dissonance. Life is full of important decisions: where to go to college, what job offer to accept, who to marry, etc. The reason decisions like these are often difficult is that each option has pluses and minuses. After you make the choice, you may find yourself in the uncomfortable position of wondering if you had made the right choice. We can reduce the dissonance by convincing ourselves that it was indeed the right choice. In fact, we convince ourselves that not only was it right, but no other option was even close. The options seem to appear much closer to each other before the choice, but after choosing one, that option is viewed in retrospect to be far better than any of the others. This is called the spreading effect.
+
+The possibility of post-decisional dissonance is important to keep in mind. The possibility is greatest when all of the following conditions are met.
+
+1. The choice was costly.
+2. The choice is impossible to reverse.
+3. the responsibility for making the choice is completely on the person who made it, that is, there's no one else to blame.
+
+Post-decisional dissonance causes to people to rate products that they bought more highly than they otherwise would have. This, in turns, leads them to give others bad advice about those products, causing them to make a choice that they will later regret.
+
+
+[^lie]: Different people do have different thresholds for lying: would you lie to avoid hurting someone's feelings, or to keep a secret about a surprise birthday party, or to save a life? It may be that, for most, the threshold is fairly low.
