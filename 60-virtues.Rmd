@@ -27,7 +27,7 @@ Aristotle pointed out centuries ago that one can think of virtues being on a mea
 
 Intellectual virtues are traits that aim at things like truth, knowledge, understanding, and wisdom. The intellectually virtuous person desires these things, is motivated to achieve them, and has the qualities that enable her to do so reliably. Exercising each virtue will require certain skills, and the good judgment to know when exercising those skills is appropriate.
 
-In _Cultivating Good Minds_ Jason Baehr  identified nine key intellectual virtues. He divides them into three useful categories:
+In [_Cultivating Good Minds_](https://intellectualvirtues.org/why-should-we-educate-for-intellectual-virtues-2-2/), Jason Baehr  identifies nine key intellectual virtues. [@baehr15:_cultiv_good_minds]  He divides them into three useful categories:
 
 1. Virtues required to initially motivate learning.
 2. Virtues required to guide the learning.

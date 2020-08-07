@@ -96,7 +96,7 @@ Sometimes, an argument will contain no indicator words at all. In that case, the
 
 The first sentence logically follows from the others, so it is the conclusion. When using this method, we are forced to assume that the person giving the argument is rational and logical, which might not be true.
 
-#### Non-Arguments {#sec:non-arguments}
+### Non-Arguments {#sec:non-arguments}
 
 One thing that complicates our task of identifying arguments is that there are many passages that, although they look like arguments, are not arguments. The most common types are:
 
@@ -121,7 +121,7 @@ Finally, consider this passage:
 
 This might be a description of my day, but it's not an argument. There's nothing in the passage that plays the role of a premise or a conclusion. The passage doesn't attempt to prove anything. Remember that arguments need a conclusion, there must be something that is the statement to be proved. Lacking that, it simply isn't an argument, no matter how much it looks like one.
 
-### Evaluating Arguments {#sec:evaluating-arguments}
+## Evaluating Arguments {#sec:evaluating-arguments}
 
 The first step in evaluating an argument is to determine what kind of argument it is. We initially categorize arguments as either deductive or inductive, defined roughly in terms of their goals. In deductive arguments, the truth of the premises is intended to absolutely establish the truth of the conclusion. For inductive arguments, the truth of the premises is only intended to establish the probable truth of the conclusion. We'll focus on deductive arguments first, then examine inductive arguments in later chapters.
 
@@ -171,7 +171,7 @@ Inductive arguments are never valid, since the premises only establish the proba
 
 There is a significant difference between valid/invalid and strong/weak. If an argument is not valid, then it is invalid. The two categories are mutually exclusive and exhaustive. There can be no such thing as an argument being more valid than another valid argument. Validity is all or nothing. Inductive strength, however, is on a continuum. A strong inductive argument can be made stronger with the addition of another premise. More evidence can raise the probability of the conclusion. A valid argument cannot be made more valid with an additional premise. Why not? If the argument is valid, then the premises were enough to absolutely guarantee the truth of the conclusion. Adding another premise won't give any more guarantee of truth than was already there. If it could, then the guarantee wasn't absolute before, and the original argument wasn't valid in the first place.
 
-### Counterexamples {#sec:counterexamples}
+## Counterexamples {#sec:counterexamples}
 
 One way to prove an argument to be invalid is to use a counterexample. A counterexample is a consistent story in which the premises are true and the conclusion false. Consider the argument above:
 
@@ -211,6 +211,5 @@ Counterexamples can be very useful for demonstrating invalidity. Keep in mind, t
 11. An inductively weak argument is one in which the truth of the premises do not make the conclusion probably true.
 12. A **counterexample** is a consistent story in which the premises of an argument are true and the conclusion is false. Counterexamples can be used to prove that arguments are deductively invalid.
 
-## Exercises {#sec:arg-exercises}
 
 [^clinic]: [@Cleese:1980aa].
